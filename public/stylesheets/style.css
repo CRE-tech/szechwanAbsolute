@@ -1,0 +1,2425 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Resta 
+    Template URI: http://hastech.company/
+    Description: This is html5 template
+    Author: Hastech
+    Author URI: http://hastech.company/
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS
+    2.  Heade Css here
+    3. Slider Css here
+    4. Home about Css here
+    5. popular disesh css here
+    6. Food menu Css here
+    7. Our gallery Css here
+    8. Reservation css here
+    9. our blog css here
+    10. Testmonial Css here
+    11. Team brand section css here
+    12. Discount offer css here
+    13. Footer css here
+    14. Scrollup css here
+    15. About us css here
+        15.1 Breadcrubs css here
+    16. Resta about css here
+    17. Fun factor css here
+    18. choose us css here
+    19. our team css here
+    20. Food menu css here
+    21. Our gallery page css here
+    22. Our blog page css here
+        22.1 Blog Details css here
+    23. Contact us pages css here
+    24.Navigation css here
+        24.1 Dropdown menu css here
+        24.2 Mega menu css here
+    25. 404 page css here
+    26. Mobile menu css here
+    27. sticky menu css here
+    28. Home two css here
+    29. Home three css here
+    30. Home four css here
+    31. All elements css code here
+        31.1 Accordion css
+        31.2 Tab css
+        31.3 Progress bar css
+        31.4 Button css
+    32. Preloader CSS here
+    
+
+-----------------------------------------------------------------------------------*/
+
+
+/*========================
+   1. Theme Default CSS
+=======================*/
+
+@import url('../../../../fonts.googleapis.com/css-family=Great+Vibes-Lato-300,400,700-Raleway-300,400,400i,500,600,600i,700.css');
+
+img{max-width: 100%}
+
+/*************************************
+         Custom-content all   
+ **************************************/
+.boxed-layout .wrapper {
+  box-shadow: -3px 0 50px -2px rgba(0, 0, 0, 0.14);
+  margin: auto;
+  position: relative;
+  width: 1500px;
+}
+.boxed-layout .sticky {
+    left: 0;
+    right: 0;
+    width: 1500px;
+}
+.boxed-layout.fixed {
+  margin: 70px 0;
+}
+.pattern-fixed.pattern {
+  background: url("https://devitems.com/html/resta-preview/resta/images/bg/pattern.png") repeat fixed 0 0;
+}
+/*------------------
+	2.  Heade Css here
+-----------------------*/
+.header {
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 99;
+}
+.header-right,.header-right .search {
+    float: right;
+}
+.header-right .search,.header-menu,.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+  color: #535353;
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 50px 0 50px 32px;
+  text-transform: uppercase;
+}
+.menu ul li {
+  position: relative;
+}
+.header-right .search {
+  padding-left: 38px;
+  padding-top: 47px;
+}
+.search-inner > a {
+    color: #535353;
+    font-size: 22px;
+    font-weight: bold;
+}
+.header .logo {
+  display: inline-block;
+  margin-bottom: -30px;
+  position: relative;
+}
+.search-inside {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  width: 100%;
+  z-index: 99999999;
+}
+.searchbar-inner .search input {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  color: #535353;
+  font-size: 20px !important;
+  height: 50px;
+  z-index: 1;
+}
+.searchbar-inner .search {
+    position: relative;
+}
+.search-inside a.search-close:hover,.searchbar-inner .search button:hover {
+  color: #e54c2a;
+}
+.searchbar-inner .search button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #777;
+  font-size: 24px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.search-inside a.search-close {
+  color: #777;
+  font-size: 18px;
+  position: absolute;
+  right: -22px;
+  top: 12px;
+}
+/*---------------------
+	3. Slider Css here
+----------------------------*/
+.slider-text-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.slider-text-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.slider-container .nivo-controlNav {
+  bottom: 45px;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 99999;
+}
+.slider-container {
+  position: relative;
+  z-index: 1;
+}
+.nivo-controlNav a {
+  color: #535353;
+  cursor: pointer;
+  font-family: "Lato",sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.nivo-controlNav a.active {
+  color: #e54c2a;
+  font-size: 24px;
+}
+
+.social-media-follow li {
+    display: block;
+    margin-bottom: 5px;
+}
+.social-media-follow li a {
+    color: #666;
+    font-size: 15px;
+}
+.social-media-follow li a:hover {
+    color: #e54c2a;
+}
+.social-media-follow > p {
+  display: inline-block;
+  font-family: "Raleway",sans-serif;
+  font-weight: 600;
+  margin-top: 65px;
+  text-transform: capitalize;
+  transform: rotate(-90deg) translateY(-100%);
+    -webkit-transform: rotate(-90deg) translateY(-100%);
+      transform: rotate(-90deg) translateY(-100%);
+}
+.social-media-follow {
+  margin-top: -25px;
+  padding-left: 50px;
+}
+.social-box-inner {
+    padding-bottom: 30px;
+    position: relative;
+}
+.social-box-inner:before {
+    background: #e54c2a none repeat scroll 0 0;
+    bottom: -37px;
+    content: "";
+    height: 45px;
+    left: 5px;
+    position: absolute;
+    width: 1px;
+}
+.middle-text .title-1 h2 {
+  color: #535353;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  margin-bottom: 2px;
+  text-transform: capitalize;
+}
+.middle-text .title-2 h1 {
+  color: #535353;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.middle-text p {
+  color: #757575;
+  padding: 0;
+}
+.middle-text .order-now a {
+  background: #e54c2a none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  padding: 13px 35px;
+  text-transform: uppercase;
+}
+.middle-text .order-now a:hover {
+    background: #535353 none repeat scroll 0 0;
+}
+.middle-text .order-now {
+  display: inline-block;
+  margin-top: 30px;
+}
+.slide3-text .middle-text .title-1 h2,.slide3-text .middle-text .title-2 h1 {
+  color: #e54c2a;
+}
+.slide3-text {
+  margin-right: 50px;
+  text-align: center;
+}
+/*---------------------
+	4. Home about Css here
+----------------------------*/
+.welcome-about h2.title_1 {
+  color: #555555;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  margin-bottom: 7px;
+  text-transform: capitalize;
+}
+.welcome-about h3.title_2 {
+    color: #555;
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.welcome-about p.text1 {
+  margin-top: 22px;
+}
+.welcome-about .read-more > a {
+  background: #e54c2a none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  padding: 16px 38px;
+  text-transform: uppercase;
+}
+.welcome-about .read-more {
+  margin-top: 35px;
+}
+.welcome-about .read-more > a:hover{background: #535353;}
+/*--------------------------------
+	5. popular disesh css here
+----------------------------------*/
+.popular-dishes .bg-img-2{
+  background:  url("../images/minified_SA/181_2.png") no-repeat scroll right top;
+  background-size: 300px 200px;
+}
+.popular-dishes {
+  background: #f1f1f1 url("../images/minified_SA/37_2.png") no-repeat scroll left bottom;
+  background-size: 300px 200px;
+}
+.single-disesh {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 4px;
+  margin-bottom: 60px;
+  padding: 40px 25px;
+}
+.section-title {
+  margin-bottom: 54px;
+}
+.section-title > h2 {
+  color: #535353;
+  display: inline-block;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  margin-bottom: 40px;
+  position: relative;
+  text-transform: capitalize;
+}
+.section-title p {
+  margin-bottom: 0;
+}
+.section-title h2:before {
+  background: #e54c2a none repeat scroll 0 0;
+  bottom: -20px;
+  content: "";
+  height: 1px;
+  left: 50%;
+  margin-left: -67px;
+  position: absolute;
+  width: 138px;
+}
+.section-title > h2:after {
+  background: rgba(0, 0, 0, 0) url("https://devitems.com/html/resta-preview/resta/images/icons/title.png") no-repeat scroll center center;
+  content: "";
+  height: 30px;
+  left: 50%;
+  margin-left: -18px;
+  margin-top: 7px;
+  position: absolute;
+  top: 100%;
+  width: 42px;
+}
+.section-title.grey_bg > h2:after {
+  background-color: #f1f1f1 ;
+}
+.section-title.white_bg > h2:after {
+  background-color: #fff ;
+}
+.disesh-desc h3 {
+  color: #535353;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.disesh-desc p.price {
+  color: #e54c2a;
+  font-size: 22px;
+  font-weight: bold;
+}
+.dises-list .slick-dots li a {
+  color: #535353;
+  font-family: "Lato",sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.slick-dots li.slick-active a {
+  font-size: 24px;
+  color: #e54c2a
+}
+/*----------------------
+	6. Food menu Css here
+----------------------*/
+.foode-item-box ul li {
+    display: inline-block;
+}
+.foode-item-box ul li a:hover {
+  background: inherit;
+}
+.foode-item-box {
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  height: 140px;
+  position: relative;
+  text-align: center;
+}
+.foode-item-box:before {
+  background: url("../images/LOGO.3-1.jpg")no-repeat scroll left center;
+  background-size: 150px 150px;
+  left: 0;
+}
+.foode-item-box:before,.foode-item-box:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  top: 0;
+  pointer-events: none;
+}
+.foode-item-box:after {
+  background: url("../images/LOGO.3-1.jpg")no-repeat scroll right center;
+  background-size: 150px 150px;
+  right: 0;
+}
+.foode-item-box ul li {
+  display: inline-block;
+}
+.foode-item-box ul li a {
+  color: #535353;
+  display: block;
+  font-weight: 600;
+  padding: 59px 15px;
+  text-transform: uppercase;
+}
+.foode-item-box ul li.active a {
+  color: #e54c2a;
+}
+.foode-item-box ul li.active a:focus{background: none}
+.food-img {
+  float: left;
+  margin: 12px 0;
+  text-align: center;
+  width: 20%;
+}
+
+.single-food-item-desc {
+  border-left: 1px solid #f1f1f1;
+  float: right;
+  padding: 23px 50px 23px 20px;
+  position: relative;
+  width: 80%;
+}
+.single-food-price {
+  position: absolute;
+  right: 50px;
+  top: 40%;
+}
+.fooder-menu-description.float_left .single-food-item {
+  padding-right: 70px;
+}
+.single-food-inner {
+  border: 1px solid #f1f1f1;
+  overflow: hidden;
+}
+.fooder-menu-description.float_right .single-food-item {
+  padding-left: 70px;
+}
+.single-food-item-title h2 {
+  color: #535353;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  text-transform: capitalize;
+}
+.single-food-item-title p {
+  color: #535353;
+  margin: 0;
+}
+.single-food-price > p {
+  color: #e54c2a;
+  font-size: 24px;
+  font-weight: 600;
+}
+/*-----------------------------
+	7. Our gallery Css here
+-----------------------------*/
+.our-gallery {
+  position: relative;
+  background: url("../images/minified_SA/180_2.png")no-repeat scroll left top;
+  background-size: 300px 200px;
+  background-color: #f1f1f1;
+}
+.our-gallery .bg-img-2{
+    background: url("../images/minified_SA/183_2.png")no-repeat scroll right bottom;
+    background-size: 300px 200px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+ }
+.gallery-menu ul li {
+    color: #535353;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 35px;
+    text-transform: uppercase;
+}
+.gallery-menu ul li.active {
+    color: #e54c2a;
+}
+.single-item-gallery {
+    position: relative;
+    overflow: hidden;
+}
+.single-item-gallery:before {
+  background: rgba(229, 76, 42, 0.7) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  z-index: 99;
+}
+.single-item-gallery a {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #e54c2a;
+  font-size: 22px;
+  height: 40px;
+  left: 0;
+  line-height: 40px;
+  margin: -20px auto 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: scale(0.2);
+          transform: scale(0.2);
+  -webkit-transition: all 400ms cubic-bezier(1, -0.6, 0.57, -0.15) 0s;
+  transition: all 400ms cubic-bezier(1, -0.6, 0.57, -0.15) 0s;
+  width: 40px;
+  z-index: 999;
+}
+.single-item-gallery:hover a {
+   opacity: 1;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+.single-item-gallery:hover:before{
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.single-item-gallery:hover img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.single-item-gallery > img {
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+/*--------------------------
+	8. Reservation css here
+-----------------------------*/
+.reservation .bg-img-1{
+   background: url("https://devitems.com/html/resta-preview/resta/images/bg/reserv-bg.png")no-repeat scroll left top;
+}
+.reserv-section-inner {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  position: relative;
+}
+.reserv-section-inner .bg-img {
+  background: #fff url("https://devitems.com/html/resta-preview/resta/images/bg/reserv-form-bg.png") no-repeat scroll right bottom;
+  bottom: 0;
+  right: 30px;
+}
+.reserv-section-inner .bg-img {
+  height: 100%;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+}
+.reserve-form {
+  float: left;
+  padding: 100px 35px 100px 100px;
+  position: relative;
+  width: 50%;
+  z-index: 9;
+}
+.reserve-img {
+  bottom: 0;
+  float: left;
+  position: absolute;
+  right: 20px;
+  width: 48%;
+}
+h3.reserv-title {
+  color: #535353;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Great Vibes",cursive
+}
+.reserve-form-top > input {
+  border: 1px solid #ddd;
+  margin-bottom: 18px;
+  text-transform: capitalize;
+  color: #aaa
+}
+.reserve-form .date-time select {
+  -moz-appearance: none;
+  border: 1px solid #ddd;
+  color: #aaa;
+}
+.reserve-submit button {
+  background: #e54c2a none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 0;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+.reserve-submit button:hover {
+  background: #535353 none repeat scroll 0 0;
+}
+/*-------------------------
+    9. our blog css here
+---------------------------------*/
+.single-blog,.blog-img{
+  position: relative;
+}
+.blog-hover {
+  background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+  height: 100px;
+  margin-top: -50px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.blog-hover > a {
+  border: 4px solid #e54c2a;
+  border-radius: 50%;
+  color: #e54c2a;
+  display: inline-block;
+  font-size: 18px;
+  height: 40px;
+  line-height: 34px;
+  margin-left: -20px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  width: 40px;
+}
+.blog-title > h3 {
+  color: #e54c2a;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.blog-title > h3 a:hover {
+  color: #535353;
+}
+.blog-title {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 23px 0;
+}
+.publish-date {
+  background: #e54c2a none repeat scroll 0 0;
+  float: left;
+  padding: 15px 0;
+  width: 60px;
+}
+.blog-desc {
+  background: #fff none repeat scroll 0 0;
+  bottom: 0;
+  box-shadow: -1px 0 7px rgba(0, 0, 0, 0.2);
+  left: 10px;
+  overflow: hidden;
+  position: absolute;
+  right: 10px;
+  z-index: 99;
+}
+.single-blog {
+  height: 240px;
+}
+.publish-date > p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 13px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.publish-date > p span {
+  display: block;
+  margin-top: 5px;
+}
+.mfp-wrap.mfp-close-btn-in.mfp-auto-cursor.mfp-fade.mfp-ready {
+    z-index: 9999999999;
+}
+.mfp-bg.mfp-fade.mfp-ready {
+    z-index: 999999999;
+}
+
+/*------------------------
+    10. Testmonial Css here
+----------------------------*/
+/*.testimonial {
+  background: rgba(0, 0, 0, 0) url("https://devitems.com/html/resta-preview/resta/images/testimonial/bg-1.jpg") no-repeat scroll right top ;
+}*/
+.single-test-text {
+  padding: 60px 150px;
+}
+.testimonial-text-slider {
+  background: rgba(0, 0, 0, 0) /*url("https://devitems.com/html/resta-preview/resta/images/testimonial/bg-2.jpg")*/ no-repeat scroll center center / cover ;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+  height: inherit !important;
+  position: relative;
+}
+.testimonial-text-slider.slick-slider {
+  margin-top: 40px;
+}
+.testimonial-text-slider.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+.sin-testiImage img {
+  border: 1px solid #fff;
+  cursor: pointer;
+  display: inline-block !important;
+  height: 150px;
+  margin-bottom: 30px;
+  margin-top: 36px;
+  outline: 0 none;
+  -webkit-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+  width: 150px;
+}
+.sin-testiImage.slick-current img {
+  border: 2px solid #fff;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+  height: 180px;
+  margin-top: 20px;
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  width: 180px;
+}
+.testimonial .slick-slider {
+  height: 223px;
+  z-index: 99;
+}
+.testimonial .testimonial-image-slider.slick-slider {
+  margin-top: -20px;
+}
+.sin-testiImage {
+    position: relative;
+}
+.sin-testiImage:before {
+    background: none repeat scroll 0 0 rgba(229, 76, 42, 0.5);
+    content: "";
+    height: 150px;
+    left: 18px;
+    position: absolute;
+    top: 36px;
+    width: 150px;
+    pointer-events: none;
+}
+.sin-testiImage.slick-current:before {
+  display: none;
+}
+.testimonial-text-slider:before {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.79);
+  content: "";
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+}
+p.text-qoute i {
+    color: #e54c2a;
+    font-size: 30px;
+}
+p.test-text {
+    font-style: italic;
+}
+.test-title h4 {
+  color: #e54c2a;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.test-title > p {
+    margin: 0;
+}
+.testimonial-sliders .slick-dots li a {
+    color: #535353;
+    font-size: 16px;
+    font-weight: 600;
+}
+.testimonial-sliders .slick-dots li.slick-active a {
+    color: #e54c2a;
+    font-size: 24px;
+}
+.testimonial-sliders .slick-dots {
+  bottom: 58px;
+}
+.sin-testiImage.slick-slide.slick-current.slick-active.slick-center:focus {
+    outline: medium none !important;
+}
+.sin-testiImage.slick-slide.slick-active:focus {
+    outline: medium none !important;
+}
+/*-----------------------------
+    11. Team Brand section css here
+---------------------------------*/
+.team-list.slick-slider {
+  height: inherit;
+}
+.single-team img{
+    -webkit-filter: grayscale(100%);
+    -mz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+       filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');
+       filter: grayscale(100%);
+    
+}
+.single-team img:hover{
+    -webkit-filter: none;
+    -mz-filter: none;
+    -o-filter: none;
+       filter: none;
+    
+}
+/*------------------
+    12. Discount offer css here
+-------------------------*/
+.offer-section .bg-img {
+  background: rgba(0, 0, 0, 0) url("https://devitems.com/html/resta-preview/resta/images/bg/vegetable.png") no-repeat scroll 15% center;
+}
+.offer-inner h2.ttle1 {
+    color: #535353;
+    font-family: "Great Vibes",cursive;
+    font-size: 36px;
+    text-transform: lowercase;
+}
+.offer-inner h2.ttle2 {
+    color: #535353;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/*-------------------
+    13. Footer css here
+-----------------*/
+.single-footer.instagram ul li {
+    float: left;
+    width: 33.33%;
+}
+.single-footer.instagram ul li img {
+    width: 100%;
+}
+.single-footer.instagram ul li {
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+.single-footer.instagram ul li a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.single-footer.instagram ul li a:hover:before {
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.single-footer.instagram ul li a:before {
+    background: rgba(229, 76, 42, 0.8) none repeat scroll 0 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    color: #fff;
+    left: -100%;
+    top: -100%;
+}
+.copyright p {
+  margin: 0;
+}
+.single-footer p.phon {
+  margin-bottom: 0;
+}
+h3.single-footer-title {
+    color: #535353;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+.offer-inner .order-now > a {
+  background: #e54c2a none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 15px 38px;
+  text-transform: uppercase;
+}
+.offer-inner .order-now > a:hover {
+  background: #535353;
+  color: #fff
+}
+.single-footer .open-list li {
+    color: #535353;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.single-footer .open-list li span {
+    font-weight: bold;
+}
+
+.copyright {
+    background: none repeat scroll 0 0 #e54c2a;
+}
+.copyright p {
+    color: #fff;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.copyright p a {
+    color: #fff;
+    font-weight: bold;
+}
+.copyright p a:hover {
+    text-decoration: underline;
+}
+.newsletter-form input {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    color: #999999;
+    font-weight: 600;
+}
+.newsletter-form button {
+    background: none repeat scroll 0 0 #e54c2a;
+    border: medium none;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 14px 38px;
+    text-transform: uppercase;
+  -webkit-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+}
+.newsletter-form button:hover {
+    background: #535353
+}
+.single-footer-details ul {
+  display: block;
+  padding-top: 10px;
+}
+/*-------------------------
+    14. Scrollup css here
+-------------------------------*/
+#scrollUp {
+    background: #e54c2a;
+    bottom: 45px;
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+    font-size: 28px;
+    height: 40px;
+    line-height: 37px;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    width: 40px;
+    z-index: 9999;
+}
+#scrollUp i {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+#scrollUp:hover {
+  background: #535353 none repeat scroll 0 0;
+}
+/*-------------------------
+    15. About us css here
+-------------------------------*/
+
+/*-------------------------
+    15.1 Breadcrubs css here
+-------------------------------*/
+.breadcrubs {
+  background: rgba(0, 0, 0, 0) url("../images/breadcrumb2.jpg") no-repeat scroll center center / cover ;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 100px 0;
+  position: relative;
+  z-index: 9;
+}
+h3.breadcrubs-title {
+    color: #535353;
+    font-family: "Great Vibes",cursive;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.breadcurbs-inner ul li {
+    color: #e54c2a;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.breadcurbs-inner ul li a {
+    color: #535353;
+}
+.breadcurbs-inner ul li span {
+    margin: 0 10px;
+}
+.breadcurbs-inner li a:hover {
+    color: #e54c2a;
+}
+/*---------------------
+    16. Resta about css here
+--------------------*/
+.resta-about {
+    padding: 100px 0 180px;
+    /*background: url("https://devitems.com/html/resta-preview/resta/images/about/bg-1.jpg")no-repeat scroll right top;*/
+}
+.about-resta-details {
+  background: #f1f1f1 none repeat scroll 0 0;
+  right: 0;
+  padding: 60px;
+  position: absolute;
+  top: 45px;
+  width: 55%;
+}
+.about-rest-img {
+    float: left;
+    width: 50%;
+}
+.about-resta-inner {
+    position: relative;
+}
+.about-title > h2 {
+  color: #535353;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+.about-description p.text-1 {
+  margin-bottom: 35px;
+}
+.see-video {
+    background: rgba(229, 76, 42, 0.6) none repeat scroll 0 0;
+    position: relative;
+}
+.viedo--play {
+    background: #e54c2a none repeat scroll 0 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+}
+.viedo--play > a {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    height: 30px;
+    margin-top: 24px;
+    width: 30px;
+}
+.see-more-video > h3 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 28px 0;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+.see-more-video > h3:before {
+  background: #fff none repeat scroll 0 0;
+  content: "";
+  height: 2px;
+  left: 20px;
+  margin-top: 10px;
+  position: absolute;
+  width: 100px;
+}
+/*-------------------------
+    17. Fun factor css here
+----------------------*/
+.fun-factor{
+  background: url("https://devitems.com/html/resta-preview/resta/images/bg/fun-factor.jpg")no-repeat scroll center center;
+  background-size: cover;
+}
+.fun-icon a,.single-choose a{
+    border: 1px dashed;
+    border-radius: 50%;
+    color: #666;
+    display: inline-block;
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+}
+
+h2.counter {
+    color: #383838;
+    font-family: "Lato",sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.single-fun-factor h5,.single-choose > h5 {
+    color: #535353;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*-------------------------
+    18. choose us css here
+----------------------*/
+.choose-use-img {
+  text-align: center;
+}
+.choose-us-desc {
+    margin-top: -70px;
+    padding: 120px 0 80px;
+}
+.single-choose p {
+    margin: 0;
+}
+.single-choose > h5 {
+  margin-top: 30px;
+}
+.choose-us{
+   /*background: url("https://devitems.com/html/resta-preview/resta/images/about/bg-2.jpg")no-repeat scroll left top;*/
+}
+/*--------------------
+  19. our team css here
+---------------------*/
+.single-member {
+  border: 1px solid #e6e6e6;
+}
+.member-overlay-img {
+  display: block;
+  position: relative;
+}
+.member-overlay {
+  background: rgba(229, 76, 42, 0.5) none repeat scroll 0 0;
+  color: #fff;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  position: absolute;
+  text-align: center;
+  top: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+.member-overlay i {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: -25px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 50px;
+}
+.member-overlay i:hover {
+   background: #fff;
+   color: #e54c2a
+}
+.socail-icon {
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  position: absolute;
+  right: 0;
+  text-align: center;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.socail-icon li {
+  display: inline-block;
+  margin-right: 25px;
+}
+.socail-icon li:last-child {
+  margin-right: 0;
+}
+.socail-icon a {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+}
+.socail-icon a:hover {
+  border-color: #fff;
+  background: #fff;
+  color: #e54c2a
+}
+.member-content {
+  padding: 22px;
+}
+.member-content > p {
+  margin-bottom: 25px;
+}
+.member-tag:before {
+  border-top: 4px double #e6e6e6;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 55%;
+}
+.member-tag {
+  padding-top: 10px;
+  position: relative;
+}
+.member-tag a {
+  color: #666666;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
+.member-name {
+  text-transform: uppercase;
+}
+.single-member:hover a.member-overlay {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.single-member:hover .socail-icon {
+  bottom: 20px;
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.our-team-area{
+    background: url("https://devitems.com/html/resta-preview/resta/images/about/team.png")no-repeat scroll right center;
+}
+.member-tag a.member-post {
+  font-size: 14px;
+  margin-top: 5px;
+}
+/*-------------------------
+    20. Food menu css here
+------------------------------*/
+.food_item_box ul li {
+  display: inline-block;
+  margin-left: 85px;
+}
+.food_item_box ul li a {
+  color: #535353;
+  display: block;
+  font-family: "Great Vibes",cursive;
+  font-size: 20px;
+  padding: 38px 0;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+.food_item_box ul li:first-child {
+    margin: 0;
+}
+.food_item_box ul li.active a {
+  color: #e54c2a;
+}
+.food_item_box {
+   height: 170px;
+}
+.item1 .food_item_box {
+  background: rgba(0, 0, 0, 0) /*url("https://devitems.com/html/resta-preview/resta/images/food/food-menu/bg.png")*/ no-repeat scroll left center / cover ;
+}
+.load-more > a {
+  border: 1px solid #f1f1f1;
+  color: #e54c2a;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 18px 0;
+  text-transform: capitalize;
+}
+.load-more > a:hover {
+    background: #e54c2a none repeat scroll 0 0;
+    color: #fff;
+}
+.item2 .food_item_box {
+  background: /*url("https://devitems.com/html/resta-preview/resta/images/food/food-menu/bg-2.png")*/ no-repeat scroll center center;
+  background-size: cover;
+}
+.item3 .food_item_box {
+  height: 210px;
+}
+.item3 .food_item_box{
+   background:  /*url("https://devitems.com/html/resta-preview/resta/images/food/food-menu/bg-3.png")*/ no-repeat scroll left center;
+   background-size: cover;
+}
+.item3 .food_item_box ul li {
+  margin-top: 35px;
+}
+/*--------------------------
+   21. Our gallery page css here
+----------------------------*/
+/*.our_gallery  {
+  background:  url("https://devitems.com/html/resta-preview/resta/images/gallery/gallery-2/bg-1.png") no-repeat scroll left center;
+}
+.our_gallery .bg-img-1 {
+  background: url("https://devitems.com/html/resta-preview/resta/images/gallery/gallery-2/bg-2.png") no-repeat scroll right bottom;
+}*/
+.single-gallery-img {
+    position: relative;
+}
+.single-gallery-hover {
+    background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+    height: 100px;
+    margin-top: -50px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    -webkit-transform-origin: 50% 50% 0;
+            transform-origin: 50% 50% 0;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+}
+.single-gallery-img:hover .single-gallery-hover,.single-gallery-img.active .single-gallery-hover{
+   -webkit-transform: scaleY(1);
+           transform: scaleY(1); 
+}
+.single-gallery-hover > span {
+    color: #e54c2a;
+    font-size: 40px;
+    line-height: 100px;
+}
+/*----------------------
+    22. Our blog page css here
+--------------------------*/
+.single-blog.hover-active.mb-30 {
+  margin: 0;
+}
+.our-blog-pages {
+  background-color: #fff;
+  background: url("https://devitems.com/html/resta-preview/resta/images/blog/blog-bg-1.jpg") no-repeat scroll right 0;
+}
+.our-blog-pages .bg-mg-1 {
+  background: url("https://devitems.com/html/resta-preview/resta/images/blog/blog-bg-2.png") no-repeat scroll left bottom;
+}
+/*----------------------
+    22.1 Blog Details css here
+--------------------------*/
+.blog-comment-img > img {
+  border: 1px solid #dfdfdf;
+  float: right;
+}
+.blog-thumbnail .blog-title h4 {
+  color: #535353;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.blog-thumbnail .blog-publish {
+  background: #f1f1f1 none repeat scroll 0 0;
+}
+.blog-thumbnail .blog-publish {
+  background: #f1f1f1 none repeat scroll 0 0;
+  bottom: -32px;
+  left: 10px;
+  position: absolute;
+  right: 10px;
+}
+.articles-details .blog-thumbnail {
+  position: relative;
+}
+.blog-thumbnail img:hover {
+    opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+.blog-thumbnail img {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.blog-desacription .b-desc-1 {
+  margin-top: -8px;
+}
+.b-desc-1 p {
+  margin-bottom: 25px;
+}
+.blog-action .action-box > p,.comment-action-box a {
+    color: #666666;
+    display: inline-block;
+    margin-left: 30px;
+}
+.blog-action .action-box > p:first-child,.comment-action-box a:first-child {
+    margin-left: 0;
+}
+.blog-action .action-box > p i,.comment-action-box a i {
+    margin-right: 7px;
+}
+
+.blog-share-social,.cheaf-quote-social {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.articles-details .blog-action {
+  margin-bottom: 35px;
+  margin-top: 15px;
+  position: relative;
+}
+.blog-share-social a,.cheaf-quote-social > a{
+    color: #666;
+    margin-right: 16px;
+}
+.blog-share-social a:last-child,.cheaf-quote-social > a:last-child {
+    margin-right: 0;
+}
+.blog-share-social a:hover,.cheaf-quote-social > a:hover {
+    color: #e54c2a;
+}
+.cheaf-quote-img {
+    float: left;
+    width: 24%;
+}
+.cheaf-quote-desc {
+  float: left;
+  padding: 34px 47px 34px 40px;
+  width: 76%;
+}
+.blog-cheaf-quote {
+    border: 1px solid #f3f3f3;
+    overflow: hidden;
+}
+.cheaf-quote-text > p {
+    font-family: "Raleway",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.cheaf-quote-text > p i {
+    color: #e54c2a;
+    margin: 0 2px;
+}
+.cheaf-quote-action {
+    position: relative;
+}
+.cheaf-quote-title h5 {
+    color: #e54c2a;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.blog-comment-box {
+  margin-top: 74px;
+}
+.comment-title > h3 {
+  color: #535353;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 47px;
+  text-transform: uppercase;
+}
+.comment-action-box a:hover i{color: #e54c2a}
+.comment-action-box > a {
+  font-family: "Lato",sans-serif;
+}
+
+.blog-comment-img {
+    float: left;
+    width: 11%;
+}
+.blog-comment-desc {
+    float: left;
+    padding-left: 30px;
+    width: 89%;
+}
+.blog-comment.reply .blog-comment-desc {
+    width: 74%;
+}
+.blog-comment.reply .blog-comment-img {
+    width: 26%;
+}
+.blog-comment-img img {float: right}
+.comment-top-box {
+    position: relative;
+}
+.comment-action-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.comment-title-box > h5 {
+    color: #535353;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.comment-bottom-box > p {
+    margin-bottom: 0;
+}
+.comment-title-box > p {
+    margin-bottom: 10px;
+}
+.blog-comment {
+  margin-bottom: 35px;
+}
+.comment-input .input-field {
+  float: left;
+  padding-left: 25px;
+  width: 50%;
+}
+.comment-input .input-field:first-child {
+  padding-left: 0;
+}
+.input-field input {
+  height: 40px;
+}
+.blog-comment-form .textarea textarea,.input-field input{
+  border: 1px solid #f3f3f3;
+  color: #999;
+  padding-left: 20px;
+  text-transform: capitalize;
+}
+.blog-comment-form .textarea textarea {
+  height: 100px;
+}
+.comment-input {
+  margin-bottom: 25px;
+}
+.blog-comment-form .submit > button {
+    background: #e54c2a none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 12px;
+    margin-top: 25px;
+    padding: 14px 0;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.blog-comment-form .submit > button:hover {
+    background: #555 none repeat scroll 0 0;
+}
+.widget-search input {
+  border: 1px solid #f3f3f3;
+  color: #999999;
+  font-family: "Lato",sans-serif;
+  font-size: 13px;
+  height: 40px;
+}
+.widget .widget-search button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #e54c2a;
+  font-size: 18px;
+  padding: 0;
+  position: absolute;
+  right: 20px;
+  top: 9px;
+}
+.widget .widget-search {
+  position: relative;
+}
+.blog-right-sidebar .widget {
+    border: 1px solid #f1f1f1;
+    padding: 25px 20px;
+}
+.blog-right-sidebar .widget.search {
+    border: medium none;
+    padding: 0;
+}
+.widget-title > h3 {
+  color: #e54c2a;
+  font-family: "Great Vibes",cursive;
+  font-size: 20px;
+  margin-bottom: 18px;
+  text-transform: capitalize;
+}
+.widget-categories a:before {
+  content: "";
+  font-family: FontAwesome;
+  margin-right: 12px;
+}
+.widget-categories a {
+    color: #757575;
+    font-family: "Lato",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.widget-categories ul li {
+    padding-bottom: 5px;
+    padding-left: 12px;
+}
+.widget-categories h6 {
+    margin-bottom: 5px;
+}
+.widget-categories h6.open a,.widget-categories a:hover {
+    color: #e54c2a;
+}
+
+.recent-post-thumbnail {
+    float: left;
+    width: 15%;
+}
+.recent-post-thumbnail > img {
+    border: 1px solid #f1f1f1;
+    height: 30px;
+    width: 40px;
+}
+.recent-post .post-detail {
+    float: left;
+    padding-left: 15px;
+    width: 85%;
+}
+.post-title > h5 {
+    color: #606060;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.single-recent-post {
+    overflow: hidden;
+}
+.recent-post .post-date {
+    color: #cccccc;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 0;
+}
+.blog-right-sidebar .widget.video {
+  border: medium none;
+  padding: 0;
+  position: relative;
+}
+
+.widget-video-overlay {
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+    height: 128px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 100%;
+}
+.widget-video-overlay > a {
+  border: 5px solid #e54c2a;
+  border-radius: 50%;
+  color: #e54c2a;
+  display: inline-block;
+  font-size: 22px;
+  height: 42px;
+  left: 0;
+  line-height: 32px;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 42px;
+}
+.widget-tag li {
+  display: inline-block;
+}
+.widget-tag li a:hover {
+  border-color: #e54c2a;
+}
+.widget-tag li a {
+  color: #757575;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 1px solid #f1f1f1;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: block
+}
+.blog-right-sidebar .widget.tag {
+  padding: 25px 20px 15px;
+}
+
+.blog-details-page {
+    position: relative;
+}
+.blog-details-page .bg-img {
+  background: rgba(0, 0, 0, 0) url("https://devitems.com/html/resta-preview/resta/images/blog/blog-details-bg.jpg") no-repeat scroll right bottom;
+  bottom: 180px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+/*--------------------------
+   23. Contact us pages css here
+--------------------------*/
+.contact-icon > a {
+  color: #666666;
+  display: inline-block;
+  font-size: 24px;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  width: 50px;
+}
+.contact-icon > a:before {
+  background: rgba(0, 0, 0, 0) url("https://devitems.com/html/resta-preview/resta/images/icons/border.png") no-repeat scroll center center / cover ;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+}
+.single-contact-information p {
+  line-height: 20px;
+  margin-bottom: 0;
+}
+.single-contact-information .contact-icon {
+  margin-bottom: 12px;
+}
+.contact-information {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+}
+.contact-bottom-section .col-md-6.map-div {
+    padding-right: 0;
+}
+.contact-bottom-section .col-md-6.contact-form-div .contact-form {
+    float: right;
+    padding-left: 30px;
+    width: 585px;
+}
+.contact-form-title h2 {
+  color: #535353;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.contact-form-box input {
+    border: 1px solid #dddddd;
+    color: #aaaaaa;
+    margin-bottom: 18px;
+    padding-left: 20px;
+}
+.contact-form-box textarea {
+    border: 1px solid #ddd;
+    height: 100px;
+    padding-left: 20px;
+    resize: none;
+}
+.contact-form-box button {
+    background: #e54c2a none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 40px;
+    padding: 12px 0;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.contact-form-box button:hover{background: #555;}
+.contact-bottom-section {
+    position: relative;
+}
+.contact-bottom-section .bg-img {
+  background: rgba(0, 0, 0, 0) url("../images/minified_SA/scan__101.jpg") no-repeat scroll left center / cover ;
+  background-size: 200px 300px;
+  bottom: 0;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.form-messege.success {
+  color: green;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.form-messege.error {
+  color: red;
+  text-transform: capitalize;
+  font-style: italic;
+}
+/*-------------------------
+    24.Navigation css here
+-------------------------*/
+/*-------------------------
+    24.1 Dropdown menu css here
+-------------------------*/
+.menu ul li:hover a,.menu ul li:hover ul li a:hover{
+  color: #e54c2a
+}
+.menu ul li:hover ul li a{
+  color: #535353
+}
+.menu ul li ul.dropdown_menu {
+  left: 0;
+  top: 100%;
+  width: 200px;
+}
+.menu ul li ul.dropdown_menu, .menu ul li ul.dropdown_menu li ul.dropdown-submenu {
+  border-bottom: 2px solid #e54c2a;
+  border-top: 2px solid #e54c2a;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  position: absolute;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  visibility: hidden;
+  z-index: 99999;
+}
+.menu ul li ul.dropdown_menu li {
+  border-bottom: 1px solid #ddd;
+  display: block;
+  -webkit-transform: rotateX(-95deg);
+          transform: rotateX(-95deg);
+  -webkit-transform-origin: 0 0 0;
+          transform-origin: 0 0 0;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.menu ul li ul.dropdown_menu li:last-child {
+    border-bottom: medium none;
+}
+.menu ul li ul.dropdown_menu li a {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-transform: capitalize;
+}
+.menu ul li:hover ul.dropdown_menu,.menu ul li ul.dropdown_menu li:hover ul.dropdown-submenu  {
+   opacity: 1;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";  
+   visibility: visible;
+}
+.menu ul li:hover ul.dropdown_menu li,.menu ul li ul.dropdown_menu li:hover ul.dropdown-submenu li {
+   background: #fff;
+   -webkit-transform: rotateX(0);
+           transform: rotateX(0);
+}
+.menu ul li ul.dropdown_menu li {
+    position: relative;
+}
+.menu ul li ul.dropdown_menu li ul.dropdown-submenu {
+  left: 100%;
+  margin-top: -2px;
+  top: 0;
+  width: 100%;
+}
+.menu ul li ul.dropdown_menu li ul.dropdown-submenu li{
+    -webkit-transform: rotateX(-90deg);
+            transform: rotateX(-90deg);
+}
+.menu ul li ul.dropdown_menu li.dropdown-mega:after {
+  content: "";
+  font-family: FontAwesome;
+  font-size: 18px;
+  position: absolute;
+  right: 12px;
+  top: 5px;
+}
+/*-------------------------
+    24.2 Mega menu css here
+-------------------------*/
+.menu ul li ul.mgea-menu {
+  background: #fff;
+  border-bottom: 2px solid #e54c2a;
+  border-top: 2px solid #e54c2a;
+  left: 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  padding: 0 20px;
+  position: absolute;
+  -webkit-transform: rotateX(-90deg);
+          transform: rotateX(-90deg);
+  -webkit-transform-origin: 0 0 0;
+          transform-origin: 0 0 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  visibility: hidden;
+  width: 100%;
+  z-index: 99999999;
+}
+.menu ul li:hover ul.mgea-menu {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
+  visibility: visible;
+}
+.menu ul li.mega-parent,.header .container .row [class*="col-"]  {
+    position: static;
+}
+.mgea-full-width {
+    position: relative;
+}
+.menu ul li ul.mgea-menu li.mega-sub {
+    float: left;
+    padding-left: 20px;
+    width: 25%;
+}
+.menu ul li.mega-parent ul li a {
+    padding: 15px 0;
+}
+.menu ul li.mega-parent ul li ul li {
+  border-bottom: 1px solid #ddd;
+  display: block;
+}
+.menu ul li.mega-parent ul li ul li a {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 0;
+    text-transform: capitalize;
+}
+.menu ul li.mega-parent ul li ul li:last-child {
+    border-bottom: medium none;
+}
+.menu ul li ul.mgea-menu li.mega-sub:first-child {
+    padding-left: 0;
+}
+.menu ul li ul.mgea-menu:before {
+  background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/*----------------------------
+    25. 404 page css here
+-------------------------*/
+.error-content h2 {
+  color: #e54c2a;
+  font-family: "Lato",sans-serif;
+  font-size: 180px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-shadow: 7px 6px 0 #dadada, 0 -1px 0 #dadada, 1px -1px 0 #dadada, -1px 1px 0 #dadada, 1px 1px 0 #dadada;
+}
+.error-content > h3 {
+    color: #535353;
+    font-family: "Great Vibes",cursive;
+    font-size: 55px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.error-content h4 {
+    color: #535353;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.error-content .go-home {
+  background: #e54c2a none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 13px 28px;
+  text-transform: uppercase;
+}
+.error-content .go-home:hover {
+    background: #555 none repeat scroll 0 0;
+}
+/*-------------------
+    26. Mobile menu css here
+----------------------------*/
+.mobile-menu-area {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  margin-top: 16px;
+  position: absolute;
+  width: 100%;
+  z-index: 9999999;
+}
+.mean-container a.meanmenu-reveal {
+  float: left;
+  /*left: 56% !important;*/
+  position: absolute;
+  top: -75px;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+  font-family: "Lato",sans-serif;
+}
+.mobile-menu-area .mean-nav {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+/*------------------------
+    27. sticky menu css here
+---------------------------*/
+.sticky {
+  -webkit-animation: 600ms ease-in-out 0s normal none 1 running fadeInDown;
+          animation: 600ms ease-in-out 0s normal none 1 running fadeInDown;
+  background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+  left: 0;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+.sticky .menu ul li a {
+  padding: 36px 0 36px 32px;
+}
+.header.sticky .logo {
+  margin-bottom: -17px;
+  width: 125px;
+}
+.sticky .header-right .search {
+  padding-top: 35px;
+}
+/*--------------------------
+    28. Home two css here
+---------------------------------*/
+.slider-content {
+  background: rgba(0, 0, 0, 0) url("https://devitems.com/html/resta-preview/resta/images/slider/1.jpg") no-repeat scroll center center / cover ;
+  padding: 180px 0;
+  z-index: 9;
+}
+.slider-content.parallax {
+  background: rgba(0, 0, 0, 0) url("https://devitems.com/html/resta-preview/resta/images/slider/1.jpg") no-repeat fixed center center / cover ;
+}
+.slider-content .middle-text .order-now {
+  margin-top: 10px;
+}
+.middle-text .title-2 h1 span {
+  color: #e54c2a;
+}
+/*--------------------------
+    29. Home three css here
+---------------------------------*/
+.slider-content.youtube-bg {
+  background: url("https://devitems.com/html/resta-preview/resta/images/bg/video-bg.png") no-repeat scroll center center / cover ;
+}
+.slider-content.youtube-bg .middle-text .title-1 h2,.slider-content.youtube-bg .middle-text .title-2 h1,.slider-content.youtube-bg .middle-text p {
+  color: #fff;
+}
+/*--------------------------
+    30. Home four css here
+---------------------------------*/
+.dotted-overlay:after {
+  background: url("https://devitems.com/html/resta-preview/resta/images/icons/grid.png") repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.dotted-overlay{position: relative}
+.dotted-overlay .slider-text-table {
+  z-index: 999;
+}
+/*--------------------------
+    31. All elements css code here
+---------------------------------*/
+/*--------------------------
+    31.1 Accordion css
+---------------------------------*/
+.accordion h3 {
+  font-family: "Great Vibes",cursive;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.accordion.style1 .panel-title {
+  color: #555;
+  font-weight: 500;
+}
+.accordion-active h4 {
+  background: #f1f1f1 none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  color: #555;
+  font-size: 16px;
+  font-weight: 600;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+.accordion-active h4:before {
+    color: #555;
+    content: "";
+    font-family: FontAwesome;
+    font-weight: 300;
+    margin-left: 5px;
+    margin-right: 15px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.accordion-active h4.open:before {
+    color: #e54c2a;
+    content: "";
+}
+.accordion-active h4:hover:before,.accordion-active h4.open {
+    color: #e54c2a;
+}
+.accordion-active h4 a:focus {
+  color: inherit;
+}
+/*--------------------------
+    31.2 Tab css
+---------------------------------*/
+.elements .nav-tabs > li > a {
+    color: #555;
+    font-weight: 500;
+}
+.elements .nav-tabs > li.active > a {
+  border-radius: 0;
+  border-top: 1px solid transparent;
+  color: #e54c2a;
+}
+.elements .nav.nav-tabs {
+  border: 1px solid #ddd;
+  display: inline-block
+}
+.elements .nav-tabs > li.active:first-child > a {
+  border-left: medium none;
+}
+.elements .nav-tabs > li.active:last-child > a {
+  border-right: medium none;
+}
+.elements .elements-tab-1 .nav.nav-tabs {
+  margin-bottom: 15px;
+}
+/*--------------------------
+    31.3 Progress bar css
+---------------------------------*/
+.our-skill .progress {
+  background-color: #f0f0f0;
+  border-radius: 0;
+  box-shadow: none;
+  height: 6px;
+  margin-bottom: 43px;
+  overflow: visible;
+  position: relative;
+}
+.our-skill .lead {
+  color: #444;
+  font-size: 13px;
+  font-weight: 700;
+  left: 0;
+  position: absolute;
+  top: -23px;
+}
+.our-skill .progress-bar {
+  background-color: #03a9f4;
+  box-shadow: none;
+}
+
+.our-skill .progress-bar > span:before, .our-skill .progress-bar > span:after {
+  border: medium solid transparent;
+  content: " ";
+  height: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  width: 0;
+}
+.our-skill .progress-bar > span:before {
+  border-top-color: #333;
+  border-width: 5px;
+  left: 50%;
+  margin-left: -5px;
+}
+.our-skill .progress-bar > span {
+  background: #333 none repeat scroll 0 0;
+  float: right;
+  font-size: 11px;
+  margin-right: 10px;
+  margin-top: -26px;
+  padding: 0 5px;
+  position: relative;
+}
+.progress-style-2 .progress-bar {
+  font-size: 14px;
+  line-height: 23px;
+  padding-left: 12px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.progress-style-2 .progress {
+  border-radius: 0;
+  box-shadow: none;
+  height: 23px;
+}
+
+.audio audio {
+  width: 100%;
+}
+.properties-video h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+/*--------------------------
+    31.4 Button css
+---------------------------------*/
+a.button {
+  background: #e54c2a none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s ease-in 0s;
+  transition: all 0.5s ease-in 0s
+}
+a.button.large {
+  font-size: 18px;
+  padding: 18px 0;
+}
+.button.large span {
+  display: inline-block;
+  padding: 0 60px;
+}
+.button span {
+  font-family: "Lato",sans-serif;
+}
+.button.large i {
+  padding: 0 12px;
+}
+a.button.medium{
+  font-size: 16px;
+  padding: 18px 0;  
+}
+.button.medium span {
+  display: inline-block;
+  padding: 0 40px;
+}
+.button.medium i {
+  padding: 0 12px;
+}
+a.button.little {
+  font-size: 15px;
+  padding: 14px 0;
+}
+.button.little span {
+  display: inline-block;
+  padding: 0 20px;
+}
+.button.little i {
+  padding: 0 12px;
+}
+a.button.button-black{
+  background: #4a4a4a
+}
+a.button.button-black:hover{
+  background: #fff;
+  color: #4a4a4a
+}
+a.button.button-white,a.button:hover{
+  background: #fff;
+  color: #e54c2a
+}
+a.button.button-white:hover,a.button.border_radius.button-black:hover{
+  background: #e54c2a;
+  color: #fff
+}
+a.button.border-radius {
+  border-radius: 0;
+  padding: 14px 0;
+}
+a.button.btn-gray {
+    background: #e5e5e5 none repeat scroll 0 0;
+    color: #777;
+}
+a.button.border_radius {
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 16px 8px;
+    text-transform: uppercase;
+}
+a.button.btn-border {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid;
+    color: #4a4a4a;
+}
+a.button.btn-gray:hover,a.button.btn-border:hover{color:#e54c2a}
+/*-------------------
+	32. Preloader CSS here
+----------------------*/
+.preloader{
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0px;
+  top: 0px;
+  z-index: 99999999;
+}
+.loading-center{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.loading-center-absolute {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 150px;
+  width: 150px;
+  margin-top: -75px;
+  margin-left: -75px;
+}
+.object{
+  width: 20px;
+  height: 20px;
+  background-color: #e54c2a ;
+  float: left;
+  margin-right: 20px;
+  margin-top: 65px;
+  border-radius: 50% 50% 50% 50%;
+}
+.object_one {	
+  -webkit-animation: object_one 1.5s infinite;
+  animation: object_one 1.5s infinite;
+}
+.object_two {
+  -webkit-animation: object_two 1.5s infinite;
+  animation: object_two 1.5s infinite;
+  -webkit-animation-delay: 0.25s; 
+  animation-delay: 0.25s;
+}
+.object_three {
+  -webkit-animation: object_three 1.5s infinite;
+  animation: object_three 1.5s infinite;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+@-webkit-keyframes object_one {
+75% { -webkit-transform: scale(0); }
+}
+@keyframes object_one {
+  75% { 
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+}
+@-webkit-keyframes object_two {
+  75% { -webkit-transform: scale(0); }
+}
+@keyframes object_two {
+  75% { 
+    transform: scale(0);
+    -webkit-transform:  scale(0);
+  }
+}
+@-webkit-keyframes object_three {
+  75% { -webkit-transform: scale(0); }
+}
+@keyframes object_three {
+  75% { 
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+}
+
+div.bgWhyChooseUs {
+  background-color: #d3d3d3;
+}
+
+
+
+
+

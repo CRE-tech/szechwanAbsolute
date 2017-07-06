@@ -1,0 +1,344 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Szechwan Absolute | gallery</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" type="image/png" href="./images/LOGO.3-1.jpg">
+    <!-- All css files are included here. -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/core.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/responsive.css">
+    <!-- customizer style css -->
+    <link rel="stylesheet" href="/stylesheets/style-customizer.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/custom-css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Modernizr JS -->
+    <script src="/javascripts/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+  <div class="preloader">
+        <div class="loading-center">
+            <div class="loading-center-absolute">
+                <div class="object object_one"></div>
+                <div class="object object_two"></div>
+                <div class="object object_three"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Body main wrapper start -->
+    <div class="white-bg">
+        <!--Header section start-->
+        {{> header}}
+       <!--Header section end-->
+        <!--Breadcrubs start-->
+        <div class="breadcrubs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="breadcurbs-inner text-center">
+                            <h3 class="breadcrubs-title">
+                               Our gallery
+                            </h3>
+                            <ul>
+                                <li><a href="/">home <span>//</span>  </a></li>
+                                <li>美食畫廊</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Breadcrubs end-->
+        <!--Our gallery start-->
+        <div class="our_gallery ptb-80">
+            <div class="bg-img-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/1.jpg">
+                                    <img src="../images/minified_SA/1.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/2.jpg">
+                                    <img src="../images/minified_SA/2.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/3.jpg">
+                                    <img src="../images/minified_SA/3.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/4.jpg">
+                                    <img src="../images/minified_SA/4.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/5.jpg">
+                                    <img src="../images/minified_SA/5.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/6.jpg">
+                                    <img src="../images/minified_SA/6.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/7.jpg">
+                                    <img src="../images/minified_SA/7.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/8.jpg">
+                                    <img src="../images/minified_SA/8.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/9.jpg">
+                                    <img src="../images/minified_SA/9.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/10.jpg">
+                                    <img src="../images/minified_SA/10.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/11.jpg">
+                                    <img src="../images/minified_SA/11.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/12.jpg">
+                                    <img src="../images/minified_SA/12.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/14.jpg">
+                                    <img src="../images/minified_SA/14.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/15.jpg">
+                                    <img src="../images/minified_SA/15.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/16.jpg">
+                                    <img src="../images/minified_SA/16.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/17.jpg">
+                                    <img src="../images/minified_SA/17.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/18.jpg">
+                                    <img src="../images/minified_SA/18.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="single-gallery-img mb-30">
+                                <a href="../images/minified_SA/19.jpg">
+                                    <img src="../images/minified_SA/19.jpg" alt="">
+                                    <div class="single-gallery-hover">
+                                        <span><i class="fa fa-search-plus"></i></span>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Our gallery end-->
+        <!--Footer section start-->
+        {{> footer}}
+        <!--Footer section end-->
+    </div>
+    <!-- Body main wrapper end -->
+    
+    
+    <!--=================================
+     style-customizer start  -->
+
+<!--     <div class="style-customizer closed">
+
+      <div class="buy-button">
+            <a href="gallery.html#" class="customizer-logo"><img src="https://devitems.com/html/resta-preview/resta/images/logo/logo.png" alt="Theme Logo"></a>
+            <a class="opener" href="gallery.html#"><i class="fa fa-cog fa-spin"></i></a>
+            <div class="buy-now">
+                <a class="button button-border" href="gallery.html#">Buy now!</a> 
+            </div>
+        </div>
+      <div class="clearfix content-chooser">
+        <h3>Layout Options</h3>
+        <p>Which layout option you want to use?</p>
+        <ul class="layoutstyle clearfix">
+          <li class="wide-layout selected" data-style="wide" title="wide"> Wide </li>
+          <li class="boxed-layout" data-style="boxed" title="boxed"> Boxed </li>
+        </ul>
+        <h3>Color Schemes</h3>
+        <p>Which theme color you want to use? Select from here.</p>
+        <ul class="styleChange clearfix">
+          <li class="skin-default selected" title="skin-default" data-style="skin-default" ></li>
+          <li class="color-1" title="color-1" data-style="color-1"></li>
+          <li class="color-2" title="color-2" data-style="color-2"></li>
+          <li class="color-3" title="color-3" data-style="color-3"></li>
+          <li class="color-4" title="color-4" data-style="color-4"></li>
+          <li class="color-5" title="color-5" data-style="color-5"></li>
+          <li class="color-6" title="color-6" data-style="color-6"></li>
+          <li class="color-7" title="color-7" data-style="color-7"></li>
+          <li class="color-8" title="color-8" data-style="color-8"></li>
+          <li class="color-9" title="color-9" data-style="color-9"></li>
+          <li class="color-10" title="color-10" data-style="color-10"></li>
+          <li class="color-11" title="color-11" data-style="color-11"></li>
+        </ul>
+        
+        <h3>Background Patterns</h3>
+        <p>Which background pattern you want to use?</p>
+        <ul class="patternChange clearfix">
+          <li class="pattern-0" data-style="pattern-0" title="white background"></li>
+          <li class="pattern-1" data-style="pattern-1" title="pattern-1"></li>
+          <li class="pattern-2" data-style="pattern-2" title="pattern-2"></li>
+          <li class="pattern-3" data-style="pattern-3" title="pattern-3"></li>
+          <li class="pattern-4" data-style="pattern-4" title="pattern-4"></li>
+          <li class="pattern-5" data-style="pattern-5" title="pattern-5"></li>
+          <li class="pattern-6" data-style="pattern-6" title="pattern-6"></li>
+          <li class="pattern-7" data-style="pattern-7" title="pattern-7"></li>
+        </ul>
+        <h3>Background Images</h3>
+        <p>Which background image you want to use?</p>
+        <ul class="patternChange main-bg-change clearfix">
+          <li class="main-bg-1" data-style="main-bg-1" title="Background 1"> <img src="https://devitems.com/html/resta-preview/resta/images/customizer/bodybg/bg-1.jpg" alt=""></li>
+          <li class="main-bg-2" data-style="main-bg-2" title="Background 2"> <img src="https://devitems.com/html/resta-preview/resta/images/customizer/bodybg/bg-2.jpg" alt=""></li>
+          <li class="main-bg-3" data-style="main-bg-3" title="Background 3"> <img src="https://devitems.com/html/resta-preview/resta/images/customizer/bodybg/bg-3.jpg" alt=""></li>
+          <li class="main-bg-4" data-style="main-bg-4" title="Background 4"> <img src="https://devitems.com/html/resta-preview/resta/images/customizer/bodybg/bg-4.jpg" alt=""></li>
+          <li class="main-bg-5" data-style="main-bg-5" title="Background 5"> <img src="https://devitems.com/html/resta-preview/resta/images/customizer/bodybg/bg-5.jpg" alt=""></li>
+          <li class="main-bg-6" data-style="main-bg-6" title="Background 6"> <img src="https://devitems.com/html/resta-preview/resta/images/customizer/bodybg/bg-6.jpg" alt=""></li>
+          <li class="main-bg-7" data-style="main-bg-7" title="Background 7"> <img src="https://devitems.com/html/resta-preview/resta/images/customizer/bodybg/bg-7.jpg" alt=""></li>
+          <li class="main-bg-8" data-style="main-bg-8" title="Background 8"> <img src="https://devitems.com/html/resta-preview/resta/images/customizer/bodybg/bg-8.jpg" alt=""></li>
+          <li class="main-bg-9" data-style="main-bg-9" title="Background 9"> <img src="https://devitems.com/html/resta-preview/resta/images/customizer/bodybg/bg-9.jpg" alt=""></li>
+          <li class="main-bg-10" data-style="main-bg-10" title="Background 10"> <img src="https://devitems.com/html/resta-preview/resta/images/customizer/bodybg/bg-10.jpg" alt=""></li>
+          <li class="main-bg-11" data-style="main-bg-11" title="Background 11"> <img src="https://devitems.com/html/resta-preview/resta/images/customizer/bodybg/bg-11.jpg" alt=""></li>
+          <li class="main-bg-12" data-style="main-bg-12" title="Background 12"> <img src="https://devitems.com/html/resta-preview/resta/images/customizer/bodybg/bg-12.jpg" alt=""></li>
+        </ul>
+        <ul class="resetAll">
+          <li><a class="button button-border button-reset" href="gallery.html#">Reset All</a></li>
+        </ul>
+      </div>
+    </div> -->
+
+<script src="/javascripts/jquery-1.12.0.min.js"></script>
+<script src="/javascripts/bootstrap.min.js"></script>
+<script src="/javascripts/jquery.nivo.slider.pack.js"></script>
+<script src="/javascripts/isotope.pkgd.min.js"></script>
+<script src="/javascripts/ajax-mail.js"></script>
+<script src="/javascripts/jquery.magnific-popup.js"></script>
+<script src="/javascripts/jquery.counterup.min.js"></script>
+<script src="/javascripts/animated-headlines.js"></script>
+<script src="/javascripts/waypoints.min.js"></script>
+<script src="/javascripts/jquery.collapse.js"></script>
+<script src="/javascripts/style-customizer.js"></script>
+<script src="/javascripts/plugins.js"></script>
+<script src="/javascripts/main.js"></script>    
+</body>
+
+</html>

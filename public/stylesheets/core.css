@@ -1,0 +1,22 @@
+/*------------------------------------------------------------------------------
+
+Template:  Resta - Responsive Restaurant Template
+Author: HashTech
+Version: 1
+Design and Developed by:  HashTech
+
+Note: This core style file includes all external plugins css file.
+
+-------------------------------------------------------------------------------*/
+
+@import url("font-awesome.min.css");
+@import url("materialdesignicons.min.css");
+@import url("plugins/animate.css");
+@import url("plugins/animated-headlines.css");
+@import url("plugins/jquery.mb.YTPlayer.min.css");
+@import url("plugins/slick.css");
+@import url("plugins/meanmenu.min.css");
+@import url("plugins/jquery-ui.min.css");
+@import url("plugins/nivo-slider.css");
+@import url("plugins/magnific-popup.css");
+@import url("default.css");
