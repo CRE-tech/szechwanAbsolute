@@ -1,4 +1,4 @@
-span.textCenter {
+.textCenter {
 	text-align: center;
 }
 
@@ -15,4 +15,8 @@ span.textCenter {
 .infoBoxP {
 	font-size: 16px;
 	text-align: center;
+}
+
+.popDish {
+	display: inline;
 }
