@@ -37,7 +37,6 @@
   background: #DCD8D8 none repeat scroll 0 0;
   left: 0;
   padding: 60px;
-  position: absolute;
   top: 45px;
   width: 55%;
   overflow: hidden;
@@ -112,4 +111,8 @@ div .none{
 #marginTop40 {
   margin-top: 40px;
 
+}
+
+#marginTop0 {
+  margin-top: 0;
 }

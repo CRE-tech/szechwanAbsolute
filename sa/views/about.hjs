@@ -49,80 +49,45 @@
         </section>
       </header>
       <main class="page-content">
-        <section class="section-top-50 section-sm-top-70 text-center text-sm-left">
+        <section class="section-66 section-sm-top-83 section-sm-bottom-75 text-center text-sm-left">
           <div class="shell">
-
-          <div class="resta-about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <div class="about-resta-inner">
-                            <div class="about-resta-details">
-                                <div class="about-title">
-                                    <h2>About Szechwan Absolute</h2>
-                                </div>
-                                <div class="about-description">
-                                    <p class="text-1">
-                                       Szechwan Absolute is a Chinese restaurant that is newly opened as part of the One Fulton Square Complex.
-                                    </p>
-                                    <p class="text-2">
-                                       We hope that our customers will be able to come in to enjoy our diligently prepared dishes alongside an elegant surrounding. 
-                                    </p>
-                                </div>
-                          </div>
-                            <div class="about-rest-img">
-                                <img src="images/in.PNG" alt="" width=570px height=432px>
-                            </div>
-                        </div>
-                    </div>
+            <h3 class="text-center">Our history</h3>
+            <div class="range offset-top-10 offset-sm-top-36">
+              <div class="cell-sm-6 cell-md-4">
+                <h6 class="text-uppercase">Downtown New York, 1946</h6>
+                <p class="offset-top-10 offset-sm-top-34">Food &amp; Wine Restaurant opened in November of 1999. The owners, Bob Stewart and Tom Pazianos had spent many years in the restaurant business as franchisees and they were ready to open an original concept. They had slowly developed a plan over many years of visiting restaurants all over North America and the world. Ideas they had collected and designs they had studied were worked out and refined here.</p>
+              </div>
+              <div class="cell-sm-6 cell-md-4">
+                <div class="img-wrap-1"><img src="images/aboutPic.png" alt="" width="370" height="auto">
                 </div>
+              </div>
+              <div class="cell-sm-12 cell-md-4 offset-sm-top-30 offset-md-top-0">
+                <p>Here, the surroundings are comfortable and the focus is contemporary cuisine of exceptional quality. Signature dishes created by our chef include certified Angus tenderloin, cedar plank salmon, black and blue ahi tuna and wood oven pizzas. Our desserts are prepared in-house by our pastry chef. Our extensive  wine list was compiled by our wine expert with numerous vintage wines as well as over 30 wines by the glass.</p>
+                <p>Food &amp; Wine Restaurant has been listed in "Where to Eat in the US" for several years running and the wine list has earned the "Wine Spectator Award of Excellence" every year since 2002. It became possible due to our loyal visitors and clients that admire our wines and dishes since 1999.</p>
+              </div>
+              <div class="cell-xs-12 offset-top-40">
+                <hr class="hr-fullwidth hr-gray">
+              </div>
             </div>
-        </div>
-
-
-
-            <!-- <h3 class="text-center">Count on wonderful food and excellent service. <br class="visible-lg-inline">Every guest of our Food and Wine Restaurant is sure to find <br class="visible-lg-inline">something to satisfy their palate.</h3>
-            <p class="text-center">From the moment you enter the beautiful granite and timber building that houses the Food & Wine Restaurant and Cellar <br class="visible-lg-inline">Door, you know you have found something very, very special. The staff greet you warmly and the menu and wines on offer  <br class="visible-lg-inline">tempt you into whiling away an afternoon sitting on the long verandah or under the peppermint trees, watching   <br class="visible-lg-inline">the wines breathe and whisper around you.</p>
-            <hr class="hr-sealine-gray offset-top-43"> -->
-            <div class="range range-xs-center border-wrap text-center offset-top-66 text-dark">
+          </div>
+        </section>
+            <!-- why choose us -->
+        <section>
+          <div class="shell">
+            <div class="range range-xs-center border-wrap text-center offset-top-66 text-dark" id="marginTop0">
               <div class="cell-xs-6 cell-sm-5 cell-lg-5" class= "test"> 
-               <div> 
-                 <!-- <div data-from="0" data-to="8648" class="counter"></div>
-                  <p>Clients served</p>
+                <div> 
+                  <h3 class="text-center">Why Choose Us </h3>
                 </div>
               </div>
-              <div class="cell-xs-6 cell-sm-3 cell-lg-2 offset-top-75 offset-xs-top-0">
-                <div class="counter-wrap">
-                  <div data-from="0" data-to="45" class="counter"></div>
-                  <p>Cooks & waiters</p>
-                </div>
-              </div>
-              <div class="cell-xs-6 cell-sm-3 cell-lg-2 offset-top-75 offset-sm-top-0">
-                <div class="counter-wrap">
-                  <div data-from="0" data-to="140" class="counter"></div>
-                  <p>Dishes in menu</p>
-                </div>
-              </div>
-              <div class="cell-xs-6 cell-sm-3 cell-lg-2 offset-top-75 offset-sm-top-0">
-                <div class="counter-wrap">
-                  <div data-from="0" data-to="87" class="counter"></div>
-                  <p>Beverages</p>
-                </div>
-              </div> 
-              <div class="cell-xs-12 offset-top-66"> 
-                <div class="img-wrap-1"><img src="images/galleryBanner.jpg" alt="" width="1170" height="440"/>
-                </div> -->
-                <hr class="hr-sealine-gray offset-top-34"> 
-              <h3 class="text-center offset-top-88">Why Choose Us </h3>
-               </div>
-             </div>
-          </div> 
-            
-
-           <div class="range range-xs-center range-stretch offset-top-30 text-center">
+            </div> 
+            <!-- three reasons -->
+            <div class="range range-xs-center range-stretch offset-top-30 text-center">
               <div class="cell-xs-6 cell-md-4">
                 <div class="thumbnail-variant-1">
-                  <div class="thumbnail-design-element"><span class="icon icon-sm-mod-1 text-primary mdi mdi-chevron-down"></span></div>
+                  <div class="thumbnail-design-element">
+                    <span class="icon icon-sm-mod-1 text-primary mdi mdi-chevron-down"></span>
+                    </div>
                   <div class="caption">
                     <h6 class="text-uppercase text-primary">Authentic Dishes</h6>
                     <p class="text-white">We are dedicated to preparing the most authentic Chinese dishes that Flushing has to offer.</p>
@@ -142,40 +107,19 @@
               </div>
               <div class="cell-xs-6 cell-md-4 offset-top-50 offset-md-top-0">
                 <div class="thumbnail-variant-1">
-                  <div class="thumbnail-design-element"><span class="icon icon-sm-mod-1 text-primary mdi mdi-chevron-down"></span></div>
+                  <div class="thumbnail-design-element">
+                    <span class="icon icon-sm-mod-1 text-primary mdi mdi-chevron-down"></span>
+                  </div>
                   <div class="caption">
                     <h6 class="text-uppercase text-primary">Elegant Environment</h6>
                     <p class="text-white">We make sure to keep our environment fresh for all of our customers.</p>
                   </div>
-                  <hr class="hr-sealine-gray">
+                  <hr class="hr-sealine-gray">      
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <!--<section class="section-66 section-sm-top-83 section-sm-bottom-75 text-center text-sm-left">
-          <div class="shell">
-            <h3 class="text-center" class="titlestyle">Why Choose Us ?</h3>
-            <div class="range offset-top-10 offset-sm-top-36">
-              <div class="cell-sm-6 cell-md-4">
-                <h6 class="text-uppercase">One Fulton Square</h6>
-                <p class="offset-top-10 offset-sm-top-34"> We are determined to produce the most authentic Chinese cuisine in Flushing. </p>
-                <p> Our staff caters to the needs of all our customers. </p>
-              </div>
-              <div class="cell-sm-6 cell-md-4">
-                <div class="img-wrap-1"><img src="/images/LOGO.3-1.jpg" alt="" width="370" height="418"/>
-                </div>
-              </div>
-              <div class="cell-sm-12 cell-md-4 offset-sm-top-30 offset-md-top-0">
-                <p>We believe that our customers are just as important as our own staff.</p>
-                <p>We intend to continue to improve to better suit the needs of our customers.</p>
-              </div>
-              <div class="cell-xs-12 offset-top-40">
-                <hr class="hr-fullwidth hr-gray">
-              </div>
-            </div>
-          </div>
-        </section>-->
       </main>
       <!-- Page Footers-->
       {{> footer}}
