@@ -58,51 +58,98 @@
         </div>
       </header>
       <!-- Page Content-->
+
       <main class="page-content">
         <section class="section-50 section-sm-top-30 section-sm-bottom-98 text-left">
           <div class="shell">
             <h3 class="text-center offset-sm-top-80">Our Popular Dish</h3>
-            <p class="h6 text-regular text-base text-center font-default">We proudly serve authentic Szechwan cuisine.</p>
-            <hr class="hr-sealine-gray offset-top-34">
-            <div data-isotope-layout="masonry" data-isotope-group="gallery" data-photo-swipe-gallery="gallery" class="isotope masonry-gallery range">
-              <div class="isotope-item cell-xs-12 cell-sm-4 cell-md-4">
-                <div>
-                    <img class="imgCenter" src="/images/building.png">
-                </div>
-                <div class="infoBox">
-                  <h3>
-                    <a href="">
-                      <p class="textCenter">dish</p>
-                    </a>
-                  </h3>
-                </div>
-              </div>
-              <div class="isotope-item cell-xs-12 cell-sm-4 cell-md-4">
-                <div>
-                    <img class="imgCenter" src="/images/building.png">
-                </div>
-                <div class="infoBox">
-                  <h3>
-                    <a href="">
-                      <p class="textCenter">dish</p>
-                    </a>
-                  </h3>
+            <p class="h6 text-regular text-base text-center font-default">We proudly present our authentic Szechwan cuisine.</p>
+            <div data-items="1" data-sm-items="2" data-md-items="3" data-stage-padding="0" data-loop="true" data-margin="0" data-mouse-drag="false" data-nav="true" class="owl-carousel offset-top-5">
+              <div class="quote-1">
+                <div id="mt70">
+                  <div>
+                      <img class="imgCenter" src="/images/minified_SA/37_2.png" height="200px;" width="auto;">
+                  </div>
+                  <div class="infoBox">
+                    <h3>
+                      <a href="">
+                        <p class="textCenter" id="fs18">Braised Pork with Chestnuts</p>
+                      </a>
+                    </h3>
+                  </div>
                 </div>
               </div>
-              <div class="isotope-item cell-xs-12 cell-sm-4 cell-md-4">
-                <div>
-                    <img class="imgCenter" src="/images/building.png">
+              <div class="quote-1">
+                <div id="mt70">
+                  <div>
+                      <img class="imgCenter" src="/images/minified_SA/180_2.png" height="200px;" width="auto;">
+                  </div>
+                  <div class="infoBox">
+                    <h3>
+                      <a href="">
+                        <p class="textCenter" id="fs18">Deep-Fried Beef with<br>Crispy Rice and Dry Pepper</p>
+                      </a>
+                    </h3>
+                  </div>
                 </div>
-                <div class="infoBox">
-                  <h3>
-                    <a href="">
-                      <p class="textCenter">dish</p>
-                    </a>
-                  </h3>
+              </div>
+              <div class="quote-1">
+                <div>
+                  <div>
+                      <img class="imgCenter" src="/images/popdish5.png" height="300px;" width="auto;">
+                  </div>
+                  <div class="infoBox10">
+                    <h3>
+                      <a href="">
+                        <p class="textCenter" id="fs18">Pig's Feet in Dry Pot</p>
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="quote-1">
+                <div id="mt70">
+                  <div>
+                      <img class="imgCenter" src="/images/popdish4.png" height="180px;" width="auto;">
+                  </div>
+                  <div class="infoBox58">
+                    <h3>
+                      <a href="">
+                        <p class="textCenter" id="fs18">Braised Mix</p>
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="quote-1">
+                <div id="mt70">
+                  <div>
+                      <img class="imgCenter" src="/images/minified_SA/183_2.png" height="200px;" width="auto;">
+                  </div>
+                  <div class="infoBox">
+                    <h3>
+                      <a href="">
+                        <p class="textCenter" id="fs18">Sauteed Chicken Cubes<br>with Szechwan Chili Pepper</p>
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="quote-1">
+                <div id="mt70">
+                  <div>
+                      <img class="imgCenter" src="/images/popdish6.png" height="200px;" width="auto;">
+                  </div>
+                  <div class="infoBox">
+                    <h3>
+                      <a href="">
+                        <p class="textCenter" id="fs18">Light-Fried Bullfrog<br>with Mountain Pepper</p>
+                      </a>
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>
-            <hr class="hr-sealine-gray offset-top-34">
             <h3 class="text-center offset-top-55">Our menu</h3>
             <div class="range range-xs-center range-stretch offset-top-43">
               <div class="cell-sm-6 cell-md-4">
