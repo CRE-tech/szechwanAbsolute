@@ -1,0 +1,56 @@
+<div class="rd-navbar-wrap rd-navbar-variant-1">
+  <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-layout="rd-navbar-fullwidth" data-lg-layout="rd-navbar-fullwidth" data-device-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fullwidth" data-lg-stick-up-offset="207px">
+    <button data-rd-navbar-toggle=".rd-navbar-top-panel" type="submit" class="rd-navbar-collapse-toggle"><span></span></button>
+    <div class="rd-navbar-top-panel">
+      <div class="rd-navbar-top-panel-inner">
+        <div class="rd-navbar-address">
+          <div class="unit unit-horizontal unit-spacing-xs">
+            <div class="unit-left"><span class="icon icon-xxs mdi mdi-map-marker"></span></div>
+            <div class="unit-body"><a href="#" class="text-base">4578 Marmora Road, Glasgow D04 89GR</a></div>
+          </div>
+        </div>
+        <div class="rd-navbar-address">
+          <div class="unit unit-horizontal unit-spacing-xs">
+            <div class="unit-left"><span class="icon icon-xxs mdi mdi-phone"></span></div>
+            <div class="unit-body"><a href="callto:#" class="text-base">+1 (800) 123 1334</a></div>
+          </div>
+          <div class="unit unit-horizontal unit-spacing-xs">
+            <div class="unit-left"><span class="icon icon-xxs mdi mdi-clock"></span></div>
+            <div class="unit-body">
+              <time datetime="2016">10:00 am-11:00 pm</time>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rd-navbar-main-panel">
+      <div class="rd-navbar-inner">
+        <!-- RD Navbar Panel-->
+        <div class="rd-navbar-panel">
+          <!-- RD Navbar Toggle-->
+          <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" type="submit" class="rd-navbar-toggle"><span></span></button>
+          <!-- RD Navbar Brand-->
+          <div class="rd-navbar-brand">
+            <a href="index.html" class="brand-name">
+              <span>Food & wine</span>
+              <span>wine & winery restaurant</span>
+              <div class="rd-navbar-address"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="rd-navbar-nav-inner justify-around display-flex align-center">
+        <div class="rd-navbar-nav-wrap">
+          <!-- RD Navbar Nav-->
+          <ul class="rd-navbar-nav">
+            <li class="active"><a href="./">Home</a></li>
+            <li><a href="./menu">Menu</a></li>
+            <li><a href="./about">About</a></li>
+            <li><a href="./gallery">Gallery</a></li>
+            <li><a href="./contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>

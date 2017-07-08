@@ -23,6 +23,7 @@
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:400,700%7CMerriweather+Sans">
     <link rel="stylesheet" href="stylesheets/mainCss.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -38,118 +39,7 @@
       <!-- Page Header-->
       <header class="page-head page-head-default">
         <!-- RD Navbar-->
-        <div class="rd-navbar-wrap rd-navbar-variant-1">
-          <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-layout="rd-navbar-fullwidth" data-lg-layout="rd-navbar-fullwidth" data-device-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fullwidth" data-lg-stick-up-offset="207px">
-            <button data-rd-navbar-toggle=".rd-navbar-top-panel" type="submit" class="rd-navbar-collapse-toggle"><span></span></button>
-            <div class="rd-navbar-top-panel">
-              <div class="rd-navbar-top-panel-inner">
-                <div class="rd-navbar-address">
-                  <div class="unit unit-horizontal unit-spacing-xs">
-                    <div class="unit-left"><span class="icon icon-xxs mdi mdi-map-marker"></span></div>
-                    <div class="unit-body"><a href="#" class="text-base">4578 Marmora Road, Glasgow D04 89GR</a></div>
-                  </div>
-                </div>
-                <div class="rd-navbar-address">
-                  <div class="unit unit-horizontal unit-spacing-xs">
-                    <div class="unit-left"><span class="icon icon-xxs mdi mdi-phone"></span></div>
-                    <div class="unit-body"><a href="callto:#" class="text-base">+1 (800) 123 1334</a></div>
-                  </div>
-                  <div class="unit unit-horizontal unit-spacing-xs">
-                    <div class="unit-left"><span class="icon icon-xxs mdi mdi-clock"></span></div>
-                    <div class="unit-body">
-                      <time datetime="2016">10:00 am-11:00 pm</time>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="rd-navbar-main-panel">
-              <div class="rd-navbar-inner">
-                <!-- RD Navbar Panel-->
-                <div class="rd-navbar-panel">
-                  <!-- RD Navbar Toggle-->
-                  <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" type="submit" class="rd-navbar-toggle"><span></span></button>
-                  <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a href="index.html" class="brand-name"><span>Food & wine</span><span>wine & winery restaurant</span>
-                      <div class="rd-navbar-address"></div></a></div>
-                </div>
-              </div>
-              <div class="rd-navbar-nav-inner justify-around display-flex align-center">
-                <div class="rd-navbar-nav-wrap">
-                  <!-- RD Navbar Nav-->
-                  <ul class="rd-navbar-nav">
-                    <li class="active"><a href="./">Home</a></li>
-                    <li><a href="wine-menu.html">Wine Menu</a></li>
-                    <li><a href="menu.html">Food Menu</a></li>
-                    <li><a href="specials.html">Specials</a></li>
-                    <li><a href="#">Pages</a>
-                      <!-- RD Navbar Megamenu-->
-                      <ul class="rd-navbar-megamenu">
-                        <li>
-                          <ul>
-                            <li><a href="index.html">Home 1</a></li>
-                            <li><a href="index-1.html">Home 2</a></li>
-                            <li><a href="about-us.html">About us</a></li>
-                            <li><a href="our-team.html">Our team</a></li>
-                            <li><a href="chef-profile.html">Chef Profile</a></li>
-                            <li><a href="careers.html">Careers</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                            <li><a href="prices.html">Prices</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <ul>
-                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                            <li><a href="maintenance.html">Maintenance</a></li>
-                            <li><a href="login.html">Login Page</a></li>
-                            <li><a href="register.html">Register Page</a></li>
-                            <li><a href="clients.html">Clients</a></li>
-                            <li><a href="partners.html">Partners</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <ul>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="search-results.html">Search Results</a></li>
-                            <li><a href="site-map.html">Site map</a></li>
-                            <li><a href="404.html">404 Page</a></li>
-                            <li><a href="503.html">503 Page</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Gallery</a>
-                      <ul class="rd-navbar-dropdown">
-                        <li><a href="padding-grid.html">Grid gallery</a></li>
-                        <li><a href="no-padding-grid.html">Full width grid gallery</a></li>
-                        <li><a href="masonry-grid.html">Masonry gallery</a></li>
-                        <li><a href="cobbles-grid.html">Cobbles gallery</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Blog</a>
-                      <ul class="rd-navbar-dropdown">
-                        <li><a href="blog-classic-right-sidebar.html">Classic Blog With Right Sidebar</a></li>
-                        <li><a href="blog-classic-left-sidebar.html">Classic Blog With Left Sidebar</a></li>
-                        <li><a href="blog-classic-both-sidebar.html">Classic Blog With Both Sidebars</a></li>
-                        <li><a href="blog-grid.html"> Grid Blog</a></li>
-                        <li><a href="blog-grid-2col.html"> Grid Blog Two Columns</a></li>
-                        <li><a href="blog-grid-3col.html"> Grid Blog Three Columns</a></li>
-                        <li><a href="blog-masonry.html">Masonry Blog</a></li>
-                        <li><a href="blog-masonry-2col.html">Masonry Blog Two Columns</a></li>
-                        <li><a href="blog-masonry-3col.html">Masonry Blog Three Columns</a></li>
-                        <li><a href="blog-modern.html"> Modern Blog</a></li>
-                        <li><a href="blog-modern-right-sidebar.html"> Modern Blog With Right Sidebar</a></li>
-                        <li><a href="blog-modern-left-sidebar.html"> Modern Blog With Left Sidebar</a></li>
-                        <li><a href="blog-post.html">Blog Post</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="contact.html">Contact us</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
+        {{> header}}
         <!-- Swiper-->
         <div data-height="" data-min-height="500px" data-simulate-touch="false" class="swiper-container swiper-slider">
           <div class="swiper-wrapper">
