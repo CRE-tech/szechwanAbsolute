@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:400,700%7CMerriweather+Sans">
     <link rel="stylesheet" href="stylesheets/mainCss.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <link href="menu.html#" data-style="styles" rel="stylesheet">
     <!-- material design iconic font -->
 
     <!--[if lt IE 10]>
@@ -50,6 +51,7 @@
         <section class="section-50 section-sm-top-70 section-sm-bottom-60 text-left">
           <div class="shell">
             <h3 class="text-center">Our menu</h3>
+            <div>
             <div class="range range-xs-center range-stretch offset-top-36">
               <div class="cell-sm-6 cell-md-4">
                 <div class="menu">
@@ -60,26 +62,74 @@
                   </div>
                   <ul class="list-unstyled-variant-1">
                     <li>
-                      <p><span class="text-white">Pan Roasted Fresh Salmon  &nbsp;</span><span class="text-bold text-white">$19</span></p>
-                      <p>Braised Rutabaga, Marbled Potato, Herbed White Wine Sauce</p>
-                    </li>
-                    <li>
-                      <p><span class="text-white">Yellowfin Tuna  &nbsp;</span><span class="text-bold text-white">$24</span></p>
-                      <p>Asparagus, Fingerling Potatoes, Oven Dried Tomato, Shiitake Mushroom, Truffle Vinaigrette</p>
-                    </li>
-                    <li>
-                      <p><span class="text-white">Brasserie Fish du Jour (Market) &nbsp;</span><span class="text-bold text-white">$14</span></p>
+                      <p><span class="text-white">Roasted Chicken with Pig's Intestines</span></p>
                       <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Confit of Duck  &nbsp;</span><span class="text-bold text-white">$18</span></p>
-                      <p>White Beans, Swiss Chard, Pancetta, Sauce Madeira</p>
+                      <p><span class="text-white">Bullfrog in Szechwan Chili Oil</span></p>
+                       <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Fresh Brasserie Pasta &nbsp;</span><span class="text-bold text-white">$17.5</span></p>
-                      <p>House-Made Pappardelle, Jumbo Shrimp, Parmesan Cream</p>
+                      <p><span class="text-white">Roasted Chicken with Konjac</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
+                    <li>
+                      <p><span class="text-white">Braised Mix (Abalone, Squid, Chicken, Pork, Pig's Tripe, Bamboo Shoots, Pleurotus Eryngii)</span></p>
+                       <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Sauteed Mix (Shrimp, Crab Stick, Scallops, Tomato, Pea Sprout, Dred Black Mushroom)</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <div id="loadmore" class="none">
+                    <li></li>
+                    <li>
+                      <p><span class="text-white">Boiled Fish in Green Peppercorn Oil</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">New-School Boiled Fish</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">New-School Pig's Feet</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Boiled Fish with Pig's Intestines and Pig's Blood Curd</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Pig Blood Curd in Chili Oil</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Boiled Fish with Tofu in Hot Chili Oil</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Szechwan Style Grilled Beef Steak</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Fish with Chili Bean Sauce</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Szechwan Style Roasted Fish</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Chengdu Style Boiled Fish with Pickled Cabbage and Chili</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Dungeness Crab with Spicy Sauce</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                      </div>
                   </ul>
+
                 </div>
               </div>
               <div class="cell-sm-6 cell-md-4">
@@ -91,25 +141,57 @@
                   </div>
                   <ul class="list-unstyled-variant-1">
                     <li>
-                      <p><span class="text-white">Yellowfin Tuna Tartare&nbsp;</span><span class="text-bold text-white">$14</span></p>
-                      <p>Lemon, Capers, Fresh Herb, Sun Dried Tomato, Creme Fraiche</p>
+                      <p><span class="text-white">Private Kitchens Pig's Intestine</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Brasserie Ravioli  &nbsp;</span><span class="text-bold text-white">$8/14</span></p>
-                      <p>Certified Angus Beef Short Rib, Mushroom Fricassee, Carrot Mousseline, Bordelaise Sauce</p>
+                      <p><span class="text-white">Boiled Chicken in Special Spicy Sauce</span></p>
+                     <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Seared Polenta Cake &nbsp;</span><span class="text-bold text-white">$9</span></p>
-                      <p>Goat Cheese, Cremini Mushroom, Fricassee, Black Truffle Oil</p>
+                      <p><span class="text-white">Deep-Fried Fish with Minced Pork, Salt Black Bean, Dry Red Pepper and Cumin Powder (Option:Noodle)</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">House-Made Rabbit Sausage &nbsp;</span><span class="text-bold text-white">$12/17</span></p>
-                      <p>Sauteed Mustard Greens, Carrots, Toasted Almond</p>
+                      <p><span class="text-white">Light-Fried Bullfrog with Mountain Pepper</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Brasserie Salmon Gravlax &nbsp;</span><span class="text-bold text-white">$13</span></p>
-                      <p>Dill, Creme Fraiche, Pickled Radish, Tobiko</p>
+                      <p><span class="text-white">Boiled Cattle's Black Tripe with Bean Sprout in Chili Oil</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
+
+                    <div id="loadmore2" class="none">
+                    <li></li>
+                    <li>
+                      <p><span class="text-white">Deep-Fried Beef with Crispy Rice and Dry Pepper</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Braised Pig's Feet with Green Pepper</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li> 
+                    <li>
+                      <p><span class="text-white">Sauteed Chicken Cubes with Green and Red Pepper</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                     <li>
+                      <p><span class="text-white">Eel in Pickled Pepper Oil</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                     <li>
+                      <p><span class="text-white">Sauteed Lamb with Green and Red Pepper</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                     <li>
+                      <p><span class="text-white">Fried Fish with Szechwan Chili Pepper and Minced Pork</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                     <li>
+                      <p><span class="text-white">Sauteed Chicken Cubes with Szechwan Chili Pepper</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    </div>
                   </ul>
                 </div>
               </div>
@@ -121,53 +203,142 @@
                     </div><img src="/images/menu2.png" alt="" width="370" height="367" class="img-responsive"/>
                   </div>
                   <ul class="list-unstyled-variant-1">
+                   
                     <li>
-                      <p><span class="text-white">Hot Fudge Cake &nbsp;</span><span class="text-bold text-white">$14.50</span></p>
-                      <p>Creamy vanilla bean ice cream layered between moist chocolate cake finished with hot fudge & whipped cream</p>
+                      <p><span class="text-white">The Authentic Double-Cooked Pork Belly</span></p>
+                     <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Creme Brulee &nbsp;</span><span class="text-bold text-white">$8.70</span></p>
-                      <p>Finished with fresh raspberries</p>
+                      <p><span class="text-white">Mapo Tofu</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Homemade Cheesecake &nbsp;</span><span class="text-bold text-white">$15.60</span></p>
-                      <p>Drizzled with Melba sauce or topped with an assortment of fresh berries</p>
+                      <p><span class="text-white">Braised Pork with Preserved Vegetable in Soy Sauce</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>                 
+                    </li>
+                      
+                    <li>
+                      <p><span class="text-white">Braised Pork with Chestnuts</span></p>
+                     <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Key Lime Tart  &nbsp;</span><span class="text-bold text-white">$11.80</span></p>
-                      <p>Finished with softly whipped cream & lime zest</p>
+                      <p><span class="text-white">Chengdu Style Roasted Chicken with Spicy Sauce</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    
+                    <div id="loadmore3" class="none">
+                    <li></li>
+                    <li>
+                      <p><span class="text-white">Chongqing Style Deep-Fried Diced Chicken with Dried Pepper</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Hot Fudge Peanut Butter Cake  &nbsp;</span><span class="text-bold text-white">$9.99</span></p>
-                      <p>Chunky peanut butter ice cream layered between moist chocolate cake finished with hot fudge</p>
+                      <p><span class="text-white">Braised Eel with Cucumber Sticks and Pickled Pepper</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
-                  </ul>
+                    <li>
+                      <p><span class="text-white">Boiled Bullfrog in Hot Chili Oil</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Beef Tendon in Pickled Pepper Oil</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Lobster with Spicy Sauce</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Chicken Cubes with Peanuts</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Dry-Sauteed Eel</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Dry-Sauteed Pig's Intestines</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Dry-Sauteed Bullfrog</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Stir-Fried Cattle Tripe</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Stir-Fried Beef with Scallions</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Fried Beef with Cumin Flavor</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Fried Lamb with Cumin Flavor</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Boiled Sliced Beef in Chili Oil</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Dry-Braised Prawns</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Braised Trepang with Minced Pork</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                     </div>
+                    </ul>
                 </div>
-              </div>
+                 
+               </div>
+
+
+                <div>
+                  <button onclick="Load()">Load More/Load Less</button>
+                </div>
+
+              
+           
+            
+            
+            
+
+            <div  class="range range-xs-center range-stretch offset-top-36">
               <div class="cell-sm-6 cell-md-4 offset-sm-top-30">
                 <div class="menu">
                   <div class="header-menu">
                     <div class="header-menu-inner">
-                      <h6 class="text-uppercase text-bold font-logo">Dry Pot</h6>
+                      <h6 class="text-uppercase text-bold font-logo">Cold Dish</h6>
                     </div><img src="/images/menu3.png" alt="" width="370" height="367" class="img-responsive"/>
                   </div>
                   <ul class="list-unstyled-variant-1">
                     <li>
-                      <p><span class="text-white">Seasonal Local Heirloom Tomatoes &nbsp;</span><span class="text-bold text-white">$12.90</span></p>
-                      <p>Fresh Burrata Mozzarella, Micro Arugula, Garlic Croutons, Extra Virgin Olive Oil and Aged Balsamic Vinegar</p>
+                      <p><span class="text-white">Spicy Roast Beef</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Organic Quinoa and Baby Beet Salad &nbsp;</span><span class="text-bold text-white">$10.90</span></p>
-                      <p>Arugula, Orange Segments, Toasted Almonds, Goat Cheese, Orange-Tarragon Vinaigrette</p>
+                      <p><span class="text-white">Hairtail in Szechwan Peppercorn Oil</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">The BOB Salad &nbsp;</span><span class="text-bold text-white">$15.40</span></p>
-                      <p>Petite Romaine, Applewood Smoked Bacon, Red Onion, Blue Cheese Dressing</p>
+                      <p><span class="text-white">Cattle's Tendon, Shank & Tripe in Chili Sauce</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Food & Wine Salad &nbsp;</span><span class="text-bold text-white">$10</span></p>
-                      <p>Organic Baby Greens, Candied Walnuts, Roquefort Cheese, Red Grapes, Red Onions, Tomatoes, Apples, Dijon Mustard Vinaigrette</p>
+                      <p><span class="text-white">Cucumber with Special Sauce</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
+                    <li>
+                      <p><span class="text-white">Black Fungus with Sauce</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+
                   </ul>
                 </div>
               </div>
@@ -180,63 +351,103 @@
                   </div>
                   <ul class="list-unstyled-variant-1">
                     <li>
-                      <p><span class="text-white">Herb de Provence Organic New Zealand Rack of Lamb &nbsp;</span><span class="text-bold text-white">$37.95</span></p>
+                      <p><span class="text-white">Grilled Green Pepper with Szechwan Special Sauce</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">12oz. Brandt Family Reserve, Cajun Flatiron Steak &nbsp;</span><span class="text-bold text-white">$15.90</span></p>
-                      <p>Recommended temperature - cooked rare to medium rare</p>
+                      <p><span class="text-white">Sauteed Shredded Potato with Green Pepper</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">8oz. Brandt Family Reserve &nbsp;</span><span class="text-bold text-white">$38</span></p>
-                      <p>Recommended temperature of cooking - medium rare</p>
+                      <p><span class="text-white">Choy Sum with Black Mushroom</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">18oz. Brandt Family Reserve, Bone-In Rib Eye Steak &nbsp;</span><span class="text-bold text-white">$48.95</span></p>
+                      <p><span class="text-white">Sauteed Cabbage with Sliced Pork Belly</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">16oz. Brandt Family Reserve, New York Steak &nbsp;</span><span class="text-bold text-white">$48.95</span></p>
-                      <p>Classic NY Steak  with buttery flavor</p>
+                      <p><span class="text-white">Sauteed Pea Sprouts with Minced Garlic</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+
+                    <div id="loadmore4" class="none">
+                    <li></li>
+                    <li>
+                      <p><span class="text-white">Sauteed Celtuce with Minced Garlic</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">10oz Grilled Spiny Lobster Tail and Wild White Shrimp &nbsp;</span><span class="text-bold text-white">$16.95</span></p>
+                      <p><span class="text-white">Sauteed Celtuce Roots with Black Fungus</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Raised Pea Shoots with mixed Mushroom</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Dry Fried String Beans</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+                    <li>
+                      <p><span class="text-white">Yu-Shiang Eggplant</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                   </ul>
-                </div>
+                  </div>
+                
               </div>
               <div class="cell-sm-6 cell-md-4 offset-sm-top-30">
                 <div class="menu">
                   <div class="header-menu">
                     <div class="header-menu-inner">
-                      <h6 class="text-uppercase text-bold font-logo">Staple</h6>
+                      <h6 class="text-uppercase text-bold font-logo">Dry Pot and Staple</h6>
                     </div><img src="/images/menu5.png" alt="" width="370" height="367" class="img-responsive"/>
                   </div>
-                  <ul class="list-unstyled-variant-1 marginTop">
+                  <ul class="list-unstyled-variant-1">
                     <li>
-                      <p><span class="text-white">Steamed Or Grilled Asparagus with Hollandaise &nbsp;</span><span class="text-bold text-white">$9.95</span></p>
+                      <p><span class="text-white">Beef in Dry Pot</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Sauteed Garlic Spinach and Roasted Almonds  &nbsp;</span><span class="text-bold text-white">$9.95</span></p>
+                      <p><span class="text-white">Chicken in Dry Pot</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Sauteed Organic Broccolini and Sun-Fried Tomatoes &nbsp;</span><span class="text-bold text-white">$9.95</span></p>
+                      <p><span class="text-white">Bullfrog in Dry Pot</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Roasted Brussels Sprouts & Crispy Pork Belly Bits &nbsp;</span><span class="text-bold text-white">$9.95</span></p>
+                      <p><span class="text-white">Seafood in Dry Pot</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Wild Mushroom Medley in Butter  &nbsp;</span><span class="text-bold text-white">$9.95</span></p>
+                      <p><span class="text-white">Pig's Feet in Dry Pot</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
+                    </li>
+
+                    <div id="loadmore5" class="none">
+                    <li></li>
+                    <li>
+                      <p><span class="text-white">Shrimp Fried Rice</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Black Truffle Mashed Potatoes &nbsp;</span><span class="text-bold text-white">$9.95</span></p>
+                      <p><span class="text-white">Handmade Dumpling</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     <li>
-                      <p><span class="text-white">Baked Potato &nbsp;</span><span class="text-bold text-white">$9.95</span></p>
-                    </li>
-                    <li>
-                      <p><span class="text-white">Gratin Dauphinois Potatoes, Butternut Squash & Potato  &nbsp;</span><span class="text-bold text-white">$9.95</span></p>
+                      <p><span class="text-white">Beef Fried Rice</span></p>
+                      <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                   </ul>
+                  </div>
                 </div>
+                
+                 <div>
+                  <button onclick="Load2()">Load More/Load Less</button>
+                </div>
+
               </div>
               <div class="cell-xs-12 offset-top-47">
                 <hr class="hr-gray hr-fullwidth">
@@ -286,6 +497,8 @@
       </div>
     </div>
     <!-- Java script-->
+    
+    <script type="text/javascript" src="/javascripts/loadmore.js"></script>
     <script src="/javascripts/core.min.js"></script>
     <script src="/javascripts/script.js"></script>
     <script type="text/javascript">

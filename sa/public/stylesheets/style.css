@@ -20,6 +20,7 @@
 
 
 .about-resta-inner {
+
     position: relative;
 }
 
@@ -30,6 +31,7 @@
   position: absolute;
   top: 45px;
   width: 55%;
+  overflow: hidden;
 }
 
 .about-title > h2 {
@@ -70,4 +72,10 @@
 .marginBot17 {
   margin-bottom: 17px;
 }
+
+
+img{max-width: 100%;}
+
+div .none{
+  display:none;
 }
