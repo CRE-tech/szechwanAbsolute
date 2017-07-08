@@ -92,4 +92,14 @@
   font-size: 18px;
 }
 
+#marginLogo {
+  margin-top: 50px;
+}
 
+.marginTop_10 {
+  margin-top: -10px;
+}
+
+#marginTop40 {
+  margin-top: 40px;
+}
