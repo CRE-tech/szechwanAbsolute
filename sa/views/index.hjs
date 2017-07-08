@@ -117,7 +117,8 @@
                   <div class="header-menu">
                     <div class="header-menu-inner">
                       <h6 class="text-uppercase text-bold font-logo">Lunch menu</h6>
-                    </div><img src="images/index-2-370x367.jpg" alt="" width="370" height="367" class="img-responsive"/>
+                    </div>
+                    <img src="images/minified_SA/20.jpg" alt="" width="370" height="367" class="img-responsive"/>
                   </div>
                   <ul class="list-unstyled-variant-1">
                     <li>
