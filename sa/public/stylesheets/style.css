@@ -16,3 +16,44 @@ span.textCenter {
 	font-size: 16px;
 	text-align: center;
 }
+
+
+.about-resta-inner {
+    position: relative;
+}
+
+.about-resta-details {
+  background: #DCD8D8 none repeat scroll 0 0;
+  left: 0;
+  padding: 60px;
+  position: absolute;
+  top: 45px;
+  width: 55%;
+}
+
+.about-title > h2 {
+  color: #535353;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+
+.about-description {
+
+	color: #757575;
+}
+.about-description p.text-1 {
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.about-rest-img {
+    float: right;
+    width: 50%;
+    border: 1px solid white;
+    
+}
+
+.titlestyle{
+	  font-family: "Great Vibes",cursive;
+}
