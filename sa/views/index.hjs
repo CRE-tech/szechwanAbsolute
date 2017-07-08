@@ -67,29 +67,45 @@
       <!-- Page Content-->
       <main class="page-content">
         <section class="section-50 section-sm-top-30 section-sm-bottom-98 text-left">
-          <div class="shell"><a href="#" class="jumbotron-link jumbotron-link-secondary jumbotron-link-section"><span>order food <br> online</span><span class="icon mdi mdi-chevron-down"></span></a>
-            <h3 class="text-center offset-sm-top-80">We proudly serve the renowned wine  <br class="visible-lg-inline"> and local organic food.</h3>
-            <p class="h6 text-regular text-base text-center font-default">We introduce new cultures to visitors through cuisines of various countries,  <br class="visible-lg-inline">offering a special dish for everyone regardless of their  <br class="visible-lg-inline">food preferences. <br class="visible-lg-inline"></p>
+          <div class="shell">
+            <h3 class="text-center offset-sm-top-80">Our Popular Dish</h3>
+            <p class="h6 text-regular text-base text-center font-default">We proudly serve authentic Szechwan cuisine.</p>
             <hr class="hr-sealine-gray offset-top-34">
-            <div class="range range-xs-center range-stretch offset-top-43">
-              <div class="cell-xs-12"><a href="menu.html" class="banner-module img-thumbnail-classic"><img src="images/specials-7-1170x325.jpg" alt="" width="1170" height="325" class="img-responsive"/>
-                  <div class="text-inner"><img src="images/banner-img-1.png" width="804" height="272" alt="" class="img-responsive">
-                    <h3 class="font-logo text-primary text-uppercase letter-spacing-200 text-bold">See what's <br> for dinner<span class="icon mdi mdi-chevron-down text-primary"></span></h3>
-                  </div></a></div>
-            </div>
-            <div class="range range-xs-center offset-top-43">
-              <div class="cell-md-6">
-                <div class="menu menu-mod-3 text-center">
-                  <div class="thumbnail-design-element"><span class="icon icon-sm-mod-1 text-primary mdi mdi-chevron-down"></span></div>
-                  <h3 class="text-bold offset-top-10"><a href="#">Fresh catch club</a></h3>
-                  <p class="h6 text-primary offset-top-10 offset-sm-top-5">Join to get a free appetizer or dessert.</p>
+            <div data-isotope-layout="masonry" data-isotope-group="gallery" data-photo-swipe-gallery="gallery" class="isotope masonry-gallery range">
+              <div class="isotope-item cell-xs-12 cell-sm-4 cell-md-4">
+                <div>
+                    <img class="imgCenter" src="/images/building.png">
+                </div>
+                <div class="infoBox">
+                  <h3>
+                    <a href="">
+                      <p class="textCenter">dish</p>
+                    </a>
+                  </h3>
                 </div>
               </div>
-              <div class="cell-md-6">
-                <div class="menu menu-mod-3 text-center">
-                  <div class="thumbnail-design-element"><span class="icon icon-sm-mod-1 text-primary mdi mdi-chevron-down"></span></div>
-                  <h3 class="text-bold offset-top-10"><a href="#">our gift card</a></h3>
-                  <p class="h6 text-primary offset-top-10 offset-sm-top-5">A gift is so good, you'll be tempted to keep it.</p>
+              <div class="isotope-item cell-xs-12 cell-sm-4 cell-md-4">
+                <div>
+                    <img class="imgCenter" src="/images/building.png">
+                </div>
+                <div class="infoBox">
+                  <h3>
+                    <a href="">
+                      <p class="textCenter">dish</p>
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div class="isotope-item cell-xs-12 cell-sm-4 cell-md-4">
+                <div>
+                    <img class="imgCenter" src="/images/building.png">
+                </div>
+                <div class="infoBox">
+                  <h3>
+                    <a href="">
+                      <p class="textCenter">dish</p>
+                    </a>
+                  </h3>
                 </div>
               </div>
             </div>
@@ -101,7 +117,8 @@
                   <div class="header-menu">
                     <div class="header-menu-inner">
                       <h6 class="text-uppercase text-bold font-logo">Lunch menu</h6>
-                    </div><img src="images/index-2-370x367.jpg" alt="" width="370" height="367" class="img-responsive"/>
+                    </div>
+                    <img src="images/minified_SA/20.jpg" alt="" width="370" height="367" class="img-responsive"/>
                   </div>
                   <ul class="list-unstyled-variant-1">
                     <li>

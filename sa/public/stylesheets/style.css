@@ -1,4 +1,4 @@
-span.textCenter {
+.textCenter {
 	text-align: center;
 }
 
@@ -16,6 +16,7 @@ span.textCenter {
 	font-size: 16px;
 	text-align: center;
 }
+
 
 
 .about-resta-inner {
@@ -56,4 +57,13 @@ span.textCenter {
 
 .titlestyle{
 	  font-family: "Great Vibes",cursive;
+	}
+
+.popDish {
+	display: inline;
+}
+
+.marginTop {
+	margin-top: 40px;
+
 }
