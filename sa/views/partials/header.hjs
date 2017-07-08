@@ -31,9 +31,9 @@
           <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" type="submit" class="rd-navbar-toggle"><span></span></button>
           <!-- RD Navbar Brand-->
           <div class="rd-navbar-brand">
-            <a href="index.html" class="brand-name">
-              <span>Food & wine</span>
-              <span>wine & winery restaurant</span>
+            <a class="brand-name">
+              <span>Szechwan Absolute</span>
+              <span class="textCenter">Will never claim to be number one,<br>but never admit to being number two.</span>
               <div class="rd-navbar-address"></div>
             </a>
           </div>
