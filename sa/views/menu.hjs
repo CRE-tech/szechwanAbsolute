@@ -299,8 +299,9 @@
                </div>
 
 
-                <div>
-                  <button onclick="Load()">Load More/Load Less</button>
+                <div class="loadbutton">
+
+                 <a> <button onclick="Load()">LOAD MORE/LESS</button> </a>
                 </div>
 
               
@@ -444,8 +445,8 @@
                   </div>
                 </div>
                 
-                 <div>
-                  <button onclick="Load2()">Load More/Load Less</button>
+                 <div class="loadbutton">
+                  <button onclick="Load2()"><p id="buttontext">LOAD MORE/LESS</p></button>
                 </div>
 
               </div>

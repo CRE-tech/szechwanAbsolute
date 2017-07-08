@@ -113,3 +113,28 @@ div .none{
   margin-top: 40px;
 
 }
+.loadbutton{
+  margin-top: 40px;
+}
+ 
+button {
+  background-color: rgb(29,29,29);
+  border: none;
+ 
+  font-family: "Merriweather",sans-serif;
+ 
+  width: 135.488px;
+  height: 36.8px;
+}
+button:hover{
+  background-color: #e0ca8f;
+  border:none;
+ 
+  color:black;
+  
+  }
+
+#buttontext{
+  font-family: "Merriweather Sans",sans-serif;
+  color:#e0ca8f;
+}

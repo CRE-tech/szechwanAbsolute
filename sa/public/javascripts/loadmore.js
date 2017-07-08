@@ -7,35 +7,36 @@ function Load() {
     var a = document.getElementById('loadmore');
     var b = document.getElementById("loadmore2");
     var c = document.getElementById("loadmore3");
-    if (a.style.display === 'none') {
-        a.style.display = 'block';
-    } else {
+    if (a.style.display === 'block') {
         a.style.display = 'none';
+    } else {
+        a.style.display = 'block';
     }
 
-    if (b.style.display === 'none') {
-        b.style.display = 'block';
-    } else {
+    if (b.style.display === 'block') {
         b.style.display = 'none';
-    }
-     if (c.style.display === 'none') {
-        c.style.display = 'block';
     } else {
+        b.style.display = 'block';
+    }
+     if (c.style.display === 'block') {
         c.style.display = 'none';
+    } else {
+        c.style.display = 'block';
     }
 }
 
 function Load2() {
 	var d = document.getElementById("loadmore4");
     var e = document.getElementById("loadmore5");
-	 if (d.style.display === 'none') {
-        d.style.display = 'block';
-    } else {
+	 if (d.style.display === 'block') {
         d.style.display = 'none';
-    }
-     if (e.style.display === 'none') {
-        e.style.display = 'block';
     } else {
+        d.style.display = 'block';
+    }
+     if (e.style.display === 'block') {
         e.style.display = 'none';
+    } else {
+        e.style.display = 'block';
     }
 }
+
