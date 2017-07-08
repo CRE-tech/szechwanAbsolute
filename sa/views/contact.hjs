@@ -8,15 +8,6 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <script type="text/javascript">
-    //<![CDATA[
-    try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"af13290c4a1b867e64066d39a8f7cb7e",petok:"cda9785127590b0fe99b4abb9a9ca6a877c6c8bb-1499412719-1800",zone:"template-help.com",rocket:"0",apps:{"abetterbrowser":{"ie":"7"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=85b614c0f6/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
-    //]]>
-    </script>
-    <script type="text/javascript" src="/javascripts/googleAnalytic_plugins.js"></script>
-    <script type="text/javascript" src="/javascripts/googleAnalytic_analytic.js"></script>
-    <script type="text/javascript" async src="/javascripts/googleTagManager.js"></script>
-    <script type="text/javascript" async src="/javascripts/googleAnalytic_ga.js"></script>
 
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.4.57/css/materialdesignicons.css">
@@ -148,5 +139,14 @@
     <!-- Java script-->
     <script src="/javascripts/core.min.js"></script>
     <script src="/javascripts/script.js"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+    try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"af13290c4a1b867e64066d39a8f7cb7e",petok:"cda9785127590b0fe99b4abb9a9ca6a877c6c8bb-1499412719-1800",zone:"template-help.com",rocket:"0",apps:{"abetterbrowser":{"ie":"7"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=85b614c0f6/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+    //]]>
+    </script>
+    <script type="text/javascript" src="/javascripts/googleAnalytic_plugins.js"></script>
+    <script type="text/javascript" src="/javascripts/googleAnalytic_analytic.js"></script>
+    <script type="text/javascript" async src="/javascripts/googleTagManager.js"></script>
+    <script type="text/javascript" async src="/javascripts/googleAnalytic_ga.js"></script>
   </body>
 </html>
