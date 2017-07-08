@@ -57,42 +57,152 @@
         <section class="text-center section-50 section-sm-70 section-sm-bottom-83">
           <div class="shell">
             <h3 class="text-center">Grid gallery</h3>
-            <div class="group-tags group-lg isotope-filters isotope-filters-horizontal offset-top-40">
-              <button data-isotope-filter="*" data-isotope-group="gallery" class="btn-link btn-link-primary btn-link-variant-1 active">Lunch menu</button>
-              <button data-isotope-filter="type-1" data-isotope-group="gallery" class="btn-link btn-link-primary btn-link-variant-1"> Dinner menu</button>
-              <button data-isotope-filter="type-2" data-isotope-group="gallery" class="btn-link btn-link-primary btn-link-variant-1"> Soups</button>
-              <button data-isotope-filter="type-3" data-isotope-group="gallery" class="btn-link btn-link-primary btn-link-variant-1"> Salads</button>
-              <button data-isotope-filter="type-4" data-isotope-group="gallery" class="btn-link btn-link-primary btn-link-variant-1"> Desserts</button>
-            </div>
+          
             <div data-isotope-layout="masonry" data-isotope-group="gallery" data-photo-swipe-gallery="gallery" class="isotope masonry-gallery range">
               <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
-                <div class="thumbnail-gallery"><a href="images/gallery-1_original.jpg" data-photo-swipe-item="" data-size="1200x800"><img src="images/gallery-1-370x374.jpg" alt=""><span class="overlay"></span></a></div>
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/1.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/1.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
               </div>
               <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
-                <div class="thumbnail-gallery"><a href="images/gallery-2_original.jpg" data-photo-swipe-item="" data-size="1200x800"><img src="images/gallery-2-370x374.jpg" alt=""><span class="overlay"></span></a></div>
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/2.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/2.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
               </div>
-              <div data-filter="type-2" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
-                <div class="thumbnail-gallery"><a href="images/gallery-3_original.jpg" data-photo-swipe-item="" data-size="1200x800"><img src="images/gallery-3-370x374.jpg" alt=""><span class="overlay"></span></a></div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/3.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/3.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
               </div>
-              <div data-filter="type-2" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
-                <div class="thumbnail-gallery"><a href="images/gallery-4_original.jpg" data-photo-swipe-item="" data-size="1200x800"><img src="images/gallery-4-370x374.jpg" alt=""><span class="overlay"></span></a></div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/4.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/4.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
               </div>
-              <div data-filter="type-2" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
-                <div class="thumbnail-gallery"><a href="images/gallery-5_original.jpg" data-photo-swipe-item="" data-size="1200x800"><img src="images/gallery-5-370x374.jpg" alt=""><span class="overlay"></span></a></div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/5.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/5.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
               </div>
-              <div data-filter="type-3" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
-                <div class="thumbnail-gallery"><a href="images/gallery-6_original.jpg" data-photo-swipe-item="" data-size="1200x800"><img src="images/gallery-6-370x374.jpg" alt=""><span class="overlay"></span></a></div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/6.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/6.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
               </div>
-              <div data-filter="type-3" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
-                <div class="thumbnail-gallery"><a href="images/gallery-7_original.jpg" data-photo-swipe-item="" data-size="1200x800"><img src="images/gallery-7-370x374.jpg" alt=""><span class="overlay"></span></a></div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/7.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/7.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
               </div>
-              <div data-filter="type-4" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
-                <div class="thumbnail-gallery"><a href="images/gallery-8_original.jpg" data-photo-swipe-item="" data-size="1200x800"><img src="images/gallery-8-370x374.jpg" alt=""><span class="overlay"></span></a></div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/8.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/8.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
               </div>
-              <div data-filter="type-4" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
-                <div class="thumbnail-gallery"><a href="images/gallery-9_original.jpg" data-photo-swipe-item="" data-size="1200x800"><img src="images/gallery-9-370x374.jpg" alt=""><span class="overlay"></span></a></div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/9.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/9.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
               </div>
-            </div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/10.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/10.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
+              </div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/11.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/11.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
+              </div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/12.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/12.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
+              </div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/14.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/14.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
+              </div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/15.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/15.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
+              </div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/16.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/16.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
+              </div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/17.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/17.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
+              </div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/18.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/18.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
+              </div>
+              <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
+                <div class="thumbnail-gallery">
+                  <a href="/images/minified_SA/19.jpg" data-photo-swipe-item="" data-size="1200x800">
+                    <img src="/images/minified_SA/19.jpg" alt="">
+                    <span class="overlay"></span>
+                  </a>
+                </div>
+              </div>
             <hr class="hr-sealine-gray offset-top-45">
             <hr class="hr-gray offset-top-45">
           </div>
