@@ -37,7 +37,6 @@
   background: #DCD8D8 none repeat scroll 0 0;
   left: 0;
   padding: 60px;
-  position: absolute;
   top: 45px;
   width: 55%;
   overflow: hidden;
@@ -113,6 +112,7 @@ div .none{
   margin-top: 40px;
 
 }
+
 .loadbutton{
   margin-top: 40px;
 }
@@ -137,4 +137,8 @@ button:hover{
 #buttontext{
   font-family: "Merriweather Sans",sans-serif;
   color:#e0ca8f;
+}
+#marginTop0 {
+  margin-top: 0;
+
 }
