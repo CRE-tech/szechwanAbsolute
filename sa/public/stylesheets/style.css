@@ -1,4 +1,18 @@
-
 span.textCenter {
+	text-align: center;
+}
+
+.imgCenter {
+	display: block;
+	margin: 0 auto;
+}
+
+.infoBox {
+	margin-top: 40px;
+
+}
+
+.infoBoxP {
+	font-size: 16px;
 	text-align: center;
 }

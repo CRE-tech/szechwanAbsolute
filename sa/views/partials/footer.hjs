@@ -3,13 +3,17 @@
     <div class="shell">
       <div class="range">
         <div class="cell-xs-6 cell-sm-6 cell-md-3">
-          <div class="rd-navbar-brand"><a href="index.html" class="brand-name">Szechwan Absolute</a></div>
+          <div class="rd-navbar-brand"><a class="brand-name">Szechwan Absolute</a></div>
           <address class="offset-top-20">
             <p class="h6 text-regular font-default">Address:</p>
             <p class="offset-top-7">39-16 Prince St(2 FL), <br>Flushing NY 11354.</p>
             <div class="unit unit-xs-horizontal unit-spacing-xs offset-top-7">
               <div class="unit-left"><span>Telephone:</span></div>
               <div class="unit-body"><a href="callto:#" class="text-base">(917)983-6666</a></div>
+            </div>
+            <div class="unit unit-xs-horizontal unit-spacing-xs offset-top-7">
+              <div class="unit-left"><span>Open Hours:</span></div>
+              <div class="unit-body"><a class="text-base">Monday-Sunday 11am - 10:30pm</a></div>
             </div>
             <div class="unit unit-xs-horizontal unit-spacing-xs offset-top-7">
               <div class="unit-left"><span>E-mail:</span></div>

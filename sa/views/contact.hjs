@@ -59,39 +59,34 @@
             <div class="range range-xs-center offset-top-32">
               <div class="cell-sm-12 cell-md-10 cell-lg-8">
                 <div class="range">
-                  <div class="cell-sm-6 text-center text-sm-left">
-                    <div class="unit unit-sm-horizontal unit-spacing-xs unit-sm-bottom">
-                      <div class="unit-left min-width-sm"><span class="h6 text-regular">Address:</span></div>
-                      <div class="unit-body"><a href="#" class="text-base">123, New Lenox, Chicago, IL 60606</a></div>
+                  <div class="cell-sm-4 text-center text-sm-left">
+                    <div>
+                      <img class="imgCenter" src="../images/classic-phone.png">
                     </div>
-                    <div class="unit unit-sm-horizontal unit-spacing-xs unit-sm-bottom offset-top-12">
-                      <div class="unit-left min-width-sm"><span class="h6 text-regular">Phone:</span></div>
-                      <div class="unit-body"><a href="callto:#" class="text-base">+1 (800) 123 1334</a>, &nbsp;<a href="callto:#" class="text-base">098-765-4321</a></div>
-                    </div>
-                    <div class="unit unit-sm-horizontal unit-spacing-xs unit-sm-bottom offset-top-12">
-                      <div class="unit-left min-width-sm"><span class="h6 text-regular">Email:</span></div>
-                      <div class="unit-body"><a href="/cdn-cgi/l/email-protection#3b18" class="text-base"><span class="__cf_email__" data-cfemail="97fef9f1f8d7f3f2faf8fbfef9fcb9f8e5f0">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a></div>
+                    <div class="infoBox">
+                      <p class="infoBoxP">Phone<br>(917)983-6666</p>
                     </div>
                   </div>
-                  <div class="cell-sm-6 text-center text-sm-left">
-                    <div class="unit unit-sm-horizontal unit-spacing-xs unit-sm-top">
-                      <div class="unit-left min-width-sm"><span class="h6 text-regular">We are open:</span></div>
-                      <div class="unit-body">
-                        <time datetime="2016" class="display-block offset-top-4">Mon - Fri 7am - 11am (breakfast)</time>
-                        <time datetime="2016" class="display-block offset-top-4">Mon - FriI 11am - 8pm (lunch)</time>
-                        <time datetime="2016" class="display-block offset-top-4">Sat 8am - 12pm (breakfast)</time>
-                        <time datetime="2016" class="display-block offset-top-4">Sat 12pm - 4pm (lunch)</time>
-                      </div>
+                  <div class="cell-sm-4 text-center text-sm-left">
+                    <div>
+                      <img class="imgCenter" src="../images/building.png">
+                    </div>
+                    <div class="infoBox">
+                      <p class="infoBoxP">Address:<br>39-16 Prince St(2 FL)<br>Flushing NY 11354</p>
+                    </div>
+                  </div>
+                  <div class="cell-sm-4 text-center text-sm-left">
+                    <div>
+                      <img class="imgCenter" src="../images/envelope.png">
+                    </div>
+                    <div class="infoBox">
+                      <p class="infoBoxP">Email:</p>
                     </div>
                   </div>
                   <div class="cell-xs-12 offset-top-37">
                     <!-- RD Google Map-->
-                    <div data-zoom="15" data-x="-73.9874068" data-y="40.643180" data-styles="" class="rd-google-map rd-google-map__model">
-                      <ul class="map_locations">
-                        <li data-x="-73.9874068" data-y="40.643180">
-                          <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</p>
-                        </li>
-                      </ul>
+                    <div id="contact-map" class="map-area">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1198364210695!2d-73.83485688497547!3d40.75938894265273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600e42a1f5f5%3A0xf949f31e3da7e344!2s39-16+Prince+St%2C+Flushing%2C+NY+11354!5e0!3m2!1sen!2sus!4v1499284399569" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                   </div>
                   <div class="cell-xs-12 offset-top-42">
