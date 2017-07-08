@@ -6,18 +6,18 @@
         <div class="rd-navbar-address">
           <div class="unit unit-horizontal unit-spacing-xs">
             <div class="unit-left"><span class="icon icon-xxs mdi mdi-map-marker"></span></div>
-            <div class="unit-body"><a href="#" class="text-base">4578 Marmora Road, Glasgow D04 89GR</a></div>
+            <div class="unit-body"><a href="#" class="text-base">39-16 Prince St(2 FL) Flushing NY 11354</a></div>
           </div>
         </div>
         <div class="rd-navbar-address">
           <div class="unit unit-horizontal unit-spacing-xs">
             <div class="unit-left"><span class="icon icon-xxs mdi mdi-phone"></span></div>
-            <div class="unit-body"><a href="callto:#" class="text-base">+1 (800) 123 1334</a></div>
+            <div class="unit-body"><a href="callto:#" class="text-base">+1 (917) 983-6666</a></div>
           </div>
           <div class="unit unit-horizontal unit-spacing-xs">
             <div class="unit-left"><span class="icon icon-xxs mdi mdi-clock"></span></div>
             <div class="unit-body">
-              <time datetime="2016">10:00 am-11:00 pm</time>
+              <time datetime="2016">Mon - Sun 11:00 am-10:30 pm</time>
             </div>
           </div>
         </div>

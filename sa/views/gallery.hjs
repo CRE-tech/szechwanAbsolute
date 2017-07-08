@@ -3,27 +3,21 @@
 <html lang="en" class="wide wow-animation">
   <head>
     <!-- Site Title-->
-    <title>Szechwan Absolute | Gallery</title>
+    <title>Szechwan Absolute | Home</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <script type="text/javascript">
-    //<![CDATA[
-    try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"af13290c4a1b867e64066d39a8f7cb7e",petok:"cda9785127590b0fe99b4abb9a9ca6a877c6c8bb-1499412719-1800",zone:"template-help.com",rocket:"0",apps:{"abetterbrowser":{"ie":"7"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=85b614c0f6/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
-    //]]>
-    </script>
-    <script type="text/javascript" src="/javascripts/googleAnalytic_plugins.js"></script>
-    <script type="text/javascript" src="/javascripts/googleAnalytic_analytic.js"></script>
-    <script type="text/javascript" async src="/javascripts/googleTagManager.js"></script>
-    <script type="text/javascript" async src="/javascripts/googleAnalytic_ga.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.4.57/css/materialdesignicons.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:400,700%7CMerriweather+Sans">
     <link rel="stylesheet" href="stylesheets/mainCss.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <!-- material design iconic font -->
+
     <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -251,97 +245,14 @@
     <!-- Java script-->
     <script src="/javascripts/core.min.js"></script>
     <script src="/javascripts/script.js"></script>
-    <!-- begin olark code-->
-    <script data-cfasync="false" type="text/javascript">
-      /*<![CDATA[*/
-      window.olark || (function(c) {
-      var f = window,
-      d = document,
-      l = f.location.protocol == "https:" ? "https:" : "http:",
-      z = c.name,
-      r = "load";
-      var nt = function() {
-      f[z] = function() {
-      (a.s = a.s || []).push(arguments)
-      };
-      var a = f[z]._ = {},
-      q = c.methods.length;
-      while (q--) {
-      (function(n) {
-      f[z][n] = function() {
-      f[z]("call", n, arguments)
-      }
-      })(c.methods[q])
-      }
-      a.l = c.loader;
-      a.i = nt;
-      a.p = {
-      0: +new Date
-      };
-      a.P = function(u) {
-      a.p[u] = new Date - a.p[0]
-      };
-      function s() {
-      a.P(r);
-      f[z](r)
-      }
-      f.addEventListener ? f.addEventListener(r, s, false) : f.attachEvent("on" + r, s);
-      var ld = function() {
-      function p(hd) {
-      hd = "head";
-      return ["<", hd, "></", hd, "><", i, ' onl' + 'oad="var d=', g, ";d.getElementsByTagName('head')[0].", j, "(d.", h, "('script')).", k, "='", l, "//", a.l, "'", '"', "></", i, ">"].join("")
-      }
-      var i = "body",
-      m = d[i];
-      if (!m) {
-      return setTimeout(ld, 100)
-      }
-      a.P(1);
-      var j = "appendChild",
-      h = "createElement",
-      k = "src",
-      n = d[h]("div"),
-      v = n[j](d[h](z)),
-      b = d[h]("iframe"),
-      g = "document",
-      e = "domain",
-      o;
-      n.style.display = "none";
-      m.insertBefore(n, m.firstChild).id = z;
-      b.frameBorder = "0";
-      b.id = z + "-loader";
-      if (/MSIE[ ]+6/.test(navigator.userAgent)) {
-      b.src = "javascript:false"
-      }
-      b.allowTransparency = "true";
-      v[j](b);
-      try {
-      b.contentWindow[g].open()
-      } catch (w) {
-      c[e] = d[e];
-      o = "javascript:var d=" + g + ".open();d.domain='" + d.domain + "';";
-      b[k] = o + "void(0);"
-      }
-      try {
-      var t = b.contentWindow[g];
-      t.write(p());
-      t.close()
-      } catch (x) {
-      b[k] = o + 'd.write("' + p().replace(/"/g, String.fromCharCode(92) + '"') + '");d.close();'
-      }
-      a.P(2)
-      };
-      ld()
-      };
-      nt()
-      })({
-      loader: "static.olark.com/jsclient/loader0.js",
-      name: "olark",
-      methods: ["configure", "extend", "declare", "identify"]
-      });
-      /* custom configuration goes here (www.olark.com/documentation) */
-      olark.identify('7830-582-10-3714'); /*]]>*/
+    <script type="text/javascript">
+    //<![CDATA[
+    try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"af13290c4a1b867e64066d39a8f7cb7e",petok:"cda9785127590b0fe99b4abb9a9ca6a877c6c8bb-1499412719-1800",zone:"template-help.com",rocket:"0",apps:{"abetterbrowser":{"ie":"7"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=85b614c0f6/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+    //]]>
     </script>
-    <noscript><a href="https://www.olark.com/site/7830-582-10-3714/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by<a href="https://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
-  <script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager -->
+    <script type="text/javascript" src="/javascripts/googleAnalytic_plugins.js"></script>
+    <script type="text/javascript" src="/javascripts/googleAnalytic_analytic.js"></script>
+    <script type="text/javascript" async src="/javascripts/googleTagManager.js"></script>
+    <script type="text/javascript" async src="/javascripts/googleAnalytic_ga.js"></script>
+  </body>
 </html>
