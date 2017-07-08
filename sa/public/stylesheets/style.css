@@ -12,6 +12,15 @@
 
 }
 
+.infoBox58 {
+  margin-top: 58px;
+
+}
+
+.infoBox10 {
+  margin-top: 10px;
+
+}
 .infoBoxP {
 	font-size: 16px;
 	text-align: center;
@@ -74,8 +83,33 @@
 }
 
 
+
 img{max-width: 100%;}
 
 div .none{
   display:none;
+}
+.popBoxSize {
+  max-height: 300px;
+}
+
+#mt70 {
+  margin-top: 70px;
+}
+
+#fs18 {
+  font-size: 18px;
+}
+
+#marginLogo {
+  margin-top: 50px;
+}
+
+.marginTop_10 {
+  margin-top: -10px;
+}
+
+#marginTop40 {
+  margin-top: 40px;
+
 }

@@ -32430,9 +32430,16 @@ ul ul, ul ol, ol ul, ol ol {
   height: 320px;
 }
 
+.swiper-slider2{
+	height: 320px;
+}
+
 @media (min-width: 560px) {
   .swiper-slider {
     height: 350px;
+  }
+  .swiper-slider2 {
+  	height: 200px;
   }
 }
 
@@ -32441,6 +32448,10 @@ ul ul, ul ol, ol ul, ol ol {
     height: calc(60vh - 63px);
     min-height: 457px;
   }
+  .swiper-slider2 {
+  	max-height: calc(60vh - 63px);
+  }
+
 }
 
 @media (min-width: 992px) {
@@ -32448,12 +32459,21 @@ ul ul, ul ol, ol ul, ol ol {
   .ipad .swiper-slider {
     height: calc(100vh - 126px);
   }
+
+  .tablet .swiper-slider2,
+  .ipad .swiper-slider2 {
+    height: calc(100vh - 126px);
+  }
+
 }
 
 @media (min-width: 1200px) {
   .swiper-slider {
     height: calc(100vh - 363px);
     max-height: 667px;
+  }
+  .swiper-slider2 {
+    height: calc(100vh - 363px);
   }
 }
 
@@ -32462,6 +32482,9 @@ ul ul, ul ol, ol ul, ol ol {
     height: calc(100vh - 363px);
     max-height: 667px;
     min-height: 667px;
+  }
+  .swiper-slider2 {
+    height: calc(100vh - 363px);
   }
 }
 
@@ -32472,12 +32495,24 @@ ul ul, ul ol, ol ul, ol ol {
   .swiper-slider .btn-group-variant {
     margin-top: 90px;
   }
+
+  .swiper-slider2 .slogan {
+    display: none;
+  }
+  .swiper-slider2 .btn-group-variant {
+    margin-top: 90px;
+  }
+
 }
 
 @media (min-width: 1300px) and (max-height: 840px) {
   .swiper-slider {
     height: calc(60vh - 63px);
     min-height: 670px;
+  }
+
+  .swiper-slider2 {
+    height: calc(60vh - 63px);
   }
 }
 
