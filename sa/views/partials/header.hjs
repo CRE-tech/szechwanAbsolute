@@ -43,7 +43,7 @@
         <div class="rd-navbar-nav-wrap">
           <!-- RD Navbar Nav-->
           <ul class="rd-navbar-nav">
-            <li class="active"><a href="./">Home</a></li>
+            <li><a href="./">Home</a></li>
             <li><a href="./menu">Menu</a></li>
             <li><a href="./about">About</a></li>
             <li><a href="./gallery">Gallery</a></li>
