@@ -51,19 +51,17 @@
       <main class="page-content">
         <section class="section-66 section-sm-top-83 section-sm-bottom-75 text-center text-sm-left">
           <div class="shell">
-            <h3 class="text-center">Our history</h3>
+            <h3 class="text-center"></h3>
             <div class="range offset-top-10 offset-sm-top-36">
               <div class="cell-sm-6 cell-md-4">
-                <h6 class="text-uppercase">Downtown New York, 1946</h6>
-                <p class="offset-top-10 offset-sm-top-34">Food &amp; Wine Restaurant opened in November of 1999. The owners, Bob Stewart and Tom Pazianos had spent many years in the restaurant business as franchisees and they were ready to open an original concept. They had slowly developed a plan over many years of visiting restaurants all over North America and the world. Ideas they had collected and designs they had studied were worked out and refined here.</p>
+                <p>word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word</p>
               </div>
               <div class="cell-sm-6 cell-md-4">
                 <div class="img-wrap-1"><img src="images/aboutPic.png" alt="" width="370" height="auto">
                 </div>
               </div>
               <div class="cell-sm-12 cell-md-4 offset-sm-top-30 offset-md-top-0">
-                <p>Here, the surroundings are comfortable and the focus is contemporary cuisine of exceptional quality. Signature dishes created by our chef include certified Angus tenderloin, cedar plank salmon, black and blue ahi tuna and wood oven pizzas. Our desserts are prepared in-house by our pastry chef. Our extensive  wine list was compiled by our wine expert with numerous vintage wines as well as over 30 wines by the glass.</p>
-                <p>Food &amp; Wine Restaurant has been listed in "Where to Eat in the US" for several years running and the wine list has earned the "Wine Spectator Award of Excellence" every year since 2002. It became possible due to our loyal visitors and clients that admire our wines and dishes since 1999.</p>
+                <p>word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word</p>
               </div>
               <div class="cell-xs-12 offset-top-40">
                 <hr class="hr-fullwidth hr-gray">
@@ -72,9 +70,9 @@
           </div>
         </section>
             <!-- why choose us -->
-        <section>
+        <section class="ycu">
           <div class="shell">
-            <div class="range range-xs-center border-wrap text-center offset-top-66 text-dark" id="marginTop0">
+            <div class="range range-xs-center border-wrap text-center offset-top-66 text-dark mg20" id="marginTop0">
               <div class="cell-xs-6 cell-sm-5 cell-lg-5" class= "test"> 
                 <div> 
                   <h3 class="text-center">Why Choose Us </h3>
@@ -82,7 +80,7 @@
               </div>
             </div> 
             <!-- three reasons -->
-            <div class="range range-xs-center range-stretch offset-top-30 text-center">
+            <div class="range range-xs-center range-stretch offset-top-30 text-center mg20">
               <div class="cell-xs-6 cell-md-4">
                 <div class="thumbnail-variant-1">
                   <div class="thumbnail-design-element">

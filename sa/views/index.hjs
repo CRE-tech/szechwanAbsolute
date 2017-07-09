@@ -63,7 +63,7 @@
         <section class="section-50 section-sm-top-30 section-sm-bottom-98 text-left">
           <div class="shell">
             <h3 class="text-center offset-sm-top-80">Our Popular Dish</h3>
-            <p class="h6 text-regular text-base text-center font-default">We proudly present our authentic Szechwan cuisine.</p>
+            <p class="h6 text-regular text-base text-center font-default">We proudly present our popular Szechwan cuisine.</p>
             <div data-items="1" data-sm-items="2" data-md-items="3" data-stage-padding="0" data-loop="true" data-margin="0" data-mouse-drag="false" data-nav="true" class="owl-carousel offset-top-5">
               <div class="quote-1">
                 <div id="mt70">
@@ -162,24 +162,44 @@
                   </div>
                   <ul class="list-unstyled-variant-1">
                     <li>
-                      <p><span class="text-white">Pan Roasted Fresh Salmon  &nbsp;</span><span class="text-bold text-white">$19</span></p>
-                      <p>Braised Rutabaga, Marbled Potato, Herbed White Wine Sauce</p>
+                      <div class="displayBl">
+                        <div  class="leftFloat">
+                          <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                        </div>
+                        <div class="text-white"> Roasted Chicken with Pig's Intestines</div>
+                      </div>
                     </li>
                     <li>
-                      <p><span class="text-white">Yellowfin Tuna  &nbsp;</span><span class="text-bold text-white">$24</span></p>
-                      <p>Asparagus, Fingerling Potatoes, Oven Dried Tomato, Shiitake Mushroom, Truffle Vinaigrette</p>
+                      <div class="displayBl">
+                        <div class="leftFloat">
+                          <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                        </div>
+                        <div class="text-white"> Bullfrog in Szechwan Chili Oil</div>
+                      </div>
                     </li>
                     <li>
-                      <p><span class="text-white">Brasserie Fish du Jour (Market) &nbsp;</span><span class="text-bold text-white">$14</span></p>
-                      <p>Daily Preparation, Ask Server for Details</p>
+                      <div class="displayBl">
+                        <div class="leftFloat">
+                          <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                        </div>
+                        <div class="text-white"> Roasted Chicken with Konjac</div>
+                      </div>
                     </li>
                     <li>
-                      <p><span class="text-white">Confit of Duck  &nbsp;</span><span class="text-bold text-white">$18</span></p>
-                      <p>White Beans, Swiss Chard, Pancetta, Sauce Madeira</p>
+                      <div class="displayBl">
+                        <div class="leftFloat">
+                          <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                        </div>
+                        <div class="text-white"> Braised Mix (Abalone, Squid, Chicken, Pork, Pig's Tripe, Bamboo Shoots, Pleurotus Eryngii)</div>
+                      </div>
                     </li>
                     <li>
-                      <p><span class="text-white">Fresh Brasserie Pasta &nbsp;</span><span class="text-bold text-white">$17.5</span></p>
-                      <p>House-Made Pappardelle, Jumbo Shrimp, Parmesan Cream</p>
+                      <div class="displayBl">
+                        <div class="leftFloat">
+                          <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                        </div>
+                        <div class="text-white"> Sauteed Mix (Shrimp, Crab Stick, Scallops, Tomato, Pea Sprout, Dred Black Mushroom)</div>
+                      </div>
                     </li>
                   </ul>
                 </div>
@@ -193,25 +213,44 @@
                   </div>
                   <ul class="list-unstyled-variant-1">
                     <li>
-                      <p><span class="text-white">Yellowfin Tuna Tartare&nbsp;</span><span class="text-bold text-white">$14</span></p>
-                      <p>Lemon, Capers, Fresh Herb, Sun Dried Tomato, Creme Fraiche</p>
-                    </li>
-                    <li>
-                      <p><span class="text-white">Brasserie Ravioli  &nbsp;</span><span class="text-bold text-white">$8/14</span></p>
-                      <p>Certified Angus Beef Short Rib, Mushroom Fricassee, Carrot Mousseline, Bordelaise Sauce</p>
-                    </li>
-                    <li>
-                      <p><span class="text-white">Seared Polenta Cake &nbsp;</span><span class="text-bold text-white">$9</span></p>
-                      <p>Goat Cheese, Cremini Mushroom, Fricassee, Black Truffle Oil</p>
-                    </li>
-                    <li>
-                      <p><span class="text-white">House-Made Rabbit Sausage &nbsp;</span><span class="text-bold text-white">$12/17</span></p>
-                      <p>Sauteed Mustard Greens, Carrots, Toasted Almond</p>
-                    </li>
-                    <li>
-                      <p><span class="text-white">Brasserie Salmon Gravlax &nbsp;</span><span class="text-bold text-white">$13</span></p>
-                      <p>Dill, Creme Fraiche, Pickled Radish, Tobiko</p>
-                    </li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Private Kitchens Pig's Intestine</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Boiled Chicken in Special Spicy Sauce</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Deep-Fried Fish with Minced Pork, Salt Black Bean, Dry Red Pepper and Cumin Powder</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;"></div>
+                          <div class="text-white"> Light-Fried Bullfrog with Mountain Pepper</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Boiled Cattle's Black Tripe with Bean Sprout in Chili Oil</div>
+                        </div>
+                      </li>
                   </ul>
                 </div>
               </div>
@@ -224,28 +263,51 @@
                   </div>
                   <ul class="list-unstyled-variant-1">
                     <li>
-                      <p><span class="text-white">Hot Fudge Cake &nbsp;</span><span class="text-bold text-white">$14.50</span></p>
-                      <p>Creamy vanilla bean ice cream layered between moist chocolate cake finished with hot fudge & whipped cream</p>
-                    </li>
-                    <li>
-                      <p><span class="text-white">Creme Brulee &nbsp;</span><span class="text-bold text-white">$8.70</span></p>
-                      <p>Finished with fresh raspberries</p>
-                    </li>
-                    <li>
-                      <p><span class="text-white">Homemade Cheesecake &nbsp;</span><span class="text-bold text-white">$15.60</span></p>
-                      <p>Drizzled with Melba sauce or topped with an assortment of fresh berries</p>
-                    </li>
-                    <li>
-                      <p><span class="text-white">Key Lime Tart  &nbsp;</span><span class="text-bold text-white">$11.80</span></p>
-                      <p>Finished with softly whipped cream & lime zest</p>
-                    </li>
-                    <li>
-                      <p><span class="text-white">Hot Fudge Peanut Butter Cake  &nbsp;</span><span class="text-bold text-white">$9.99</span></p>
-                      <p>Chunky peanut butter ice cream layered between moist chocolate cake finished with hot fudge</p>
-                    </li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> The Authentic Double-Cooked Pork Belly</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <span class="text-white"> Mapo Tofu</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Braised Pork with Preserved Vegetable in Soy Sauce</div>
+                        </div>
+                      </li>  
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Braised Pork with Chestnuts</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Chengdu Style Roasted Chicken with Spicy Sauce</div>
+                        </div>
+                      </li>
                   </ul>
                 </div>
               </div>
+            </div>
+            <div class="loadbutton">
+              <a class="menuPageBtn" href="./menu">MENU PAGE</a>
             </div>
           </div>
         </section>

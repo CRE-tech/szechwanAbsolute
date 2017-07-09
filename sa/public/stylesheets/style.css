@@ -127,8 +127,9 @@ button {
   margin:auto;
   width: 150.488px;
   height: 36.8px;
+  
 
-  }
+}
 
 button:hover{
   background-color: #e0ca8f;
@@ -136,10 +137,48 @@ button:hover{
   
   color:black;
   
-  }
+}
 
+.menuPageBtn {
+  background-color: rgb(29,29,29);
+  border: none;
+  color:#e0ca8f;
+  font-family: "Merriweather",sans-serif;
+  margin:auto;
+  width: 150.488px;
+  height: 36.8px;
+  text-align: center;
+  padding-top: 8px;
+  transition: 0.3s;
+  letter-spacing: 2px;
+}
+
+.menuPageBtn:hover {
+  background-color: #e0ca8f;
+  border:none;
+  
+  color:black;
+}
 
 #marginTop0 {
   margin-top: 0;
 
+}
+
+.displayBl {
+  display: inline-block;
+}
+
+.leftFloat {
+  float: left;
+  padding-right: 15px;
+  padding-bottom: 38px;
+}
+
+.ycu {
+  padding: 50px 0;
+}
+
+.mg20 {
+  margin: 20px 0;
 }
