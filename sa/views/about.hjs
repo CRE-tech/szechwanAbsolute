@@ -51,13 +51,14 @@
       <main class="page-content">
         <section class="section-66 section-sm-top-83 section-sm-bottom-75 text-center text-sm-left">
           <div class="shell">
-            <h3 class="text-center"></h3>
-            <div class="range offset-top-10 offset-sm-top-36">
+            <h3 class="text-center">Count on wonderful food and excellent service. <br class="visible-lg-inline">Every guest of our Food and Wine Restaurant is sure to find <br class="visible-lg-inline">something to satisfy their palate.</h3>
+            <p class="text-center">From the moment you enter the beautiful granite and timber building that houses the Food &amp; Wine Restaurant and Cellar <br class="visible-lg-inline">Door, you know you have found something very, very special. The staff greet you warmly and the menu and wines on offer  <br class="visible-lg-inline">tempt you into whiling away an afternoon sitting on the long verandah or under the peppermint trees, watching   <br class="visible-lg-inline">the wines breathe and whisper around you.</p>
+            <!-- <div class="range offset-top-10 offset-sm-top-36">
               <div class="cell-sm-6 cell-md-4">
                 <p>word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word</p>
               </div>
               <div class="cell-sm-6 cell-md-4">
-                <div class="img-wrap-1"><img src="images/aboutPic.png" alt="" width="370" height="auto">
+                <div class="img-wrap-1"><img src="images/insideSE.png" alt="" width="370" height="auto">
                 </div>
               </div>
               <div class="cell-sm-12 cell-md-4 offset-sm-top-30 offset-md-top-0">
@@ -66,7 +67,7 @@
               <div class="cell-xs-12 offset-top-40">
                 <hr class="hr-fullwidth hr-gray">
               </div>
-            </div>
+            </div> -->
           </div>
         </section>
             <!-- why choose us -->

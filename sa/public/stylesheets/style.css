@@ -26,6 +26,16 @@
 	text-align: center;
 }
 
+.yelp {
+  font-size: 30px;
+  color: white;
+  transition: 0.3s;
+}
+
+.yelp:hover {
+  color: white;
+  font-size: 32px;
+}
 
 
 .about-resta-inner {
@@ -96,6 +106,10 @@ div .none{
   margin-top: 70px;
 }
 
+#mt50 {
+  margin-top: 50px;
+}
+
 #fs18 {
   font-size: 18px;
 }
@@ -118,7 +132,11 @@ div .none{
   display: flex;
   justify-content: center;
 }
- 
+
+#mpButton {
+  margin-bottom: 40px;
+}
+
 button {
   background-color: rgb(29,29,29);
   border: none;
@@ -160,6 +178,7 @@ button:hover{
   color:black;
 }
 
+
 #marginTop0 {
   margin-top: 0;
 
@@ -181,4 +200,14 @@ button:hover{
 
 .mg20 {
   margin: 20px 0;
+}
+
+.maps iframe {
+  pointer-events: none;
+}
+
+.abtPic {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('/images/insidemain.png')
 }
