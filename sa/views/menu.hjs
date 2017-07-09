@@ -52,8 +52,8 @@
           <div class="shell">
             <h3 class="text-center">Our menu</h3>
             <div>
-            <div class="range range-xs-center range-stretch offset-top-36">
-              <div class="cell-sm-6 cell-md-4">
+             <div class="range range-xs-center range-stretch offset-top-36">
+               <div class="cell-sm-6 cell-md-4">
                 <div class="menu">
                   <div class="header-menu">
                     <div class="header-menu-inner">
@@ -160,8 +160,7 @@
                       <p><span class="text-white">Boiled Cattle's Black Tripe with Bean Sprout in Chili Oil</span></p>
                       <p>Daily Preparation, Ask Server for Details</p>
                     </li>
-
-                    <div id="loadmore2" class="none">
+                  <div id="loadmore2" class="none">
                     <li></li>
                     <li>
                       <p><span class="text-white">Deep-Fried Beef with Crispy Rice and Dry Pepper</span></p>
@@ -191,7 +190,7 @@
                       <p><span class="text-white">Sauteed Chicken Cubes with Szechwan Chili Pepper</span></p>
                       <p>Daily Preparation, Ask Server for Details</p>
                     </li>
-                    </div>
+                  </div>
                   </ul>
                 </div>
               </div>
@@ -203,7 +202,6 @@
                     </div><img src="/images/menu2.png" alt="" width="370" height="367" class="img-responsive"/>
                   </div>
                   <ul class="list-unstyled-variant-1">
-                   
                     <li>
                       <p><span class="text-white">The Authentic Double-Cooked Pork Belly</span></p>
                      <p>Daily Preparation, Ask Server for Details</p>
@@ -226,7 +224,7 @@
                       <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                     
-                    <div id="loadmore3" class="none">
+                  <div id="loadmore3" class="none">
                     <li></li>
                     <li>
                       <p><span class="text-white">Chongqing Style Deep-Fried Diced Chicken with Dried Pepper</span></p>
@@ -292,23 +290,14 @@
                       <p><span class="text-white">Braised Trepang with Minced Pork</span></p>
                       <p>Daily Preparation, Ask Server for Details</p>
                     </li>
-                     </div>
+                  </div>
                     </ul>
+                 </div>
                 </div>
-                 
                </div>
-
-
                 <div class="loadbutton">
-
-                 <a> <button onclick="Load()">LOAD MORE/LESS</button> </a>
+                  <button onclick="Load()">LOAD MORE/LESS</button> 
                 </div>
-
-              
-           
-            
-            
-            
 
             <div  class="range range-xs-center range-stretch offset-top-36">
               <div class="cell-sm-6 cell-md-4 offset-sm-top-30">
@@ -339,7 +328,6 @@
                       <p><span class="text-white">Black Fungus with Sauce</span></p>
                       <p>Daily Preparation, Ask Server for Details</p>
                     </li>
-
                   </ul>
                 </div>
               </div>
@@ -371,8 +359,7 @@
                       <p><span class="text-white">Sauteed Pea Sprouts with Minced Garlic</span></p>
                       <p>Daily Preparation, Ask Server for Details</p>
                     </li>
-
-                    <div id="loadmore4" class="none">
+                  <div id="loadmore4" class="none">
                     <li></li>
                     <li>
                       <p><span class="text-white">Sauteed Celtuce with Minced Garlic</span></p>
@@ -395,8 +382,7 @@
                       <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                   </ul>
-                  </div>
-                
+                </div>
               </div>
               <div class="cell-sm-6 cell-md-4 offset-sm-top-30">
                 <div class="menu">
@@ -426,8 +412,7 @@
                       <p><span class="text-white">Pig's Feet in Dry Pot</span></p>
                       <p>Daily Preparation, Ask Server for Details</p>
                     </li>
-
-                    <div id="loadmore5" class="none">
+                  <div id="loadmore5" class="none">
                     <li></li>
                     <li>
                       <p><span class="text-white">Shrimp Fried Rice</span></p>
@@ -442,17 +427,16 @@
                       <p>Daily Preparation, Ask Server for Details</p>
                     </li>
                   </ul>
-                  </div>
                 </div>
-                
-                 <div class="loadbutton">
-                  <button onclick="Load2()"><p id="buttontext">LOAD MORE/LESS</p></button>
-                </div>
+              </div>
+            </div>
+              <div class="loadbutton">
+                <button onclick="Load2()">LOAD MORE/LESS</button>
+              </div>
 
-              </div>
-              <div class="cell-xs-12 offset-top-47">
+             <div class="cell-xs-12 offset-top-47">
                 <hr class="hr-gray hr-fullwidth">
-              </div>
+             </div>
             </div>
           </div>
         </section>
