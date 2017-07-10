@@ -5,12 +5,17 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+var ambius = require('./routes/ambius');
+var ambius_about = require('./routes/ambius_about');
+var ambius_contact = require('./routes/ambius_contact');
+
 var index = require('./routes/index');
 var users = require('./routes/users');
 var menu = require('./routes/menu');
 var about = require('./routes/about');
 var gallery = require('./routes/gallery');
 var contact = require('./routes/contact');
+
 
 
 var app = express();
@@ -27,12 +32,17 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', index);
+app.use('/',ambius)
+app.use('/about', ambius_about)
+app.use('/contact', ambius_contact)
+
+app.use('/sa', index);
+app.use('/sa/menu', menu);
+app.use('/sa/about',about);
+app.use('/sa/gallery',gallery);
+app.use('/sa/contact',contact);
 app.use('/users', users);
-app.use('/menu', menu);
-app.use('/about',about);
-app.use('/gallery',gallery);
-app.use('/contact',contact);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -11,10 +11,12 @@
 
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.4.57/css/materialdesignicons.css">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- favicon -->
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="/images/LOGO.3-1.jpg">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:400,700%7CMerriweather+Sans">
-    <link rel="stylesheet" href="stylesheets/mainCss.css">
+    <link rel="stylesheet" href="/stylesheets/mainCss.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
     <!-- material design iconic font -->
 

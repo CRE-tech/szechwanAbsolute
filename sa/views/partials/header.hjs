@@ -47,11 +47,12 @@
           <!-- RD Navbar Nav-->
 
           <ul class="rd-navbar-nav">
-            <li><a href="./">Home</a></li>
-            <li><a href="./menu">Menu</a></li>
-            <li><a href="./about">About</a></li>
-            <li><a href="./gallery">Gallery</a></li>
-            <li><a href="./contact">Contact</a></li>
+            <li><a href="/">Ambius</a></li>
+            <li><a href="/sa/">Home</a></li>
+            <li><a href="/sa/menu">Menu</a></li>
+            <li><a href="/sa/about">About</a></li>
+            <li><a href="/sa/gallery">Gallery</a></li>
+            <li><a href="/sa/contact">Contact</a></li>
           </ul>
         </div>
       </div>
