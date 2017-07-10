@@ -25,77 +25,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
     <!-- Page-->
     <div class="page text-center">
       <!-- Page Header-->
-      <header class="page-head section-sm-top-80 section-sm-bottom-140 bg-images-1">
-        <!-- RD Navbar-->
-        <div class="rd-navbar-wrap">
-          <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="70px" data-lg-stick-up-offset="70px" class="rd-navbar">
-            <div class="rd-navbar-inner">
-              <!-- RD Navbar Panel-->
-              <div class="rd-navbar-panel rd-navbar-cell">
-                <!-- RD Navbar Toggle-->
-                <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-                <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="index.html" class="brand-name"><span class="brand-n">iT<span>Studio</span></span><img src="images/brand.png" alt=""></a></div>
-              </div>
-              <div class="rd-navbar-nav-wrap rd-navbar-cell">
-                <!-- RD Navbar Nav-->
-                <ul class="rd-navbar-nav offset-sm-top-17">
-                  <li><a href="./">Home</a></li>
-                  <li class="active"><a href="about.html">About us</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="#">History</a></li>
-                      <li><a href="#">Who we are</a></li>
-                      <li><a href="#">Products</a></li>
-                      <li><a href="#">Careers</a></li>
-                      <li><a href="#">Testimonials</a></li>
-                      <li><a href="#">Investors</a></li>
-                      <li><a href="#">Our partners</a></li>
-                      <li><a href="#">Suppliers</a></li>
-                      <li><a href="#">News & media center</a></li>
-                      <li><a href="#">FAQs</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li><a href="contacts.html">Contacts</a></li>
-                </ul>
-              </div>
-              <div class="rd-navbar-cell">
-                <button data-rd-navbar-toggle=".login-form" class="text-md-right login-form-toggle"><span class="toggle-icon"></span></button>
-                <button data-rd-navbar-toggle=".rd-navbar-search" class="search-toggle"><span class="toggle-icon"></span></button>
-                <!--RD Navbar Search-->
-                <div class="rd-navbar-search">
-                  <form action="search-results.html" data-search-live="rd-search-results-live" method="GET" class="rd-search">
-                    <div class="form-group">
-                      <label for="rd-navbar-search-form-input" class="form-label"></label>
-                      <input id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off" class="rd-navbar-search-form-input form-control form-control-gray-lightest">
-                      <button type="submit"><span class="material-design-search100"></span></button>
-                      <div id="rd-search-results-live" class="rd-search-results-live"></div>
-                    </div>
-                  </form>
-                </div>
-                <form class="login-form text-left">
-                  <h3>Login form:</h3>
-                  <fieldset>
-                    <label>
-                      <input id="contact-email" type="email" name="email" data-constraints="@Required @Email" placeholder="Email address" class="form-control">
-                    </label>
-                    <label>
-                      <input type="password" placeholder="Password" required>
-                    </label>
-                    <div class="control">
-                      <div class="link"><a href="#">Forgot your password?</a></div>
-                      <div class="login"><a href="#" class="text-bold">log in</a></div>
-                      <div class="link offset-top-17"><a href="#" class="text-uppercase text-bold">or register</a></div>
-                    </div>
-                  </fieldset>
-                </form>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </header>
+      {{> header}}
       <!-- Page Content-->
       <main class="page-content">
         <section class="bg-images-2 section-80 section-md-bottom-190 section-lg-top-80">
@@ -219,32 +149,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
         </section>
       </main>
       <!-- Page Footer-->
-      <footer class="page-foot section-lg-110 section-80">
-        <div class="shell">
-          <div class="range">
-            <div class="cell-md-3 cell-sm-6 cell-md-preffix-1 cell-sm-push-3 offset-sm-top--40 offset-md-top-0">
-              <ul class="list-inline text-sm-left">
-                <li><a href="#" class="fa-facebook"></a></li>
-                <li><a href="#" class="fa-google-plus"></a></li>
-                <li><a href="#" class="fa-linkedin"></a></li>
-                <li><a href="#" class="fa-twitter"></a></li>
-              </ul>
-            </div>
-            <div class="cell-md-4 cell-sm-6 text-center text-sm-left cell-sm-push-2">
-              <div class="contact-info">USA - LOS ANGELES,<br class="hidden visible-lg-block visible-md-block">	901 East E Street, Wilmington, CA 90744
-              </div>
-              <div class="mail">E-mail:	<a href="/cdn-cgi/l/email-protection#ceed"><span class="__cf_email__" data-cfemail="c5a8a4aca985a1a0a8aaa9acabaeebaab7a2">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
-              </div>
-              <div class="phone offset-top-10"><a href="callto:#"><span>(800)</span>-2345-6789</a></div>
-            </div>
-            <div class="cell-md-3 cell-sm-6 text-center text-sm-left cell-sm-push-1">
-              <div class="brand-footer offset-top-40 offset-sm-top-8"><a href="index.html"><img src="images/brand-footer.png" alt=""></a></div>
-              <p>&#169;	<span id="copyright-year"></span>	|	<a href="privacy.html">Privacy Policy</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
+      {{> footer}}
     </div>
     <!-- Global Mailform Output-->
     <div id="form-output-global" class="snackbars"></div>

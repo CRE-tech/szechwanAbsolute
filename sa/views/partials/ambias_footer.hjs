@@ -1,0 +1,27 @@
+<footer class="page-foot section-lg-110 section-80">
+        <div class="shell">
+          <div class="range">
+            <div class="cell-md-3 cell-sm-6 cell-md-preffix-1 cell-sm-push-3 offset-sm-top--40 offset-md-top-0">
+              <ul class="list-inline text-sm-left">
+                <li><a href="#" class="fa-facebook"></a></li>
+                <li><a href="#" class="fa-google-plus"></a></li>
+                <li><a href="#" class="fa-linkedin"></a></li>
+                <li><a href="#" class="fa-twitter"></a></li>
+              </ul>
+            </div>
+            <div class="cell-md-4 cell-sm-6 text-center text-sm-left cell-sm-push-2">
+              <div class="contact-info">USA - LOS ANGELES,<br class="hidden visible-lg-block visible-md-block">	901 East E Street, Wilmington, CA 90744
+              </div>
+              <div class="mail">E-mail:	<a href="/cdn-cgi/l/email-protection#7f5c"><span class="__cf_email__" data-cfemail="93fef2faffd3f7f6fefcfffafdf8bdfce1f4">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
+              </div>
+              <div class="phone offset-top-10"><a href="callto:#"><span>(800)</span>-2345-6789</a></div>
+            </div>
+            <div class="cell-md-3 cell-sm-6 text-center text-sm-left cell-sm-push-1">
+              <div class="brand-footer offset-top-40 offset-sm-top-8"><a href="/"><img src="/images/brand-footer.png" alt=""></a></div>
+              <p>&#169;	<span id="copyright-year"></span>	|	<a href="privacy.html">Privacy Policy
+                  <!-- {%FOOTER_LINK}--></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>

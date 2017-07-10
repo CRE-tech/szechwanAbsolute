@@ -6,8 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('ambias_about', { 
   	title: 'Ambias about page',
   	partials: {
-  		header: '../views/partials/header',
-  		footer: '../views/partials/footer'
+  		header: '../views/partials/ambias_header',
+  		footer: '../views/partials/ambias_footer'
   	}
   });
 });
