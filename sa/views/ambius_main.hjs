@@ -48,7 +48,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                   <li><a href="/">Restaurants</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="/sa">Szechwan Absolute</a></li>
+                      <li><a href="/sa/">Szechwan Absolute</a></li>
                       <li><a href="/sa">More to come</a></li>
                       <li><a href="/sa">More to come</a></li>
                       
