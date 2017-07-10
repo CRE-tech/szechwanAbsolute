@@ -1,7 +1,7 @@
 <div class="rd-navbar-wrap rd-navbar-variant-1">
   <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-layout="rd-navbar-fullwidth" data-lg-layout="rd-navbar-fullwidth" data-device-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fullwidth" data-lg-stick-up-offset="207px">
     <button data-rd-navbar-toggle=".rd-navbar-top-panel" type="submit" class="rd-navbar-collapse-toggle"><span></span></button>
-    <div class="rd-navbar-top-panel">
+    <!-- <div class="rd-navbar-top-panel">
       <div class="rd-navbar-top-panel-inner">
         <div class="rd-navbar-address">
           <div class="unit unit-horizontal unit-spacing-xs">
@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="rd-navbar-main-panel">
       <div class="rd-navbar-inner">
         <!-- RD Navbar Panel-->
@@ -47,7 +47,7 @@
           <!-- RD Navbar Nav-->
 
           <ul class="rd-navbar-nav">
-            <li><a href="/">Ambius</a></li>
+            <li><a href="/">Ambias</a></li>
             <li><a href="/sa/">Home</a></li>
             <li><a href="/sa/menu">Menu</a></li>
             <li><a href="/sa/about">About</a></li>

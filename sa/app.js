@@ -5,9 +5,9 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var ambius = require('./routes/ambius');
-var ambius_about = require('./routes/ambius_about');
-var ambius_contact = require('./routes/ambius_contact');
+var ambias = require('./routes/ambias');
+var ambias_about = require('./routes/ambias_about');
+var ambias_contact = require('./routes/ambias_contact');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
@@ -32,9 +32,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/',ambius)
-app.use('/about', ambius_about)
-app.use('/contact', ambius_contact)
+app.use('/',ambias)
+app.use('/about', ambias_about)
+app.use('/contact', ambias_contact)
 
 app.use('/sa', index);
 app.use('/sa/menu', menu);

@@ -211,3 +211,160 @@ button:hover{
   background-position: center;
   background-image: url('/images/insidemain.png')
 }
+
+/*.absolute_bg {
+  height: 180%;
+  width: auto;
+  position: absolute;
+  left: 50px;
+  top: 750px;
+  opacity: 0.3;
+  z-index: 0;
+}*/
+
+/*.absolute_bg {
+   height: 180%;
+    width: auto;
+    position: absolute;
+    top: 750px;
+    left: 200px;
+    opacity: 0.3;
+}*/
+
+
+
+@media only screen and (max-width: 1500px) {
+  .absolute_bg {
+    height: 160%;
+    width: auto;
+    position: absolute;
+    top: 750px;
+    left: 130px;
+    opacity: 0.3
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .absolute_bg {
+    height: 150%;
+    width: auto;
+    position: absolute;
+    top: 750px;
+    left: 135px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .absolute_bg {
+    height: 130%;
+    width: auto;
+    position: absolute;
+    top: 625px;
+    left: 160px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .absolute_bg {
+    height: 120%;
+    width: auto;
+    position: absolute;
+    top: 625px;
+    left: 160px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .absolute_bg {
+    height: 120%;
+    width: auto;
+    position: absolute;
+    top: 625px;
+    left: 85px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .absolute_bg {
+    height: 110%;
+    width: auto;
+    position: absolute;
+    top: 680px;
+    left: 90px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .absolute_bg {
+    height: 110%;
+    width: auto;
+    position: absolute;
+    top: 680px;
+    left: 40px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .absolute_bg {
+    height: 110%;
+    width: auto;
+    position: absolute;
+    top: 680px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .absolute_bg {
+    height: 105%;
+    width: auto;
+    position: absolute;
+    top: 450px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .absolute_bg {
+    height: 95%;
+    width: auto;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .absolute_bg {
+    height: 85%;
+    width: auto;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .absolute_bg {
+    height: 85%;
+    width: auto;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .absolute_bg {
+    height: 85%;
+    width: auto;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+  }
+}
+
+
+.zIndex {
+  z-index: 2;
+}

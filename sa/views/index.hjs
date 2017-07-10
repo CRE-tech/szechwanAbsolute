@@ -29,6 +29,7 @@
     <link data-olark="true" rel="stylesheet" href="/stylesheets/artsy_albatross.css" type="text/css">
   </head>
   <body>
+    <img class="absolute_bg" src="/images/logofinal3.png">
     <!-- Page-->
     <div class="page text-center">
       <!-- Page Header-->
@@ -153,7 +154,7 @@
               </div>
             </div>
             <h3 class="text-center offset-top-55">Our menu</h3>
-            <div class="range range-xs-center range-stretch offset-top-43">
+            <div class="range range-xs-center range-stretch offset-top-43 zIndex">
               <div class="cell-sm-6 cell-md-4">
                 <div class="menu">
                   <div class="header-menu">
