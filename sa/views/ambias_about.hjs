@@ -15,6 +15,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CMerriweather+Sans:400,300,300italic,700,400italic,700italic,800,800italic">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="/stylesheets/ambiusMainCss.css">
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
@@ -25,7 +26,72 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
     <!-- Page-->
     <div class="page text-center">
       <!-- Page Header-->
-      {{> header}}
+      <header class="page-head section-top-40 section-sm-bottom-140" style="background-image: url('https://livedemo00.template-help.com/wt_61215/images/about-01.jpg')">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="70px" data-lg-stick-up-offset="70px" class="rd-navbar">
+
+            <div class="rd-navbar-inner">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel rd-navbar-cell">
+                <!-- RD Navbar Toggle-->
+                <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand"><a href="index.html" class="brand-name"><span class="brand-n">iT<span>Studio</span></span><img src="/images/building.png" height="100px" width="auto" alt=""></a></div>
+              </div>
+              <div class="rd-navbar-nav-wrap rd-navbar-cell">
+                <!-- RD Navbar Nav-->
+                <ul class="rd-navbar-nav offset-sm-top-17">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/about">About us</a>
+                  <li><a href="/">Restaurants</a>
+                    <!-- RD Navbar Dropdown-->
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="/sa">Szechwan Absolute</a></li>
+                      <li><a href="/sa">More to come</a></li>
+                      <li><a href="/sa">More to come</a></li>
+                      
+                    </ul>
+                  </li>
+                  <!-- <li><a href="gallery.html">Gallery</a></li> -->
+                  <li><a href="/contact">Contacts</a></li>
+                </ul>
+              </div>
+              <div class="rd-navbar-cell">
+                <!-- <button data-rd-navbar-toggle=".login-form" class="text-md-right login-form-toggle"><span class="toggle-icon"></span></button>
+                <button data-rd-navbar-toggle=".rd-navbar-search" class="search-toggle"><span class="toggle-icon"></span></button> -->
+                <!--RD Navbar Search-->
+                <!-- <div class="rd-navbar-search">
+                  <form action="search-results.html" data-search-live="rd-search-results-live" method="GET" class="rd-search">
+                    <div class="form-group">
+                      <label for="rd-navbar-search-form-input" class="form-label"></label>
+                      <input id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off" class="rd-navbar-search-form-input form-control form-control-gray-lightest">
+                      <button type="submit"><span class="material-design-search100"></span></button>
+                      <div id="rd-search-results-live" class="rd-search-results-live"></div>
+                    </div>
+                  </form>
+                </div> -->
+                <form class="login-form text-left">
+                  <h3>Login form:</h3>
+                  <fieldset>
+                    <label>
+                      <input id="contact-email" type="email" name="email" data-constraints="@Required @Email" placeholder="Email address" class="form-control">
+                    </label>
+                    <label>
+                      <input type="password" placeholder="Password" required>
+                    </label>
+                    <div class="control">
+                      <div class="link"><a href="#">Forgot your password?</a></div>
+                      <div class="login"><a href="#" class="text-bold">log in</a></div>
+                      <div class="link offset-top-17"><a href="#" class="text-uppercase text-bold">or register</a></div>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
       <!-- Page Content-->
       <main class="page-content">
         <section class="bg-images-2 section-80 section-md-bottom-190 section-lg-top-80">
@@ -33,18 +99,18 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
             <div class="range range-md-bottom">
               <div class="cell-md-6">
                 <h1>Our Values</h1>
-                <p class="text-bold text-mine offset-top-35 inset-md-right-85">We mark out several principles that are fundamental when it goes to securing your data.</p>
-                <p class="offset-top-30 inset-md-right-85">These principles are simplicity, professionalism and respect. From designing the personalized IT solution for your company to integrating it into your working environment, our specialists will make sure the services we provide work as your own advantage.</p>
+                <p class="text-bold text-mine offset-top-35 inset-md-right-85">We mark out several principles that are fundamental when it goes to securing your customers.</p>
+                <p class="offset-top-30 inset-md-right-85">These principles are simplicity, professionalism and respect. From designing the personalized business solution for your company to integrating it into your working environment, our specialists will make sure the services we provide work as your own advantage.</p>
               </div>
               <div class="cell-md-6 position-r">
                 <ul class="list list-var-1 offset-top-35 offset-md-top-0">
-                  <li><a href="#">Data processing</a></li>
-                  <li><a href="#">Cloud services</a></li>
-                  <li><a href="#">Virus protection</a></li>
-                  <li><a href="#">Technical assistance</a></li>
+                  <li><a href="#">Processing</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Protection</a></li>
+                  <li><a href="#">Assistance</a></li>
                   <li><a href="#">Remote support</a></li>
-                  <li><a href="#">Device maintenance</a></li>
-                  <li><a href="#">24-Hour Technical Support</a></li>
+                  <li><a href="#">Maintenance</a></li>
+                  <li><a href="#">24-Hour Support</a></li>
                 </ul>
               </div>
             </div>
@@ -61,15 +127,15 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                   </li>
                   <li class="text-left">
                     <h2 class="line-height">Mark Johnson</h2>
-                    <p>He is our Marketing Manager, responsible for promoting our products and services.</p>
+                    <p>He is our Marketing Manager, responsible for promoting our services.</p>
                   </li>
                   <li class="text-left">
                     <h2 class="line-height">Patrick Pool</h2>
-                    <p>Patrick is our leading webmaster, who coordinates the work of our specialists.</p>
+                    <p>Patrick is our sales director, who coordinates the work of our specialists.</p>
                   </li>
                   <li class="text-left">
                     <h2 class="line-height">Dayle Peters</h2>
-                    <p>Software Design. Her work is to ease your interaction with our software.</p>
+                    <p>Her work is to ease your interaction with your clients.</p>
                   </li>
                 </ol>
               </div>
@@ -78,30 +144,30 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
           <div class="section-abs-2">
             <div class="range range-condensed">
               <div class="cell-md-6 cell-sm-6 full-height">
-                <div class="img-wraper"><img src="images/about-03.jpg" alt="">
+                <div class="img-wraper"><img src="images/AmbiusImage/about-03.jpg" alt="">
                   <div class="img-caption">
                     <h2 class="line-height">Caroline Beek</h2>
                     <p>She is responsible for establishing high level of performance and offered services.</p>
                   </div>
                 </div>
-                <div class="img-wraper"><img src="images/about-06.jpg" alt="">
+                <div class="img-wraper"><img src="images/AmbiusImage/about-06.jpg" alt="">
                   <div class="img-caption">
                     <h2 class="line-height">Patrick Pool</h2>
-                    <p>Patrick is our leading webmaster, who coordinates the work of our specialists.</p>
+                    <p>Patrick is our sales director, who coordinates the work of our specialists.</p>
                   </div>
                 </div>
               </div>
               <div class="cell-md-6 cell-sm-6 full-height">
-                <div class="img-wraper"><img src="images/about-04.jpg" alt="">
+                <div class="img-wraper"><img src="images/AmbiusImage/about-04.jpg" alt="">
                   <div class="img-caption">
                     <h2 class="line-height">Mark Johnson</h2>
-                    <p>He is our Marketing Manager, responsible for promoting our products and services.</p>
+                    <p>He is our Marketing Manager, responsible for promoting our services.</p>
                   </div>
                 </div>
-                <div class="img-wraper"><img src="images/about-05.jpg" alt="">
+                <div class="img-wraper"><img src="images/AmbiusImage/about-05.jpg" alt="">
                   <div class="img-caption">
                     <h2 class="line-height">Dayle Peters</h2>
-                    <p>Software Design. Her work is to ease your interaction with our software.</p>
+                    <p>Her work is to ease your interaction with your clients.</p>
                   </div>
                 </div>
               </div>
@@ -116,7 +182,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                 <ol class="list-alpha list-style-none offset-top-30">
                   <li class="text-left">
                     <h3 class="line-height text-bold text-mine">Great experience.</h3>
-                    <p>For 8 years of our company's development, we managed to gain real success in the sphere of IT support. Such recognition proves that our popularity is absolutely deserved.</p>
+                    <p>For 8 years of our company's development, we managed to gain real success in the sphere of business support. Such recognition proves that our popularity is absolutely deserved.</p>
                   </li>
                   <li class="text-left">
                     <h3 class="line-height text-bold text-mine">Highly skilled staff.</h3>
@@ -131,14 +197,14 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
             </div>
           </div>
           <div class="section-abs-4">
-            <div class="img-wraper"><img src="images/about-07.jpg" alt="">
+            <div class="img-wraper"><img src="images/AmbiusImage/about-07.jpg" alt="">
               <div class="img-caption section-top-105">
-                <h1 class="text-primary text-uppercase">IT training</h1>
-                <p class="offset-top-37">We offer our individual clients an opportunity to learn how to solve the most abundant IT issues. Find out what range of services.</p>
+                <h1 class="text-primary text-uppercase">Business training</h1>
+                <p class="offset-top-37">We offer our individual clients an opportunity to learn how to solve the most abundant issues. Find out what range of services.</p>
                 <div class="link-var-1 offset-top-25 link-praimary"><a href="#">read more</a></div>
               </div>
             </div>
-            <div class="img-wraper"><img src="images/about-08.jpg" alt="">
+            <div class="img-wraper"><img src="images/AmbiusImage/about-08.jpg" alt="">
               <div class="img-caption text-white section-top-105">
                 <h1 class="text-primary text-uppercase">what's new?</h1>
                 <p class="offset-top-37">Our company employs a great number of highly skilled specialists that know their job better than anyone.</p>

@@ -1,4 +1,4 @@
-<header class="page-head section-top-40">
+<header class="page-head section-top-40" style="background-image: url('https://livedemo00.template-help.com/wt_61215/images/about-01.jpg')">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
           <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="70px" data-lg-stick-up-offset="70px" class="rd-navbar">
