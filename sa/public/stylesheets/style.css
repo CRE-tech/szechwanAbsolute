@@ -231,6 +231,62 @@ button:hover{
     opacity: 0.3;
 }*/
 
+@media only screen and (max-width: 2000px) {
+  .absolute_bg {
+    height: 160%;
+    width: auto;
+    position: absolute;
+    top: 750px;
+    left: 280px;
+    opacity: 0.3
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+  .absolute_bg {
+    height: 160%;
+    width: auto;
+    position: absolute;
+    top: 750px;
+    left: 250px;
+    opacity: 0.3
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .absolute_bg {
+    height: 160%;
+    width: auto;
+    position: absolute;
+    top: 750px;
+    left: 220px;
+    opacity: 0.3
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .absolute_bg {
+    height: 160%;
+    width: auto;
+    position: absolute;
+    top: 750px;
+    left: 200px;
+    opacity: 0.3
+  }
+}
+
+
+
+@media only screen and (max-width: 1600px) {
+  .absolute_bg {
+    height: 160%;
+    width: auto;
+    position: absolute;
+    top: 750px;
+    left: 180px;
+    opacity: 0.3
+  }
+}
 
 
 @media only screen and (max-width: 1500px) {
@@ -364,6 +420,9 @@ button:hover{
   }
 }
 
+.logofinal {
+  margin: 0 auto;
+}
 
 .zIndex {
   z-index: 2;

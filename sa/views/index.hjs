@@ -29,7 +29,10 @@
     <link data-olark="true" rel="stylesheet" href="/stylesheets/artsy_albatross.css" type="text/css">
   </head>
   <body>
-    <img class="absolute_bg" src="/images/logofinal3.png">
+    <div class="logofinal">
+      <img class="absolute_bg" src="/images/logofinal3.png">
+    </div>
+    
     <!-- Page-->
     <div class="page text-center">
       <!-- Page Header-->
