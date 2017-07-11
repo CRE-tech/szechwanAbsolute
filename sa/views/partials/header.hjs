@@ -47,7 +47,7 @@
           <!-- RD Navbar Nav-->
 
           <ul class="rd-navbar-nav">
-            <li><a href="/">Ambias</a></li>
+            <!---<li><a href="/">Ambias</a></li>-->
             <li><a href="/sa/">Home</a></li>
             <li><a href="/sa/menu">Menu</a></li>
             <li><a href="/sa/about">About</a></li>

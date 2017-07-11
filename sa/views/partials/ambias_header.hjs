@@ -10,7 +10,7 @@
                 <!-- RD Navbar Toggle-->
                 <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="#" class="brand-name"><span class="brand-n">iT<span>Studio</span></span><img src="http://i.imgur.com/G5RRy2x.png" height="100px" width="auto" alt=""></a></div>
+                <div class="rd-navbar-brand"><a href="#" class="brand-name"><span class="brand-n">iT<span>Studio</span></span><img src="http://i.imgur.com/HGLs6BY.png" height="100px" width="auto" alt=""></a></div>
               </div>
               <div class="rd-navbar-nav-wrap rd-navbar-cell">
                 <!-- RD Navbar Nav-->

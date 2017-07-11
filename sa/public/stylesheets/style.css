@@ -249,7 +249,7 @@ button:hover{
     width: auto;
     position: absolute;
     top: 750px;
-    left: 250px;
+    left: 200px;
     opacity: 0.3
   }
 }
@@ -429,3 +429,22 @@ button:hover{
   background-color: (0,0,0,0.1)
 }
 
+<<<<<<< HEAD
+=======
+.zIndex {
+  z-index: 2;
+}
+
+.ambiaslink{
+  color: #e0ca8f;
+  font-family: "Merriweather", serif;
+  font-size:14px;
+}
+
+.ambiaslink:hover{
+  color: white;
+  overflow: visible;
+  z-index: 1;
+
+}
+>>>>>>> 4c904f5da730e596ceeff134a52403706e83a6f8
