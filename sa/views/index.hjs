@@ -29,7 +29,10 @@
     <link data-olark="true" rel="stylesheet" href="/stylesheets/artsy_albatross.css" type="text/css">
   </head>
   <body>
-    <img class="absolute_bg" src="/images/logofinal3.png">
+    <div class="logofinal">
+      <img class="absolute_bg" src="/images/logofinal3.png">
+    </div>
+    
     <!-- Page-->
     <div class="page text-center">
       <!-- Page Header-->
@@ -65,8 +68,8 @@
       <main class="page-content">
         <section class="section-sm-top-30 text-left">
           <div class="shell">
-            <h3 class="text-center offset-top-80">Our Popular Dish</h3>
-            <p class="h6 text-regular text-base text-center font-default">We proudly present our popular Szechwan cuisine.</p>
+            <h3 class="text-center offset-top-80 zIndex">Our Popular Dish</h3>
+            <p class="h6 text-regular text-base text-center font-default zIndex">We proudly present our popular Szechwan cuisine.</p>
             <div data-items="1" data-sm-items="2" data-md-items="3" data-stage-padding="0" data-loop="true" data-margin="0" data-mouse-drag="false" data-nav="true" class="owl-carousel offset-top-5">
               <div class="quote-1">
                 <div id="mt70">
