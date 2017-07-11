@@ -2963,7 +2963,7 @@ address {
   bottom: 0;
   right: 0;
   left: 0;
-  background: url("../images/AmbiusImage/about-01.jpg") no-repeat;
+  background: url("http://i.imgur.com/QOARXAc.jpg") no-repeat;
   background-size: cover;
   z-index: 0;
 }
@@ -2980,11 +2980,7 @@ address {
   top: 0;
   bottom: 0;
   left: 50%;
-
-  background: url("../images/AmbiusImageabout-02.jpg") no-repeat;
-
-  background: url("../images/AmbiusImage/about-02.jpg") no-repeat;
-
+  background: url("http://i.imgur.com/0xg33qF.jpg") no-repeat;
   background-size: cover;
   z-index: 0;
   display: none;
@@ -14031,7 +14027,11 @@ textarea.form-control {
   padding-top: 34px;
 }
 
+.section-top-40 {
+	padding-top: 40px;
+}
 
+.section-top-normal
 
 .section-top-45 {
   padding-top: 45px;

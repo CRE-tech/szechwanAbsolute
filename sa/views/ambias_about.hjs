@@ -26,7 +26,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
     <!-- Page-->
     <div class="page text-center">
       <!-- Page Header-->
-      {{> header}}
+     
       <header class="page-head section-top-40 section-sm-bottom-140" style="background-image: url('https://livedemo00.template-help.com/wt_61215/images/about-01.jpg')">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
@@ -101,20 +101,9 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
               <div class="cell-md-6">
                 <h1>Our Values</h1>
                 <p class="text-bold text-mine offset-top-35 inset-md-right-85">We mark out several principles that are fundamental when it goes to securing your data.</p>
-                <p class="offset-top-30 inset-md-right-85">These principles are simplicity, professionalism and respect. From designing the personalized IT solution for your company to integrating it into your working environment, our specialists will make sure the services we provide work as your own advantage.</p>
-              </div>
-              <div class="cell-md-6 position-r">
-                <ul class="list list-var-1 offset-top-35 offset-md-top-0">
-                  <li><a href="#">Data processing</a></li>
-                  <li><a href="#">Cloud services</a></li>
-                  <li><a href="#">Virus protection</a></li>
-                  <li><a href="#">Technical assistance</a></li>
-                  <li><a href="#">Remote support</a></li>
-                  <li><a href="#">Device maintenance</a></li>
-                  <li><a href="#">24-Hour Technical Support</a></li>
-                <p class="text-bold text-mine offset-top-35 inset-md-right-85">We mark out several principles that are fundamental when it goes to securing your customers.</p>
                 <p class="offset-top-30 inset-md-right-85">These principles are simplicity, professionalism and respect. From designing the personalized business solution for your company to integrating it into your working environment, our specialists will make sure the services we provide work as your own advantage.</p>
               </div>
+              
               <div class="cell-md-6 position-r">
                 <ul class="list list-var-1 offset-top-35 offset-md-top-0">
                   <li><a href="#">Processing</a></li>
@@ -151,14 +140,6 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                     <p>Software Design. Her work is to ease your interaction with our software.</p>
                     <p>He is our Marketing Manager, responsible for promoting our services.</p>
                   </li>
-                  <li class="text-left">
-                    <h2 class="line-height">Patrick Pool</h2>
-                    <p>Patrick is our sales director, who coordinates the work of our specialists.</p>
-                  </li>
-                  <li class="text-left">
-                    <h2 class="line-height">Dayle Peters</h2>
-                    <p>Her work is to ease your interaction with your clients.</p>
-                  </li>
                 </ol>
               </div>
             </div>
@@ -166,18 +147,14 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
           <div class="section-abs-2">
             <div class="range range-condensed">
               <div class="cell-md-6 cell-sm-6 full-height">
-                <div class="img-wraper"><img src="images/about-03.jpg" alt="">
-                <div class="img-wraper"><img src="images/AmbiusImage/about-03.jpg" alt="">
+                
+                <div class="img-wraper"><img src="http://i.imgur.com/cDfopl5.jpg" alt="">
                   <div class="img-caption">
                     <h2 class="line-height">Caroline Beek</h2>
                     <p>She is responsible for establishing high level of performance and offered services.</p>
                   </div>
                 </div>
-                <div class="img-wraper"><img src="images/about-06.jpg" alt="">
-                  <div class="img-caption">
-                    <h2 class="line-height">Patrick Pool</h2>
-                    <p>Patrick is our leading webmaster, who coordinates the work of our specialists.</p>
-                <div class="img-wraper"><img src="images/AmbiusImage/about-06.jpg" alt="">
+                <div class="img-wraper"><img src="http://i.imgur.com/X9vzrFs.jpg" alt="">
                   <div class="img-caption">
                     <h2 class="line-height">Patrick Pool</h2>
                     <p>Patrick is our sales director, who coordinates the work of our specialists.</p>
@@ -185,23 +162,13 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                 </div>
               </div>
               <div class="cell-md-6 cell-sm-6 full-height">
-                <div class="img-wraper"><img src="images/about-04.jpg" alt="">
-                  <div class="img-caption">
-                    <h2 class="line-height">Mark Johnson</h2>
-                    <p>He is our Marketing Manager, responsible for promoting our products and services.</p>
-                  </div>
-                </div>
-                <div class="img-wraper"><img src="images/about-05.jpg" alt="">
-                  <div class="img-caption">
-                    <h2 class="line-height">Dayle Peters</h2>
-                    <p>Software Design. Her work is to ease your interaction with our software.</p>
-                <div class="img-wraper"><img src="images/AmbiusImage/about-04.jpg" alt="">
+                <div class="img-wraper"><img src="http://i.imgur.com/YRSQh8Z.jpg" alt="">
                   <div class="img-caption">
                     <h2 class="line-height">Mark Johnson</h2>
                     <p>He is our Marketing Manager, responsible for promoting our services.</p>
                   </div>
                 </div>
-                <div class="img-wraper"><img src="images/AmbiusImage/about-05.jpg" alt="">
+                <div class="img-wraper"><img src="http://i.imgur.com/Qh6Te7g.jpg" alt="">
                   <div class="img-caption">
                     <h2 class="line-height">Dayle Peters</h2>
                     <p>Her work is to ease your interaction with your clients.</p>
@@ -219,7 +186,6 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                 <ol class="list-alpha list-style-none offset-top-30">
                   <li class="text-left">
                     <h3 class="line-height text-bold text-mine">Great experience.</h3>
-                    <p>For 8 years of our company's development, we managed to gain real success in the sphere of IT support. Such recognition proves that our popularity is absolutely deserved.</p>
                     <p>For 8 years of our company's development, we managed to gain real success in the sphere of business support. Such recognition proves that our popularity is absolutely deserved.</p>
                   </li>
                   <li class="text-left">
@@ -235,22 +201,14 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
             </div>
           </div>
           <div class="section-abs-4">
-            <div class="img-wraper"><img src="images/about-07.jpg" alt="">
-              <div class="img-caption section-top-105">
-                <h1 class="text-primary text-uppercase">IT training</h1>
-                <p class="offset-top-37">We offer our individual clients an opportunity to learn how to solve the most abundant IT issues. Find out what range of services.</p>
-                <div class="link-var-1 offset-top-25 link-praimary"><a href="#">read more</a></div>
-              </div>
-            </div>
-            <div class="img-wraper"><img src="images/about-08.jpg" alt="">
-            <div class="img-wraper"><img src="images/AmbiusImage/about-07.jpg" alt="">
+            <div class="img-wraper"><img src="http://i.imgur.com/zSSZHZw.jpg" alt="">
               <div class="img-caption section-top-105">
                 <h1 class="text-primary text-uppercase">Business training</h1>
                 <p class="offset-top-37">We offer our individual clients an opportunity to learn how to solve the most abundant issues. Find out what range of services.</p>
                 <div class="link-var-1 offset-top-25 link-praimary"><a href="#">read more</a></div>
               </div>
             </div>
-            <div class="img-wraper"><img src="images/AmbiusImage/about-08.jpg" alt="">
+            <div class="img-wraper"><img src="http://i.imgur.com/naKQwol.jpg" alt="">
               <div class="img-caption text-white section-top-105">
                 <h1 class="text-primary text-uppercase">what's new?</h1>
                 <p class="offset-top-37">Our company employs a great number of highly skilled specialists that know their job better than anyone.</p>

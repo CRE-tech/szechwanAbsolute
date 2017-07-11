@@ -33,7 +33,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
         <!-- Swiper-->
         <div data-height="100vh" data-slide-effect="fade" data-min-height="360px" class="swiper-container swiper-slider offset-top--55 offset-sm-top--150">
           <div class="swiper-wrapper">
-            <div data-slide-bg="/images/ambiusImage/swiper-01.jpg" class="swiper-slide">
+            <div data-slide-bg="http://i.imgur.com/giLqoIV.jpg" class="swiper-slide">
               <div class="swiper-slide-caption">
                 <div class="shell">
                   <div class="range text-center text-md-left">
@@ -53,7 +53,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                 </div>
               </div>
             </div>
-            <div data-slide-bg="/images/ambiusImage/swiper-02.jpg" class="swiper-slide">
+            <div data-slide-bg="http://i.imgur.com/9fxb62i.jpg" class="swiper-slide">
               <div class="swiper-slide-caption">
                 <div class="shell">
                   <div class="range text-center text-md-left">
@@ -77,7 +77,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                 </div>
               </div>
             </div>
-            <div data-slide-bg="/images/ambiusImage/swiper-03.jpg" class="swiper-slide">
+            <div data-slide-bg="http://i.imgur.com/2QjJ181.jpg" class="swiper-slide">
               <div class="swiper-slide-caption">
                 <div class="shell">
                   <div class="range text-center text-md-left">
@@ -166,33 +166,33 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
           <div class="section-abs">
             <div class="range range-condensed">
               <div class="cell-md-6 cell-sm-6 full-height">
-                <div class="img-wraper"><img src="/images/ambiusImage/home-02.jpg" alt=""><span class="img-overlay"></span>
+                <div class="img-wraper"><img src="http://i.imgur.com/ITeTnd5.jpg" alt=""><span class="img-overlay"></span>
                   <div class="img-caption">
                     <h2>Pixel Perfect</h2>
                     <p class="offset-top-10">more than 200 projects</p>
                     <div class="link-var-1 offset-top-25 link-praimary"><a href="#">view now!</a></div>
                   </div>
                 </div>
-                <div class="img-wraper"><img src="/images/ambiusImage/home-04.jpg" alt=""><span class="img-overlay"></span>
+                <div class="img-wraper"><img src="http://i.imgur.com/3NGGaU7.jpg" alt=""><span class="img-overlay"></span>
                   <div class="img-caption">
-                    <h2>Virus protection</h2>
+                    <h2>Protection</h2>
                     <p class="offset-top-10">perfect security</p>
                     <div class="link-var-1 offset-top-25 link-praimary"><a href="#">view now!</a></div>
                   </div>
                 </div>
               </div>
               <div class="cell-md-6 cell-sm-6 full-height">
-                <div class="img-wraper"><img src="/images/ambiusImage/home-03.jpg" alt=""><span class="img-overlay"></span>
+                <div class="img-wraper"><img src="http://i.imgur.com/C8zOPHW.jpg" alt=""><span class="img-overlay"></span>
                   <div class="img-caption">
                     <h2>Business training</h2>
                     <p class="offset-top-10">increasing your awareness</p>
                     <div class="link-var-1 offset-top-25 link-praimary"><a href="#">view now!</a></div>
                   </div>
                 </div>
-                <div class="img-wraper"><img src="/images/ambiusImage/home-05.jpg" alt=""><span class="img-overlay"></span>
+                <div class="img-wraper"><img src="http://i.imgur.com/J6C7A9z.jpg" alt=""><span class="img-overlay"></span>
                   <div class="img-caption">
-                    <h2>Cloud services</h2>
-                    <p class="offset-top-10">upload, download and store your data</p>
+                    <h2>Services</h2>
+                    <p class="offset-top-10">Provide service</p>
                     <div class="link-var-1 offset-top-25 link-praimary"><a href="#">view now!</a></div>
                   </div>
                 </div>
@@ -228,7 +228,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
             </div>
           </div>
           <div class="section-abs-1">
-            <div class="img-wraper"><img src="/images/ambiusImage/home-06.jpg" alt="">
+            <div class="img-wraper"><img src="http://i.imgur.com/EFuSplE.jpg" alt="">
               <div class="img-caption section-top-105">
                 <h1 class="text-primary text-uppercase">Improving your company</h1>
                 <p class="offset-top-37">
@@ -237,7 +237,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                 <div class="link-var-1 offset-top-25 link-praimary"><a href="#">read more</a></div>
               </div>
             </div>
-            <div class="img-wraper"><img src="/images/ambiusImage/home-07.jpg" alt="">
+            <div class="img-wraper"><img src="http://i.imgur.com/EWd0uVs.jpg" alt="">
               <div class="img-caption text-white section-top-105">
                 <h1 class="text-white lettter-0">Testimonials</h1>
                 <blockquote class="offset-top-33">
