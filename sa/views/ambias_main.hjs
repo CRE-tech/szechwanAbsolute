@@ -38,16 +38,14 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                 <div class="shell">
                   <div class="range text-center text-md-left">
                     <div class="cell-md-6">
-                      <h1>We are the	<br class="hidden visible-lg-block visible-md-block">experienced	<br class="hidden visible-lg-block visible-md-block">team of IT	<br class="hidden visible-lg-block visible-md-block">specialists
+                      <h1>We are the	<br class="hidden visible-lg-block visible-md-block">experienced	<br class="hidden visible-lg-block visible-md-block">team of Business<br class="hidden visible-lg-block visible-md-block">specialists
                       </h1>
                     </div>
                     <div class="cell-md-4 offset-top-0 offset-sm-top-30 offset-md-top-0">
                       <p>
                         We have implemented a great number of
                         business strategies that have brought the
-                        services of Internet providers, electronics
-                        maintenance companies and web hosting
-                        agencies up to standard.
+                        services of other companies up to standard.
                       </p>
                       <div class="link-var-1 link-praimary"><a href="#">read more</a></div>
                     </div>
@@ -69,10 +67,9 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                     <div class="cell-md-4 offset-top-0 offset-sm-top-30 offset-md-top-0">
                       <p>
                         With a vast range of services we provide-from
-                        giving you 24-hour technical support all over
+                        giving you 24-hour support all over
                         the USA, our managers will make everything
-                        necessary to get your hardware and software
-                        working.
+                        necessary to get your customers coming.
                       </p>
                       <div class="link-var-1 link-praimary"><a href="#">read more</a></div>
                     </div>
@@ -85,13 +82,13 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                 <div class="shell">
                   <div class="range text-center text-md-left">
                     <div class="cell-md-6">
-                      <h1>Stress-free effective	<br class="hidden visible-lg-block visible-md-block">IT support
+                      <h1>Stress-free effective	<br class="hidden visible-lg-block visible-md-block">advice
                       </h1>
                     </div>
                     <div class="cell-md-4 offset-top-0 offset-sm-top-30 offset-md-top-0">
                       <p>
-                        We have been offering top quality
-                        IT support and troubleshooting services
+                        We have been giving top quality
+                        business advice and
                         to hundreds of clients throughout the
                         USA since our establishment.
                       </p>
@@ -120,14 +117,13 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                 <h1>About us</h1>
                 <p class="text-bold text-mine offset-top-35">
                   Our company was established in 2007, in order
-                  to deliver the highest level of IT support services
+                  to deliver the highest level of business support services
                   to everyone who requires them.
                 </p>
                 <p class="offset-top-30">
                   We are a team of high-skilled professionals who
-                  care about the level of information technology
-                  integration in modern business.  We have more than
-                  8 years of experience in IT industry.
+                  will fulfill our customer's needs. We have more than
+                  8 years of experience in the business industry.
                 </p>
                 <div class="link-var-1 offset-top-25 link-default"><a href="#">read more</a></div>
               </div>
@@ -140,14 +136,13 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
               <div class="cell-lg-6 section-md-top-110 section-bottom-99">
                 <ol class="list-alpha">
                   <li class="text-left">
-                    <h2 class="line-height">Data Processing</h2>
+                    <h2 class="line-height">Experience</h2>
                     <p>
-                      Our high-end computing powers
-                      are available at reasonable prices.
+                      Our experience in the business industry puts us ahead of our competitors.
                     </p>
                   </li>
                   <li class="text-left">
-                    <h2 class="line-height">Technical	<br class="hidden visible-lg-block visible-md-block">Assistance
+                    <h2 class="line-height"><br class="hidden visible-lg-block visible-md-block">Assistance
                     </h2>
                     <p>
                       We offer high-skilled help
@@ -155,15 +150,14 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                     </p>
                   </li>
                   <li class="text-left">
-                    <h2 class="line-height">Virus Protection</h2>
+                    <h2 class="line-height">Stability</h2>
                     <p>
-                      Perfect local and Internet
-                      security for your company.
+                      We have been in the business industry for years
                     </p>
                   </li>
                   <li class="text-left">
-                    <h2 class="line-height">Cloud Services</h2>
-                    <p>Upload, download and store your data online.</p>
+                    <h2 class="line-height">Growth</h2>
+                    <p>We are constantly improving</p>
                   </li>
                 </ol>
               </div>
@@ -190,8 +184,8 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
               <div class="cell-md-6 cell-sm-6 full-height">
                 <div class="img-wraper"><img src="/images/ambiusImage/home-03.jpg" alt=""><span class="img-overlay"></span>
                   <div class="img-caption">
-                    <h2>IT training</h2>
-                    <p class="offset-top-10">increasing your IT awareness</p>
+                    <h2>Business training</h2>
+                    <p class="offset-top-10">increasing your awareness</p>
                     <div class="link-var-1 offset-top-25 link-praimary"><a href="#">view now!</a></div>
                   </div>
                 </div>
@@ -210,25 +204,25 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
           <div class="shell">
             <div class="range range-lg-right">
               <div class="cell-lg-5 cell-lg-preffix-1 section-top-80 section-lg-top-110 text-center text-lg-left">
-                <h1>Web Design & Development</h1>
-                <p class="offset-top-33">We create	<span class="text-corn text-bold">websites your customers will love,</span>	including innovative and powerful online tools like complex web apps and custom e-businesses.
+                <h1>Business Development</h1>
+                <p class="offset-top-33">We bring	<span class="text-corn text-bold">top notch advice,</span>	alongside innovative and powerful online tools like complex web apps and custom e-businesses.
                 </p>
                 <p class="offset-top-27 text-bold text-mine">
                   For 8 years of our company's development, we managed to gain real success in the sphere of
-                  IT support. Such recognition proves that our
-                  popularity in comparison with other IT companies
+                  business support. Such recognition proves that our
+                  popularity in comparison with other business companies
                   is absolutely deserved. We employ only true
                   specialists that have enough experience and are trained enough to correspond to our level of services. We also pay a lot of attention to
                   professional development of our employees.
                 </p>
                 <ul class="list offset-top-40">
-                  <li><a href="#">Fiber-optic communication</a></li>
-                  <li><a href="#">24-Hour Technical Support</a></li>
-                  <li><a href="#">Configuring your Wi-Fi</a></li>
-                  <li><a href="#">Troubleshooting</a></li>
-                  <li><a href="#">IT training</a></li>
+                  <li><a href="#">Communication</a></li>
+                  <li><a href="#">Connections</a></li>
+                  <li><a href="#">Providing solutions</a></li>
+                  <li><a href="#">Giving assistance</a></li>
+                  <li><a href="#">Business training</a></li>
                   <li><a href="#">Remote support</a></li>
-                  <li><a href="#">Device maintenance</a></li>
+                  <li><a href="#">Advice</a></li>
                 </ul>
               </div>
             </div>
@@ -236,11 +230,9 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
           <div class="section-abs-1">
             <div class="img-wraper"><img src="/images/ambiusImage/home-06.jpg" alt="">
               <div class="img-caption section-top-105">
-                <h1 class="text-primary text-uppercase">Configuring your Wi-Fi</h1>
+                <h1 class="text-primary text-uppercase">Improving your company</h1>
                 <p class="offset-top-37">
-                  As one of the most popular network types today,
-                  Wi-Fi has recently entered our life, so everyone
-                  should know how to configure modern Wi-Fi networks.
+                  As there are so many competitors for each field, it is important to make yours unique to stand out from the rest.
                 </p>
                 <div class="link-var-1 offset-top-25 link-praimary"><a href="#">read more</a></div>
               </div>
@@ -251,8 +243,8 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                 <blockquote class="offset-top-33">
                   <p>
                     Your team has succeeded in establishing
-                    a trouble-free and reliable Intranet
-                    connection for my company.
+                    trouble-free and reliable
+                    customers for my company.
                   </p>
                 </blockquote>
                 <h2 class="text-bold">Peter Smith</h2>
