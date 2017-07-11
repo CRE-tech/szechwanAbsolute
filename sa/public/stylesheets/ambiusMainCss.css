@@ -2963,7 +2963,7 @@ address {
   bottom: 0;
   right: 0;
   left: 0;
-  background: url("../images/about-01.jpg") no-repeat;
+  background: url("../images/AmbiusImage/about-01.jpg") no-repeat;
   background-size: cover;
   z-index: 0;
 }
@@ -2981,7 +2981,7 @@ address {
   bottom: 0;
   left: 50%;
 
-  background: url("../images/about-02.jpg") no-repeat;
+  background: url("../images/AmbiusImageabout-02.jpg") no-repeat;
 
   background: url("../images/AmbiusImage/about-02.jpg") no-repeat;
 
@@ -3015,7 +3015,7 @@ address {
   top: 0;
   bottom: 0;
   right: calc(50% + 15px);
-  background: url("../images/services-01.jpg") no-repeat;
+  background: url("../images/AmbiusImage/services-01.jpg") no-repeat;
   background-size: cover;
   z-index: 0;
   display: none;
@@ -3040,7 +3040,7 @@ address {
   top: 0;
   bottom: 0;
   right: calc(50% + 15px);
-  background: url("../images/services-04.jpg") no-repeat;
+  background: url("../images/AmbiusImage/services-04.jpg") no-repeat;
   background-size: cover;
   z-index: 0;
   display: none;
@@ -26641,7 +26641,7 @@ ul ul, ul ol, ol ul, ol ol {
   opacity: 0;
   visibility: hidden;
   transition: .3s all ease;
-  background: url(../images/preloader.gif) no-repeat rgba(255, 255, 255, 0.8) center center;
+  background: url(../images/AmbiusImage/preloader.gif) no-repeat rgba(255, 255, 255, 0.8) center center;
   z-index: 6;
 }
 
@@ -27231,7 +27231,7 @@ ul ul, ul ol, ol ul, ol ol {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background: url(../images/preloader.png) no-repeat center center;
+  background: url(../images/AmbiusImage/preloader.png) no-repeat center center;
   background-position: -648px 0;
   animation: 0.7s sprite-animation steps(12) infinite;
   opacity: 0;
