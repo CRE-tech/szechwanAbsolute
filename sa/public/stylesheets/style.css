@@ -238,7 +238,8 @@ button:hover{
     position: absolute;
     top: 750px;
     left: 280px;
-    opacity: 0.3
+    opacity: 0.3;
+    z-index: 0;
   }
 }
 
@@ -425,5 +426,6 @@ button:hover{
 }
 
 .zIndex {
-  z-index: 2;
+  overflow: visible;
+  z-index: 1;
 }
