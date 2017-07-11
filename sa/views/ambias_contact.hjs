@@ -14,10 +14,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
 </script>
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets-->
-<<<<<<< HEAD
-=======
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
->>>>>>> d99cd6be8c9b73e8799d2c5a39e1b3462fd8a5e6
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CMerriweather+Sans:400,300,300italic,700,400italic,700italic,800,800italic">
     <link rel="stylesheet" href="/stylesheets/ambiusMainCss.css">
     <!--[if lt IE 10]>
@@ -29,9 +26,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
     <!-- Page-->
     <div class="page text-center">
       <!-- Page Header-->
-<<<<<<< HEAD
       {{> header}}
-=======
       <header class="page-head section-top-40 section-sm-bottom-140" style="background-image: url('https://livedemo00.template-help.com/wt_61215/images/about-01.jpg')">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
@@ -98,7 +93,6 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
           </nav>
         </div>
       </header>
->>>>>>> d99cd6be8c9b73e8799d2c5a39e1b3462fd8a5e6
       <!-- Page Content-->
       <main class="page-content">
         <section class="section-80 section-lg-top-110 section-lg-bottom-110">
