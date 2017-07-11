@@ -310,7 +310,7 @@
               </div>
             </div>
             <div class="loadbutton" id="mpButton">
-              <a class="menuPageBtn" href="./menu">MENU PAGE</a>
+              <a class="menuPageBtn" href="/sa/menu">MENU PAGE</a>
             </div>
           </div>
         </section>
