@@ -368,3 +368,7 @@ button:hover{
 .zIndex {
   z-index: 2;
 }
+
+.ambiaslink:hover{
+  color: #e0ca8f;
+}
