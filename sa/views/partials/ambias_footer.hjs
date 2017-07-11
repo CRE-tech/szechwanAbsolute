@@ -17,11 +17,19 @@
               <div class="phone offset-top-10"><a href="callto:#"><span>(800)</span>-2345-6789</a></div>
             </div>
             <div class="cell-md-3 cell-sm-6 text-center text-sm-left cell-sm-push-1">
+<<<<<<< HEAD
               <div class="brand-footer offset-top-40 offset-sm-top-8"><a href="/"><img src="/images/brand-footer.png" alt=""></a></div>
+=======
+              <div class="brand-footer offset-top-40 offset-sm-top-8"><strong>Ambius Corp </strong></div>
+>>>>>>> d99cd6be8c9b73e8799d2c5a39e1b3462fd8a5e6
               <p>&#169;	<span id="copyright-year"></span>	|	<a href="privacy.html">Privacy Policy
                   <!-- {%FOOTER_LINK}--></a>
               </p>
             </div>
           </div>
         </div>
+<<<<<<< HEAD
       </footer>
+=======
+      </footer> 
+>>>>>>> d99cd6be8c9b73e8799d2c5a39e1b3462fd8a5e6

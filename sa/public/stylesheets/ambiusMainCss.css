@@ -2980,7 +2980,11 @@ address {
   top: 0;
   bottom: 0;
   left: 50%;
+<<<<<<< HEAD
   background: url("../images/about-02.jpg") no-repeat;
+=======
+  background: url("../images/AmbiusImage/about-02.jpg") no-repeat;
+>>>>>>> d99cd6be8c9b73e8799d2c5a39e1b3462fd8a5e6
   background-size: cover;
   z-index: 0;
   display: none;
