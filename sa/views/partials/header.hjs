@@ -1,0 +1,61 @@
+<div class="rd-navbar-wrap rd-navbar-variant-1">
+  <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-layout="rd-navbar-fullwidth" data-lg-layout="rd-navbar-fullwidth" data-device-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fullwidth" data-lg-stick-up-offset="207px">
+    <button data-rd-navbar-toggle=".rd-navbar-top-panel" type="submit" class="rd-navbar-collapse-toggle"><span></span></button>
+    <!-- <div class="rd-navbar-top-panel">
+      <div class="rd-navbar-top-panel-inner">
+        <div class="rd-navbar-address">
+          <div class="unit unit-horizontal unit-spacing-xs">
+            <div class="unit-left"><span class="icon icon-xxs mdi mdi-map-marker"></span></div>
+            <div class="unit-body"><a href="#" class="text-base">39-16 Prince St(2 FL) Flushing NY 11354</a></div>
+          </div>
+        </div>
+        <div class="rd-navbar-address">
+          <div class="unit unit-horizontal unit-spacing-xs">
+            <div class="unit-left"><span class="icon icon-xxs mdi mdi-phone"></span></div>
+            <div class="unit-body"><a href="callto:#" class="text-base">+1 (917) 983-6666</a></div>
+          </div>
+          <div class="unit unit-horizontal unit-spacing-xs">
+            <div class="unit-left"><span class="icon icon-xxs mdi mdi-clock"></span></div>
+            <div class="unit-body">
+              <time datetime="2016">Mon - Sun 11:00 am-10:30 pm</time>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="rd-navbar-main-panel">
+      <div class="rd-navbar-inner">
+        <!-- RD Navbar Panel-->
+        <div class="rd-navbar-panel">
+          <!-- RD Navbar Toggle-->
+          <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" type="submit" class="rd-navbar-toggle"><span></span></button>
+          <!-- RD Navbar Brand-->
+          <div class="rd-navbar-brand">
+          <div id="marginLogo">
+            <img src="/images/blackLogo.png" height="200px;" width="auto">
+            <!-- <a class="brand-name">
+              <span>Szechwan Absolute</span>
+              <span class="textCenter">Will never claim to be number one,<br>but never admit to being number two.</span>
+              <div class="rd-navbar-address"></div>
+            </a> -->
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="rd-navbar-nav-inner justify-around display-flex align-center" id="marginTop40">
+        <div class="rd-navbar-nav-wrap">
+          <!-- RD Navbar Nav-->
+
+          <ul class="rd-navbar-nav">
+            <li><a href="/">Ambias</a></li>
+            <li><a href="/sa/">Home</a></li>
+            <li><a href="/sa/menu">Menu</a></li>
+            <li><a href="/sa/about">About</a></li>
+            <li><a href="/sa/gallery">Gallery</a></li>
+            <li><a href="/sa/contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>

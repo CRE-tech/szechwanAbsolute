@@ -1,0 +1,66 @@
+<footer class="page-foot bg-dark section-50 section-sm-78 section-sm-bottom-62 text-center text-xs-left">
+  <section class="footer-content">
+    <div class="shell">
+      <div class="range">
+        <div class="cell-xs-6 cell-sm-6 cell-md-3">
+          <div class="rd-navbar-brand"><a class="brand-name">Szechwan Absolute</a></div>
+          <address class="offset-top-20">
+            <p class="h6 text-regular font-default">Address:</p>
+            <p class="offset-top-7">39-16 Prince St(2 FL), <br>Flushing NY 11354.</p>
+            <div class="unit unit-xs-horizontal unit-spacing-xs offset-top-7">
+              <div class="unit-left"><span>Telephone:</span></div>
+              <div class="unit-body"><a href="callto:#" class="text-base">(917)983-6666</a></div>
+            </div>
+            <div class="unit unit-xs-horizontal unit-spacing-xs offset-top-7">
+              <div class="unit-left"><span>Open Hours:</span></div>
+              <div class="unit-body"><a class="text-base">Monday-Sunday 11am - 10:30pm</a></div>
+            </div>
+            <div class="unit unit-xs-horizontal unit-spacing-xs offset-top-7">
+              <div class="unit-left"><span>E-mail:</span></div>
+              <div class="unit-body"><a href="/cdn-cgi/l/email-protection#cfec" class="text-base"><span class="__cf_email__" data-cfemail="c2afa3abae82a6a7afadaeabaca9ecadb0a5">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a></div>
+            </div>
+          </address>
+        </div>
+        <div class="cell-xs-6 cell-sm-6 cell-md-4">
+          <h6 class="text-white">Contact us</h6>
+          <!-- RD Mailform-->
+          <form data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" class="rd-mailform text-right offset-top-22">
+            <div class="form-group">
+              <label for="contact-name2" class="form-label">Your name</label>
+              <input id="contact-name2" type="text" name="name" data-constraints="@Required" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="contact-email2" class="form-label">Email</label>
+              <input id="contact-email2" type="email" name="email" data-constraints="@Email @Required" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="contact-message2" class="form-label">Message</label>
+              <textarea id="contact-message2" name="message" data-constraints="@Required" class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn-link btn-link-primary btn-link-variant-1">Submit</button>
+          </form>
+        </div>
+        <div class="cell-xs-12 cell-sm-6 cell-md-4 cell-md-preffix-1">
+          <h6 class="text-white">Newsletter</h6>
+          <p class="offset-top-22">Keep up with the latest restaurant news and events. Enter your e-mail and subscribe to our newsletter.</p>
+          <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="rd-mailform text-right offset-top-22 subscribe">
+            <div class="form-group">
+              <label for="contact-email3" class="form-label text-primary icon-sm mdi mdi-email"></label>
+              <input id="contact-email3" type="email" name="email" data-constraints="@Email @Required" class="form-control">
+            </div>
+            <button type="submit" class="btn-link btn-link-primary btn-link-variant-1">Subscribe</button>
+          </form>
+        </div>
+        <div class="cell-xs-12 offset-top-40">
+          <hr class="hr-sealine-gray hr-fullwidth">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="copyright offset-top-30 offset-md-top-42">
+    <div class="shell">
+      <p class="pull-sm-left">Szechwan Absolute <span id="copyright-year"></span> <a href="privacy.html" class="text-base">Privacy Policy</a></p>
+      <!-- {%FOOTER_LINK}-->
+    </div>
+  </section>
+</footer>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" class="wide wow-animation">
+  <head>
+    <!-- Site Title-->
+    <title>Home</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"af13290c4a1b867e64066d39a8f7cb7e",petok:"b82b0e4b4cfb8bc9401fda50569a83c46b345e83-1499642581-1800",zone:"template-help.com",rocket:"0",apps:{"abetterbrowser":{"ie":"7"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=85b614c0f6/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CMerriweather+Sans:400,300,300italic,700,400italic,700italic,800,800italic">
+    <link rel="stylesheet" href="/stylesheets/ambiusMainCss.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+		<!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+    <!-- Page-->
+    <div class="page text-center">
+      <!-- Page Header-->
+      {{> header}}
+      <!-- Page Content-->
+      <main class="page-content">
+        <!-- Swiper-->
+        <div data-height="100vh" data-slide-effect="fade" data-min-height="360px" class="swiper-container swiper-slider offset-top--55 offset-sm-top--150">
+          <div class="swiper-wrapper">
+            <div data-slide-bg="/images/ambiusImage/swiper-01.jpg" class="swiper-slide">
+              <div class="swiper-slide-caption">
+                <div class="shell">
+                  <div class="range text-center text-md-left">
+                    <div class="cell-md-6">
+                      <h1>We are the	<br class="hidden visible-lg-block visible-md-block">experienced	<br class="hidden visible-lg-block visible-md-block">team of Business<br class="hidden visible-lg-block visible-md-block">specialists
+                      </h1>
+                    </div>
+                    <div class="cell-md-4 offset-top-0 offset-sm-top-30 offset-md-top-0">
+                      <p>
+                        We have implemented a great number of
+                        business strategies that have brought the
+                        services of other companies up to standard.
+                      </p>
+                      <div class="link-var-1 link-praimary"><a href="#">read more</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-slide-bg="/images/ambiusImage/swiper-02.jpg" class="swiper-slide">
+              <div class="swiper-slide-caption">
+                <div class="shell">
+                  <div class="range text-center text-md-left">
+                    <div class="cell-md-6">
+                      <h1>
+                        Our services can
+                        suit the needs
+                        of any business
+                      </h1>
+                    </div>
+                    <div class="cell-md-4 offset-top-0 offset-sm-top-30 offset-md-top-0">
+                      <p>
+                        With a vast range of services we provide-from
+                        giving you 24-hour support all over
+                        the USA, our managers will make everything
+                        necessary to get your customers coming.
+                      </p>
+                      <div class="link-var-1 link-praimary"><a href="#">read more</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-slide-bg="/images/ambiusImage/swiper-03.jpg" class="swiper-slide">
+              <div class="swiper-slide-caption">
+                <div class="shell">
+                  <div class="range text-center text-md-left">
+                    <div class="cell-md-6">
+                      <h1>Stress-free effective	<br class="hidden visible-lg-block visible-md-block">advice
+                      </h1>
+                    </div>
+                    <div class="cell-md-4 offset-top-0 offset-sm-top-30 offset-md-top-0">
+                      <p>
+                        We have been giving top quality
+                        business advice and
+                        to hundreds of clients throughout the
+                        USA since our establishment.
+                      </p>
+                      <div class="link-var-1 link-praimary"><a href="#">read more</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Swiper Pagination-->
+          <div class="swiper-pagination"></div>
+          <!-- Swiper Navigation-->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <!--About-->
+        <section class="bg-images section-md-bottom-110 section-80 section-top-110">
+          <div class="shell text-center text-md-left">
+            <div class="range range-md-bottom">
+              <div class="cell-md-6 position-r">
+                <h2 class="text-bold text-primary">Gloria Mann</h2>
+                <h4 class="text-primary">(clients)</h4>
+              </div>
+              <div class="cell-md-5 cell-md-preffix-1 section-top-180 section-md-top-0">
+                <h1>About us</h1>
+                <p class="text-bold text-mine offset-top-35">
+                  Our company was established in 2007, in order
+                  to deliver the highest level of business support services
+                  to everyone who requires them.
+                </p>
+                <p class="offset-top-30">
+                  We are a team of high-skilled professionals who
+                  will fulfill our customer's needs. We have more than
+                  8 years of experience in the business industry.
+                </p>
+                <div class="link-var-1 offset-top-25 link-default"><a href="#">read more</a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="position-r">
+          <div class="shell">
+            <div class="range">
+              <div class="cell-lg-6 section-md-top-110 section-bottom-99">
+                <ol class="list-alpha">
+                  <li class="text-left">
+                    <h2 class="line-height">Experience</h2>
+                    <p>
+                      Our experience in the business industry puts us ahead of our competitors.
+                    </p>
+                  </li>
+                  <li class="text-left">
+                    <h2 class="line-height"><br class="hidden visible-lg-block visible-md-block">Assistance
+                    </h2>
+                    <p>
+                      We offer high-skilled help
+                      and assistance 24/7.
+                    </p>
+                  </li>
+                  <li class="text-left">
+                    <h2 class="line-height">Stability</h2>
+                    <p>
+                      We have been in the business industry for years
+                    </p>
+                  </li>
+                  <li class="text-left">
+                    <h2 class="line-height">Growth</h2>
+                    <p>We are constantly improving</p>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="section-abs">
+            <div class="range range-condensed">
+              <div class="cell-md-6 cell-sm-6 full-height">
+                <div class="img-wraper"><img src="/images/ambiusImage/home-02.jpg" alt=""><span class="img-overlay"></span>
+                  <div class="img-caption">
+                    <h2>Pixel Perfect</h2>
+                    <p class="offset-top-10">more than 200 projects</p>
+                    <div class="link-var-1 offset-top-25 link-praimary"><a href="#">view now!</a></div>
+                  </div>
+                </div>
+                <div class="img-wraper"><img src="/images/ambiusImage/home-04.jpg" alt=""><span class="img-overlay"></span>
+                  <div class="img-caption">
+                    <h2>Virus protection</h2>
+                    <p class="offset-top-10">perfect security</p>
+                    <div class="link-var-1 offset-top-25 link-praimary"><a href="#">view now!</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="cell-md-6 cell-sm-6 full-height">
+                <div class="img-wraper"><img src="/images/ambiusImage/home-03.jpg" alt=""><span class="img-overlay"></span>
+                  <div class="img-caption">
+                    <h2>Business training</h2>
+                    <p class="offset-top-10">increasing your awareness</p>
+                    <div class="link-var-1 offset-top-25 link-praimary"><a href="#">view now!</a></div>
+                  </div>
+                </div>
+                <div class="img-wraper"><img src="/images/ambiusImage/home-05.jpg" alt=""><span class="img-overlay"></span>
+                  <div class="img-caption">
+                    <h2>Cloud services</h2>
+                    <p class="offset-top-10">upload, download and store your data</p>
+                    <div class="link-var-1 offset-top-25 link-praimary"><a href="#">view now!</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="position-r">
+          <div class="shell">
+            <div class="range range-lg-right">
+              <div class="cell-lg-5 cell-lg-preffix-1 section-top-80 section-lg-top-110 text-center text-lg-left">
+                <h1>Business Development</h1>
+                <p class="offset-top-33">We bring	<span class="text-corn text-bold">top notch advice,</span>	alongside innovative and powerful online tools like complex web apps and custom e-businesses.
+                </p>
+                <p class="offset-top-27 text-bold text-mine">
+                  For 8 years of our company's development, we managed to gain real success in the sphere of
+                  business support. Such recognition proves that our
+                  popularity in comparison with other business companies
+                  is absolutely deserved. We employ only true
+                  specialists that have enough experience and are trained enough to correspond to our level of services. We also pay a lot of attention to
+                  professional development of our employees.
+                </p>
+                <ul class="list offset-top-40">
+                  <li><a href="#">Communication</a></li>
+                  <li><a href="#">Connections</a></li>
+                  <li><a href="#">Providing solutions</a></li>
+                  <li><a href="#">Giving assistance</a></li>
+                  <li><a href="#">Business training</a></li>
+                  <li><a href="#">Remote support</a></li>
+                  <li><a href="#">Advice</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="section-abs-1">
+            <div class="img-wraper"><img src="/images/ambiusImage/home-06.jpg" alt="">
+              <div class="img-caption section-top-105">
+                <h1 class="text-primary text-uppercase">Improving your company</h1>
+                <p class="offset-top-37">
+                  As there are so many competitors for each field, it is important to make yours unique to stand out from the rest.
+                </p>
+                <div class="link-var-1 offset-top-25 link-praimary"><a href="#">read more</a></div>
+              </div>
+            </div>
+            <div class="img-wraper"><img src="/images/ambiusImage/home-07.jpg" alt="">
+              <div class="img-caption text-white section-top-105">
+                <h1 class="text-white lettter-0">Testimonials</h1>
+                <blockquote class="offset-top-33">
+                  <p>
+                    Your team has succeeded in establishing
+                    trouble-free and reliable
+                    customers for my company.
+                  </p>
+                </blockquote>
+                <h2 class="text-bold">Peter Smith</h2>
+                <h4>(client)</h4>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Page Footer-->
+      {{> footer}}
+      <!-- RD Google Map-->
+      <div class="rd-google-map">
+        <div id="rd-google-map" data-zoom="15" data-x="-73.9874068" data-y="40.643180" data-styles="[{&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#ff4400&quot;},{&quot;saturation&quot;:-68},{&quot;lightness&quot;:-4},{&quot;gamma&quot;:0.72}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;},{&quot;featureType&quot;:&quot;landscape.man_made&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0077ff&quot;},{&quot;gamma&quot;:3.1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00ccff&quot;},{&quot;gamma&quot;:0.44},{&quot;saturation&quot;:-33}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#44ff00&quot;},{&quot;saturation&quot;:-23}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#007fff&quot;},{&quot;gamma&quot;:0.77},{&quot;saturation&quot;:65},{&quot;lightness&quot;:99}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;gamma&quot;:0.11},{&quot;weight&quot;:5.6},{&quot;saturation&quot;:99},{&quot;hue&quot;:&quot;#0091ff&quot;},{&quot;lightness&quot;:-86}]},{&quot;featureType&quot;:&quot;transit.line&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:-48},{&quot;hue&quot;:&quot;#ff5e00&quot;},{&quot;gamma&quot;:1.2},{&quot;saturation&quot;:-23}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-64},{&quot;hue&quot;:&quot;#ff9100&quot;},{&quot;lightness&quot;:16},{&quot;gamma&quot;:0.47},{&quot;weight&quot;:2.7}]}]" class="rd-google-map"></div>
+        <ul class="map_locations">
+          <li data-x="-73.9874068" data-y="40.643180">
+            <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Global Mailform Output-->
+    <div id="form-output-global" class="snackbars"></div>
+    <!-- PhotoSwipe Gallery-->
+    <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button title="Close (Esc)" class="pswp__button pswp__button--close"></button>
+            <button title="Share" class="pswp__button pswp__button--share"></button>
+            <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button>
+            <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button>
+          <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__cent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Java script-->
+    <script src="/javascripts/ambiusCoreJs.js"></script>
+    <script src="/javascripts/ambiusScript.js"></script>
+  	<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script>
+
+  	<!-- Google Tag Manager -->
+  	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script>
+  	<a href="#" id="ui-to-top" class="ui-to-top fa fa-angle-up active goUpCenter"></a>
+  	<div style="position: absolute; left: 0px; top: -2px; height: 1px; overflow: hidden; visibility: hidden; width: 1px;">
+  		<span style="position: absolute; font-size: 300px; width: auto; height: auto; margin: 0px; padding: 0px; font-family: Roboto, Arial, sans-serif;">BESbswy</span>
+  	</div>
+  	<!-- End Google Tag Manager -->
+  </body>
+</html>

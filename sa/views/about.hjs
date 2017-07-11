@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en" class="wide wow-animation">
+  <head>
+    <!-- Site Title-->
+    <title>Szechwan Absolute | Home</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.4.57/css/materialdesignicons.css">
+    <!-- favicon -->
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="/images/LOGO.3-1.jpg">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:400,700%7CMerriweather+Sans">
+    <link rel="stylesheet" href="/stylesheets/mainCss.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    
+    <!-- material design iconic font -->
+
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+    <style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style>
+    <style data-olark="true" type="text/css">.olark-key,#hbl_code,#olark-data{display: none !important;}</style>
+    <style data-olark="true" type="text/css">@media print {#habla_beta_container_do_not_rely_on_div_classes_or_names {display: none !important}}</style>
+    <link data-olark="true" rel="stylesheet" href="/stylesheets/artsy_albatross.css" type="text/css">
+  </head>
+  <body>
+    <!-- Page-->
+    <div class="page text-center">
+      <!-- Page Header-->
+      <header class="page-head section-top-15 section-lg-top-0">
+        <!-- RD Navbar-->
+        {{> header}}
+        <section class="section-top-50 section-bottom-66 section-lg-top-160 section-lg-bottom-160 inset-left-15 inset-right-15 bg-about">
+          <div class="header-divider">
+            <h3 class="text-uppercase font-logo text-regular letter-spacing-200">About</h3>
+                  <div class="text-center offset-top-9">
+                    <ol class="breadcrumb">
+                      <li><a href="./">Home</a></li>
+                      <li>About us</li>
+                    </ol>
+                  </div>
+          </div>
+        </section>
+      </header>
+      <main class="page-content">
+        <section class="section-66 section-sm-top-83 section-sm-bottom-75 text-center text-sm-left">
+          <div class="shell">
+            <h3 class="text-center">Count on wonderful food and excellent service. <br class="visible-lg-inline">Every guest of Szechwan Absolute is sure to find <br class="visible-lg-inline">something to satisfy their palate.</h3>
+            <p class="text-center">From the moment you enter this exquisite restaurant Door, <br class="visible-lg-inline">you know you have found something very, very special.<br class="visible-lg-inline"> The staff greet you warmly and the menu offer  <br class="visible-lg-inline"> you delicious meals that pamper you while <br class="visible-lg-inline">the tasty smell of  food dances and whisper around you.</p>
+            <!-- <div class="range offset-top-10 offset-sm-top-36">
+              <div class="cell-sm-6 cell-md-4">
+                <p>word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word</p>
+              </div>
+              <div class="cell-sm-6 cell-md-4">
+                <div class="img-wrap-1"><img src="images/insideSE.png" alt="" width="370" height="auto">
+                </div>
+              </div>
+              <div class="cell-sm-12 cell-md-4 offset-sm-top-30 offset-md-top-0">
+                <p>word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word</p>
+              </div>
+              <div class="cell-xs-12 offset-top-40">
+                <hr class="hr-fullwidth hr-gray">
+              </div>
+            </div> -->
+          </div>
+        </section>
+            <!-- why choose us -->
+        <section class="ycu">
+          <div class="shell">
+            <div class="range range-xs-center border-wrap text-center offset-top-66 text-dark mg20" id="marginTop0">
+              <div class="cell-xs-6 cell-sm-5 cell-lg-5" class= "test"> 
+                <div> 
+                  <h3 class="text-center">Why Choose Us </h3>
+                </div>
+              </div>
+            </div> 
+            <!-- three reasons -->
+            <div class="range range-xs-center range-stretch offset-top-30 text-center mg20">
+              <div class="cell-xs-6 cell-md-4">
+                <div class="thumbnail-variant-1">
+                  <div class="thumbnail-design-element">
+                    <span class="icon icon-sm-mod-1 text-primary mdi mdi-chevron-down"></span>
+                    </div>
+                  <div class="caption">
+                    <h6 class="text-uppercase text-primary">Authentic Dishes</h6>
+                    <p class="text-white">We are dedicated to preparing the most authentic Chinese dishes that Flushing has to offer.</p>
+                  </div>
+                  <hr class="hr-sealine-gray">
+                </div>
+              </div>
+              <div class="cell-xs-6 cell-md-4 offset-top-50 offset-xs-top-0">
+                <div class="thumbnail-variant-1">
+                  <div class="thumbnail-design-element"><span class="icon icon-sm-mod-1 text-primary mdi mdi-chevron-down"></span></div>
+                  <div class="caption">
+                    <h6 class="text-uppercase text-primary">Spectacular Service</h6>
+                    <p class="text-white">We believe that our customers are just as important as our staff. We cater to the needs of all our customers.</p>
+                  </div>
+                  <hr class="hr-sealine-gray">
+                </div>
+              </div>
+              <div class="cell-xs-6 cell-md-4 offset-top-50 offset-md-top-0">
+                <div class="thumbnail-variant-1">
+                  <div class="thumbnail-design-element">
+                    <span class="icon icon-sm-mod-1 text-primary mdi mdi-chevron-down"></span>
+                  </div>
+                  <div class="caption">
+                    <h6 class="text-uppercase text-primary">Elegant Environment</h6>
+                    <p class="text-white">We make sure to keep our environment fresh for all of our customers.</p>
+                  </div>
+                  <hr class="hr-sealine-gray">      
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Page Footers-->
+      {{> footer}}
+    </div>
+    <!-- Global Mailform Output-->
+    <div id="form-output-global" class="snackbars"></div>
+    <!-- PhotoSwipe Gallery-->
+    <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button title="Close (Esc)" class="pswp__button pswp__button--close"></button>
+            <button title="Share" class="pswp__button pswp__button--share"></button>
+            <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button>
+            <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button>
+          <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__cent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Java script-->
+    <script src="/javascripts/core.min.js"></script>
+    <script src="/javascripts/script.js"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+    try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"af13290c4a1b867e64066d39a8f7cb7e",petok:"cda9785127590b0fe99b4abb9a9ca6a877c6c8bb-1499412719-1800",zone:"template-help.com",rocket:"0",apps:{"abetterbrowser":{"ie":"7"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=85b614c0f6/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+    //]]>
+    </script>
+    <script type="text/javascript" src="/javascripts/googleAnalytic_plugins.js"></script>
+    <script type="text/javascript" src="/javascripts/googleAnalytic_analytic.js"></script>
+    <script type="text/javascript" async src="/javascripts/googleTagManager.js"></script>
+    <script type="text/javascript" async src="/javascripts/googleAnalytic_ga.js"></script>
+  </body>
+</html>

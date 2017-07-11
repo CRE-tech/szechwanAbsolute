@@ -1,0 +1,370 @@
+.textCenter {
+	text-align: center;
+}
+
+.imgCenter {
+	display: block;
+	margin: 0 auto;
+}
+
+.infoBox {
+	margin-top: 40px;
+
+}
+
+.infoBox58 {
+  margin-top: 58px;
+
+}
+
+.infoBox10 {
+  margin-top: 10px;
+
+}
+.infoBoxP {
+	font-size: 16px;
+	text-align: center;
+}
+
+.yelp {
+  font-size: 30px;
+  color: white;
+  transition: 0.3s;
+}
+
+.yelp:hover {
+  color: white;
+  font-size: 32px;
+}
+
+
+.about-resta-inner {
+
+    position: relative;
+}
+
+.about-resta-details {
+  background: #DCD8D8 none repeat scroll 0 0;
+  left: 0;
+  padding: 60px;
+  top: 45px;
+  width: 55%;
+  overflow: hidden;
+}
+
+.about-title > h2 {
+  color: #535353;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+
+.about-description {
+
+	color: #757575;
+}
+.about-description p.text-1 {
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.about-rest-img {
+    float: right;
+    width: 50%;
+    border: 1px solid white;
+    
+}
+
+.titlestyle{
+	  font-family: "Great Vibes",cursive;
+	}
+
+.popDish {
+	display: inline;
+}
+
+.marginTop {
+	margin-top: 40px;
+
+}
+.marginBot17 {
+  margin-bottom: 17px;
+}
+
+
+
+img{max-width: 100%;}
+
+div .none{
+  display:none;
+}
+.popBoxSize {
+  max-height: 300px;
+}
+
+#mt70 {
+  margin-top: 70px;
+}
+
+#mt50 {
+  margin-top: 50px;
+}
+
+#fs18 {
+  font-size: 18px;
+}
+
+#marginLogo {
+  margin-top: 50px;
+}
+
+.marginTop_10 {
+  margin-top: -10px;
+}
+
+#marginTop40 {
+  margin-top: 40px;
+
+}
+
+.loadbutton{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#mpButton {
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: rgb(29,29,29);
+  border: none;
+  color:#e0ca8f;
+  font-family: "Merriweather",sans-serif;
+  margin:auto;
+  width: 150.488px;
+  height: 36.8px;
+  
+
+}
+
+button:hover{
+  background-color: #e0ca8f;
+  border:none;
+  
+  color:black;
+  
+}
+
+.menuPageBtn {
+  background-color: rgb(29,29,29);
+  border: none;
+  color:#e0ca8f;
+  font-family: "Merriweather",sans-serif;
+  margin:auto;
+  width: 150.488px;
+  height: 36.8px;
+  text-align: center;
+  padding-top: 8px;
+  transition: 0.3s;
+  letter-spacing: 2px;
+}
+
+.menuPageBtn:hover {
+  background-color: #e0ca8f;
+  border:none;
+  
+  color:black;
+}
+
+
+#marginTop0 {
+  margin-top: 0;
+
+}
+
+.displayBl {
+  display: inline-block;
+}
+
+.leftFloat {
+  float: left;
+  padding-right: 15px;
+  padding-bottom: 38px;
+}
+
+.ycu {
+  padding: 50px 0;
+}
+
+.mg20 {
+  margin: 20px 0;
+}
+
+.maps iframe {
+  pointer-events: none;
+}
+
+.abtPic {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('/images/insidemain.png')
+}
+
+/*.absolute_bg {
+  height: 180%;
+  width: auto;
+  position: absolute;
+  left: 50px;
+  top: 750px;
+  opacity: 0.3;
+  z-index: 0;
+}*/
+
+/*.absolute_bg {
+   height: 180%;
+    width: auto;
+    position: absolute;
+    top: 750px;
+    left: 200px;
+    opacity: 0.3;
+}*/
+
+
+
+@media only screen and (max-width: 1500px) {
+  .absolute_bg {
+    height: 160%;
+    width: auto;
+    position: absolute;
+    top: 750px;
+    left: 130px;
+    opacity: 0.3
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .absolute_bg {
+    height: 150%;
+    width: auto;
+    position: absolute;
+    top: 750px;
+    left: 135px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .absolute_bg {
+    height: 130%;
+    width: auto;
+    position: absolute;
+    top: 625px;
+    left: 160px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .absolute_bg {
+    height: 120%;
+    width: auto;
+    position: absolute;
+    top: 625px;
+    left: 160px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .absolute_bg {
+    height: 120%;
+    width: auto;
+    position: absolute;
+    top: 625px;
+    left: 85px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .absolute_bg {
+    height: 110%;
+    width: auto;
+    position: absolute;
+    top: 680px;
+    left: 90px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .absolute_bg {
+    height: 110%;
+    width: auto;
+    position: absolute;
+    top: 680px;
+    left: 40px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .absolute_bg {
+    height: 110%;
+    width: auto;
+    position: absolute;
+    top: 680px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .absolute_bg {
+    height: 105%;
+    width: auto;
+    position: absolute;
+    top: 450px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .absolute_bg {
+    height: 95%;
+    width: auto;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .absolute_bg {
+    height: 85%;
+    width: auto;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .absolute_bg {
+    height: 85%;
+    width: auto;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .absolute_bg {
+    height: 85%;
+    width: auto;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+  }
+}
+
+
+.zIndex {
+  z-index: 2;
+}

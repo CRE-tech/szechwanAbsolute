@@ -1,0 +1,792 @@
+
+<!DOCTYPE html>
+<html lang="en" class="wide wow-animation">
+  <head>
+    <!-- Site Title-->
+    <title>Szechwan Absolute | Home</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.4.57/css/materialdesignicons.css">
+    <!-- favicon -->
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="/images/LOGO.3-1.jpg">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:400,700%7CMerriweather+Sans">
+    <link rel="stylesheet" href="/stylesheets/mainCss.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    
+    <!-- material design iconic font -->
+
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+    <style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style>
+    <style data-olark="true" type="text/css">.olark-key,#hbl_code,#olark-data{display: none !important;}</style>
+    <style data-olark="true" type="text/css">@media print {#habla_beta_container_do_not_rely_on_div_classes_or_names {display: none !important}}</style>
+    <link data-olark="true" rel="stylesheet" href="/stylesheets/artsy_albatross.css" type="text/css">
+  </head>
+  <body>
+    <!-- Page-->
+    <div class="page text-center">
+      <!-- Page Header-->
+      <header class="page-head section-top-15 section-lg-top-0">
+        <!-- RD Navbar-->
+        {{> header}}
+        <section class="section-top-50 section-bottom-66 section-lg-top-160 section-lg-bottom-160 inset-left-15 inset-right-15 bg-menu">
+          <div class="header-divider">
+            <h3 class="text-uppercase font-logo text-regular letter-spacing-200">Menu</h3>
+                  <div class="text-center offset-top-9">
+                    <ol class="breadcrumb">
+                      <li>
+                        <a href="./">Home</a>
+                      </li>
+                      <li>
+                        Menu
+                      </li>
+                    </ol>
+                  </div>
+          </div>
+        </section>
+      </header>
+      <main class="page-content">
+        <section class="section-50 section-sm-top-70 section-sm-bottom-60 text-left">
+          <div class="shell">
+            <h3 class="text-center">Our menu</h3>
+            <div>
+              <div class="range range-xs-center range-stretch offset-top-36">
+                <div class="cell-sm-6 cell-md-4">
+                  <div class="menu">
+                    <div class="header-menu">
+                      <div class="header-menu-inner">
+                        <h6 class="text-uppercase text-bold font-logo">House Special</h6>
+                      </div>
+                      <img src="/images/menu1.png" alt="" width="370" height="367" class="img-responsive"/>
+                    </div>
+                    <ul class="list-unstyled-variant-1">
+                      <li>
+                        <div class="displayBl">
+                          <div  class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Roasted Chicken with Pig's Intestines</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Bullfrog in Szechwan Chili Oil</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Roasted Chicken with Konjac</div>
+                        </div>
+                      </li>
+                      <li>
+                       <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Braised Mix (Abalone, Squid, Chicken, Pork, Pig's Tripe, Bamboo Shoots, Pleurotus Eryngii)</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Sauteed Mix (Shrimp, Crab Stick, Scallops, Tomato, Pea Sprout, Dred Black Mushroom)</div>
+                        </div>
+                      </li>
+                      <div id="loadmore" class="none">
+                        <li></li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Boiled Fish in Green Peppercorn Oil</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> New-School Boiled Fish</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> New-School Pig's Feet</div>
+
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Boiled Fish with Pig's Intestines and Pig's Blood Curd</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Pig Blood Curd in Chili Oil</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Boiled Fish with Tofu in Hot Chili Oil</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Szechwan Style Grilled Beef Steak</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Fish with Chili Bean Sauce</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Szechwan Style Roasted Fish</div>
+                          </div>
+                        </li>
+                        <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Chengdu Style Boiled Fish with Pickled Cabbage and Chili</div>
+                        </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Dungeness Crab with Spicy Sauce</div>
+                          </div>
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+                <div class="cell-sm-6 cell-md-4">
+                  <div class="menu">
+                    <div class="header-menu">
+                      <div class="header-menu-inner">
+                        <h6 class="text-uppercase text-bold font-logo">Chef's Recommend</h6>
+                      </div><img src="/images/menu6.png" alt="" width="370" height="367" class="img-responsive"/>
+                    </div>
+                    <ul class="list-unstyled-variant-1">
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Private Kitchens Pig's Intestine</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Boiled Chicken in Special Spicy Sauce</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Deep-Fried Fish with Minced Pork, Salt Black Bean, Dry Red Pepper and Cumin Powder</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;"></div>
+                          <div class="text-white"> Light-Fried Bullfrog with Mountain Pepper</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Boiled Cattle's Black Tripe with Bean Sprout in Chili Oil</div>
+                        </div>
+                      </li>
+                      <div id="loadmore2" class="none">
+                        <li></li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Deep-Fried Beef with Crispy Rice and Dry Pepper</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Braised Pig's Feet with Green Pepper</div>
+                          </div>
+                        </li> 
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Sauteed Chicken Cubes with Green and Red Pepper</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <span class="text-white"> Eel in Pickled Pepper Oil</span>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Sauteed Lamb with Green and Red Pepper</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Fried Fish with Szechwan Chili Pepper and Minced Pork</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Sauteed Chicken Cubes with Szechwan Chili Pepper</div>
+                          </div>
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+                <div class="cell-sm-6 cell-md-4 offset-sm-top-30 offset-md-top-0">
+                  <div class="menu">
+                    <div class="header-menu">
+                      <div class="header-menu-inner">
+                        <h6 class="text-uppercase text-bold font-logo">Home-Cooking</h6>
+                      </div><img src="/images/menu2.png" alt="" width="370" height="367" class="img-responsive"/>
+                    </div>
+                    <ul class="list-unstyled-variant-1">
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> The Authentic Double-Cooked Pork Belly</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <span class="text-white"> Mapo Tofu</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Braised Pork with Preserved Vegetable in Soy Sauce</div>
+                        </div>
+                      </li>  
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Braised Pork with Chestnuts</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Chengdu Style Roasted Chicken with Spicy Sauce</div>
+                        </div>
+                      </li>
+                      <div id="loadmore3" class="none">
+                        <li></li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Chongqing Style Deep-Fried Diced Chicken with Dried Pepper</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Braised Eel with Cucumber Sticks and Pickled Pepper</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Boiled Bullfrog in Hot Chili Oil</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Beef Tendon in Pickled Pepper Oil</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Lobster with Spicy Sauce</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Chicken Cubes with Peanuts</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <span class="text-white"> Dry-Sauteed Eel</span>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Dry-Sauteed Pig's Intestines</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Dry-Sauteed Bullfrog</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Stir-Fried Cattle Tripe</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Stir-Fried Beef with Scallions</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Fried Beef with Cumin Flavor</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Fried Lamb with Cumin Flavor</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Boiled Sliced Beef in Chili Oil</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Dry-Braised Prawns</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Braised Trepang with Minced Pork</div>
+                          </div>
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="loadbutton">
+                <button onclick="Load()">LOAD MORE/LESS</button> 
+              </div>
+
+              <div class="range range-xs-center range-stretch offset-top-36">
+                <div class="cell-sm-6 cell-md-4 offset-sm-top-30">
+                  <div class="menu">
+                    <div class="header-menu">
+                      <div class="header-menu-inner">
+                        <h6 class="text-uppercase text-bold font-logo">Cold Dish</h6>
+                      </div><img src="/images/menu3.png" alt="" width="370" height="367" class="img-responsive"/>
+                    </div>
+                    <ul class="list-unstyled-variant-1">
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <span class="text-white"> Spicy Roast Beef</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Hairtail in Szechwan Peppercorn Oil</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Cattle's Tendon, Shank & Tripe in Chili Sauce</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Cucumber with Special Sauce</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Black Fungus with Sauce</div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="cell-sm-6 cell-md-4 offset-sm-top-30">
+                  <div class="menu">
+                    <div class="header-menu">
+                      <div class="header-menu-inner">
+                        <h6 class="text-uppercase text-bold font-logo">Vegetable</h6>
+                      </div><img src="/images/menu4.png" alt="" width="370" height="367" class="img-responsive"/>
+                    </div>
+                    <ul class="list-unstyled-variant-1">
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Grilled Green Pepper with Szechwan Special Sauce</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Sauteed Shredded Potato with Green Pepper</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Choy Sum with Black Mushroom</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Sauteed Cabbage with Sliced Pork Belly</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <div class="text-white"> Sauteed Pea Sprouts with Minced Garlic</div>
+                        </div>
+                      </li>
+                      <div id="loadmore4" class="none">
+                        <li></li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Sauteed Celtuce with Minced Garlic</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Sauteed Celtuce Roots with Black Fungus</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <div class="text-white"> Raised Pea Shoots with mixed Mushroom</div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <span class="text-white"> Dry Fried String Beans</span>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <span class="text-white"> Yu-Shiang Eggplant</span>
+                          </div>
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+                <div class="cell-sm-6 cell-md-4 offset-sm-top-30">
+                  <div class="menu">
+                    <div class="header-menu">
+                      <div class="header-menu-inner">
+                        <h6 class="text-uppercase text-bold font-logo">Dry Pot and Staple</h6>
+                      </div><img src="/images/menu5.png" alt="" width="370" height="367" class="img-responsive"/>
+                    </div>
+                    <ul class="list-unstyled-variant-1">
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <span class="text-white"> Beef in Dry Pot</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <span class="text-white"> Chicken in Dry Pot</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <span class="text-white"> Bullfrog in Dry Pot</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <span class="text-white"> Seafood in Dry Pot</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="displayBl">
+                          <div class="leftFloat">
+                            <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                          </div>
+                          <span class="text-white"> Pig's Feet in Dry Pot</span>
+                        </div>
+                      </li>
+                      <div id="loadmore5" class="none">
+                        <li></li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <span class="text-white"> Shrimp Fried Rice</span>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <span class="text-white"> Handmade Dumpling</span>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="displayBl">
+                            <div class="leftFloat">
+                              <img src="/images/foodIcon.png" height="20px;" width="auto;">
+                            </div>
+                            <span class="text-white"> Beef Fried Rice</span>
+                          </div>
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="loadbutton">
+                <button onclick="Load2()">LOAD MORE/LESS</button>
+              </div>
+              <div class="cell-xs-12 offset-top-47">
+                <hr class="hr-gray hr-fullwidth">
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Page Footers-->
+      {{> footer}}
+    </div>
+    <!-- Global Mailform Output-->
+    <div id="form-output-global" class="snackbars"></div>
+    <!-- PhotoSwipe Gallery-->
+    <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button title="Close (Esc)" class="pswp__button pswp__button--close"></button>
+            <button title="Share" class="pswp__button pswp__button--share"></button>
+            <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button>
+            <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button>
+          <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__cent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Java script-->
+    
+    <script type="text/javascript" src="/javascripts/loadmore.js"></script>
+    <script src="/javascripts/core.min.js"></script>
+    <script src="/javascripts/script.js"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+    try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"af13290c4a1b867e64066d39a8f7cb7e",petok:"cda9785127590b0fe99b4abb9a9ca6a877c6c8bb-1499412719-1800",zone:"template-help.com",rocket:"0",apps:{"abetterbrowser":{"ie":"7"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=85b614c0f6/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+    //]]>
+    </script>
+    <script type="text/javascript" src="/javascripts/googleAnalytic_plugins.js"></script>
+    <script type="text/javascript" src="/javascripts/googleAnalytic_analytic.js"></script>
+    <script type="text/javascript" async src="/javascripts/googleTagManager.js"></script>
+    <script type="text/javascript" async src="/javascripts/googleAnalytic_ga.js"></script>
+  </body>
+</html>
