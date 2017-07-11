@@ -101,21 +101,21 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
               <div class="cell-md-4">
                 <p class="font-montserat">Email us with any questions or inquiries or use our contact data. We would be happy to answer your questions.</p>
                 <div class="contact-info">
-                  <address>9870 St Vincent Place,<br class="hidden visible-lg-block visible-md-block">  Glasgow, DC 45 Fr 45.
+                  <address>39-16 Prince St(2 FL),<br class="hidden visible-lg-block visible-md-block">  Flushing, NY 11354.
                   </address>
                   <div class="contact-phone">
-                    <dl>
+                    <!--<dl>
                       <dt>Freephone:</dt>
                       <dd><a href="callto:#">+1 800 559 6580</a></dd>
-                    </dl>
+                    </dl>-->
                     <dl>
                       <dt>Telephone:</dt>
-                      <dd><a href="callto:#">+1 800 603 6035</a></dd>
+                      <dd><a href="callto:#">+1 917 983 6666</a></dd>
                     </dl>
-                    <dl>
+                   <!-- <dl>
                       <dt>FAX:</dt>
                       <dd><a href="callto:#">+1 800 889 9898</a></dd>
-                    </dl>
+                    </dl>-->
                   </div>
                   <div class="mail">E-mail: <a href="/cdn-cgi/l/email-protection#daf9"><span class="__cf_email__" data-cfemail="513c30383d1135343c3e3d383f3a7f3e2336">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
                   </div>
