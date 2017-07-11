@@ -5,7 +5,6 @@
         <div class="cell-xs-6 cell-sm-6 cell-md-3">
           <div class="rd-navbar-brand"><a class="brand-name">Szechwan Absolute</a></div>
           <address class="offset-top-20">
-            <a href="/" class="ambiaslink">WE ARE PART OF THE AMBIAS GROUP</a>
             <p></p>
             <p class="h6 text-regular font-default">Address:</p>
             <p class="offset-top-7">39-16 Prince St(2 FL), <br>Flushing NY 11354.</p>
@@ -54,6 +53,7 @@
           </form>
         </div>
         <div class="cell-xs-12 offset-top-40">
+         <span>We are part of the </span><a href="/" class="ambiaslink">Ambias Group</a>
           <hr class="hr-sealine-gray hr-fullwidth">
         </div>
       </div>
