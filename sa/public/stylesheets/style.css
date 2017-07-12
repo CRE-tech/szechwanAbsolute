@@ -424,7 +424,11 @@ button:hover{
 .bglogo {
   background-image: url(/images/logofinal3.png);
   background-position: center top;
+
   background-size: 55% auto;
+
+  background-size: 43% auto;
+
   background-repeat: no-repeat;
   background-color: (0,0,0,0.1)
 }
@@ -446,6 +450,3 @@ button:hover{
   z-index: 1;
 
 }
-
-
-
