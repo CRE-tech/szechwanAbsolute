@@ -231,7 +231,7 @@ button:hover{
     opacity: 0.3;
 }*/
 
-@media only screen and (max-width: 2000px) {
+/*@media only screen and (max-width: 2000px) {
   .absolute_bg {
     height: 160%;
     width: auto;
@@ -316,8 +316,8 @@ button:hover{
     height: 130%;
     width: auto;
     position: absolute;
-    top: 625px;
-    left: 160px;
+    top: 780px;
+    left: 190px;
   }
 }
 
@@ -326,8 +326,8 @@ button:hover{
     height: 120%;
     width: auto;
     position: absolute;
-    top: 625px;
-    left: 160px;
+    top: 900px;
+    left: 180px;
   }
 }
 
@@ -336,8 +336,8 @@ button:hover{
     height: 120%;
     width: auto;
     position: absolute;
-    top: 625px;
-    left: 85px;
+    top: 900px;
+    left: 100px;
   }
 }
 
@@ -419,11 +419,16 @@ button:hover{
     top: 500px;
     left: 0px;
   }
+}*/
+
+.bglogo {
+  background-image: url(/images/logofinal3.png);
+  background-position: center top;
+  background-size: 55% auto;
+  background-repeat: no-repeat;
+  background-color: (0,0,0,0.1)
 }
 
-.logofinal {
-  margin: 0 auto;
-}
 
 .zIndex {
   z-index: 2;
@@ -439,4 +444,8 @@ button:hover{
   color: white;
   overflow: visible;
   z-index: 1;
+
 }
+
+
+
