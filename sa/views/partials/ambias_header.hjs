@@ -1,5 +1,5 @@
 
-<header class="page-head section-top-40" style="background-image: url('http://i.imgur.com/giLqoIV.jpg')">
+<header class="page-head section-top-40 headerpadding">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
           <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="70px" data-lg-stick-up-offset="70px" class="rd-navbar">
@@ -10,7 +10,9 @@
                 <!-- RD Navbar Toggle-->
                 <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="#" class="brand-name"><span class="brand-n">iT<span>Studio</span></span><img src="http://i.imgur.com/HGLs6BY.png" height="100px" width="auto" alt=""></a></div>
+                <div class="rd-navbar-brand" style="height:150px"></div>
+                <!--<a href="#" class="brand-name"><span class="brand-n">iT<span>Studio</span></span><img src="http://i.imgur.com/lGzbALn.png" height="150px" width="auto" alt=""></a>-->
+
               </div>
               <div class="rd-navbar-nav-wrap rd-navbar-cell">
                 <!-- RD Navbar Nav-->

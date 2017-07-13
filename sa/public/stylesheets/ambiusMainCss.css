@@ -24996,7 +24996,7 @@ html:not(.lt-ie10) .not-animated {
   position: relative;
   display: block;
   padding: 0 3px 1px;
-  color: #8aafc0;
+  color: gray;
   background: transparent;
   line-height: 32px;
   font-size: 14px;
@@ -31796,4 +31796,30 @@ body a.goUpCenter {
 
 }
 
+.pg{
+	background-color: #5F5F5F;
+	width: 100%;
+	height:350px;
+	display:table;
+}
+
+.ambiasheading{
+	font-family: 'Bilbo Swash Caps';
+	color:white;
+	font-size: 200px;
+	vertical-align:middle;
+    display:table-cell;
+    text-shadow: 15px 20px #000000;
+
+}
+
+.footerpadding{
+	padding-bottom: 30px;
+	padding-top: 60px;
+}
+
+.headerpadding{
+	background-image: url("http://i.imgur.com/giLqoIV.jpg"); 
+	padding-top:0px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -18,6 +18,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
     <link rel="stylesheet" href="/stylesheets/ambiusMainCss.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Bilbo Swash Caps' rel='stylesheet'>
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -30,8 +31,12 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
       {{> header}}
       <!-- Page Content-->
       <main class="page-content">
+        <div class="pg">
+          <h1 class="ambiasheading">Ambias</h1>
+
+        </div>
         <!-- Swiper-->
-        <div data-height="100vh" data-slide-effect="fade" data-min-height="360px" class="swiper-container swiper-slider offset-top--55 offset-sm-top--150">
+        <!--<div data-height="100vh" data-slide-effect="fade" data-min-height="360px" class="swiper-container swiper-slider offset-top--55 offset-sm-top--150">
           <div class="swiper-wrapper">
             <div data-slide-bg="http://i.imgur.com/giLqoIV.jpg" class="swiper-slide">
               <div class="swiper-slide-caption">
@@ -98,14 +103,14 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Swiper Pagination-->
+          </div> 
+                  <!-Swiper Pagination->
           <div class="swiper-pagination"></div>
-          <!-- Swiper Navigation-->
+                  <!-Swiper Navigation->      
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
         </div>
-        <!--About-->
+                      <!-About->
         <section class="bg-images section-md-bottom-110 section-80 section-top-110">
           <div class="shell text-center text-md-left">
             <div class="range range-md-bottom">
@@ -252,19 +257,19 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
       </main>
       <!-- Page Footer-->
       {{> footer}}
       <!-- RD Google Map-->
-      <div class="rd-google-map">
+    <!--  <div class="rd-google-map">
         <div id="rd-google-map" data-zoom="15" data-x="-73.9874068" data-y="40.643180" data-styles="[{&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#ff4400&quot;},{&quot;saturation&quot;:-68},{&quot;lightness&quot;:-4},{&quot;gamma&quot;:0.72}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;},{&quot;featureType&quot;:&quot;landscape.man_made&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0077ff&quot;},{&quot;gamma&quot;:3.1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00ccff&quot;},{&quot;gamma&quot;:0.44},{&quot;saturation&quot;:-33}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#44ff00&quot;},{&quot;saturation&quot;:-23}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#007fff&quot;},{&quot;gamma&quot;:0.77},{&quot;saturation&quot;:65},{&quot;lightness&quot;:99}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;gamma&quot;:0.11},{&quot;weight&quot;:5.6},{&quot;saturation&quot;:99},{&quot;hue&quot;:&quot;#0091ff&quot;},{&quot;lightness&quot;:-86}]},{&quot;featureType&quot;:&quot;transit.line&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:-48},{&quot;hue&quot;:&quot;#ff5e00&quot;},{&quot;gamma&quot;:1.2},{&quot;saturation&quot;:-23}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-64},{&quot;hue&quot;:&quot;#ff9100&quot;},{&quot;lightness&quot;:16},{&quot;gamma&quot;:0.47},{&quot;weight&quot;:2.7}]}]" class="rd-google-map"></div>
         <ul class="map_locations">
           <li data-x="-73.9874068" data-y="40.643180">
             <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</p>
           </li>
         </ul>
-      </div>
+      </div>-->
     </div>
     <!-- Global Mailform Output-->
     <div id="form-output-global" class="snackbars"></div>
@@ -312,7 +317,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
   	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script>
-  	<a href="#" id="ui-to-top" class="ui-to-top fa fa-angle-up active goUpCenter"></a>
+  	<!--<a href="#" id="ui-to-top" class="ui-to-top fa fa-angle-up active goUpCenter"></a>-->
   	<div style="position: absolute; left: 0px; top: -2px; height: 1px; overflow: hidden; visibility: hidden; width: 1px;">
   		<span style="position: absolute; font-size: 300px; width: auto; height: auto; margin: 0px; padding: 0px; font-family: Roboto, Arial, sans-serif;">BESbswy</span>
   	</div>

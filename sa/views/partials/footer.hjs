@@ -10,12 +10,14 @@
             <p class="offset-top-7">39-16 Prince St(2 FL), <br>Flushing NY 11354.</p>
             <div class="unit unit-xs-horizontal unit-spacing-xs offset-top-7">
               <div class="unit-left"><span>Telephone:</span></div>
-              <div class="unit-body"><a href="callto:#" class="text-base">(917)983-6666</a></div>
+              <div class="unit-body"><a href="callto:#" class="text-base">917.983.6666</a></div>
             </div>
             <div class="unit unit-xs-horizontal unit-spacing-xs offset-top-7">
-              <div class="unit-left"><span>Open Hours:</span></div>
-              <div class="unit-body"><a class="text-base">Monday-Sunday 11am - 10:30pm</a></div>
-            </div>
+              <div class="unit-left"><span>Open Hours for the summer:</span></div>
+              </div>
+              <div class="unit-body"><a class="text-base">&nbsp;&nbsp;Monday-Friday: 11am - 10:30pm</a>
+              <br>&nbsp;&nbsp;Saturday-Sunday: 11:30am - 10:30pm</div>
+            
             <div class="unit unit-xs-horizontal unit-spacing-xs offset-top-7">
               <div class="unit-left"><span>E-mail:</span></div>
               <div class="unit-body"><a href="/cdn-cgi/l/email-protection#cfec" class="text-base"><span class="__cf_email__" data-cfemail="c2afa3abae82a6a7afadaeabaca9ecadb0a5">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a></div>
@@ -53,7 +55,7 @@
           </form>
         </div>
         <div class="cell-xs-12 offset-top-40">
-         <span>We are part of the </span><a href="/" class="ambiaslink">Ambias Group</a>
+         <span><a href="/" class="ambiaslink">Ambias group</a> presents...</span>
           <hr class="hr-sealine-gray hr-fullwidth">
         </div>
       </div>
