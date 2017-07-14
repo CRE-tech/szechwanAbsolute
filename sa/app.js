@@ -4,6 +4,8 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var nodemailer = require("nodemailer");
+
 
 var ambias = require('./routes/ambias');
 var ambias_about = require('./routes/ambias_about');
@@ -15,6 +17,7 @@ var menu = require('./routes/menu');
 var about = require('./routes/about');
 var gallery = require('./routes/gallery');
 var contact = require('./routes/contact');
+
 
 
 
@@ -43,6 +46,40 @@ app.use('/sa/gallery',gallery);
 app.use('/sa/contact',contact);
 app.use('/users', users);
 
+//nodemailer
+var transporter = nodemailer.createTransport({
+  service: 'gmail',
+  port: 465,
+  auth: {
+    user: 'testemail@gmail.com', //email is not real; use your own email to test
+    pass: 'yourpassword'  //use your own password for email to test
+  }
+});
+app.get('/sa/', function(req,res){
+	res.sendfile("index.hjs");
+})
+
+app.get('/sa/', function(req,res){
+	var mailOptions = {
+	from: '"Ambias Group" <testemail@gmail.com>', // sender address- email is not real; use your own email to test
+    to: req.query.email, // list of receivers
+    subject: 'Welcome', // Subject line
+    text: 'Thank you for subscribing to us', // plaintext body
+	}
+
+	console.log(mailOptions);
+	transporter.sendMail(mailOptions,function(error,response){
+		if(error){
+			console.log(error);
+			res.end("error");
+		}
+		else{
+			console.log("Message Sent:" + response.message);
+			res.end("sent");
+		}
+	})
+})
+//end of nodemailer
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

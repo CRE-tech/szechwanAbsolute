@@ -34,7 +34,7 @@
             </div>
             <div class="form-group">
               <label for="contact-email2" class="form-label">Email</label>
-              <input id="contact-email2" type="email" name="clientemail" data-constraints="@Email @Required" class="form-control">
+              <input id="contact-email2" type="email" name="email" data-constraints="@Email @Required" class="form-control">
             </div>
             <div class="form-group">
               <label for="contact-message2" class="form-label">Message</label>
@@ -49,9 +49,9 @@
           <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="rd-mailform text-right offset-top-22 subscribe">
             <div class="form-group">
               <label for="contact-email3" class="form-label text-primary icon-sm mdi mdi-email"></label>
-              <input id="contact-email3" type="email" name="email" data-constraints="@Email @Required" class="form-control">
+              <input id="contact-email3" type="email" name="email" data-constraints="@Email @Required" class="form-control" id="clientemail">
             </div>
-            <button type="submit" class="btn-link btn-link-primary btn-link-variant-1">Subscribe</button>
+            <button type="submit" class="btn-link btn-link-primary btn-link-variant-1" id="send_email" >Subscribe</button>
           </form>
         </div>
         <div class="cell-xs-12 offset-top-40">
@@ -67,9 +67,41 @@
       <!-- {%FOOTER_LINK}-->
     </div>
   </section>
+
+
+  <!--testing nodemailer-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script>
+          $(document).ready(function(){
+            var email;
+            $("#send_email").click(function(){
+              email = $(#clientemail).val();
+               $.get("http://localhost:3000/sa/",{email:email},function(data){
+
+                                if(data=="sent")
+
+                                {
+
+                                               console.log("Email has been sent successfully. Please check inbox !");
+
+                                }
+
+                                else
+
+                                {
+
+ 
+
+                                                console.log("Sending Email is Failed !");
+
+                                }
+            })
+          })
+        })
+   </script>
+    <!--end of testing nodemailer-->
 </footer>
 
-<script type="text/javascript" src= "email.js"></script>
 
 
 <!-- <footer class="page-foot bg-dark section-50 section-sm-78 section-sm-bottom-62 text-center text-xs-left">

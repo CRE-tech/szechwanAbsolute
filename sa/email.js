@@ -1,4 +1,6 @@
 var nodemailer = require('nodemailer');
+var express = require("express");
+var app = express();
 
 // create reusable transporter object using the default SMTP transport
 
@@ -7,14 +9,14 @@ let transporter = nodemailer.createTransport({
   port: 465,
   auth: {
     user: 'nk@ambias.com',
-    pass: 'password'
+    pass: 'yourpassword'
   }
 });
 
 // setup e-mail data with unicode symbols
 let mailOptions = {
     from: '"Ambias Group" <nk@ambias.com>', // sender address
-    to: clientemail, // list of receivers
+   // to: clientemail, // list of receivers
     subject: 'Welcome', // Subject line
     text: 'Thank you for subscribing to us', // plaintext body
 };
