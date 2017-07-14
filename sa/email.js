@@ -2,21 +2,21 @@ var nodemailer = require('nodemailer');
 
 // create reusable transporter object using the default SMTP transport
 
-var transporter = nodemailer.createTransport({
+let transporter = nodemailer.createTransport({
   service: 'gmail',
+  port: 465,
   auth: {
     user: 'nk@ambias.com',
-    pass: 'yourpassword'
+    pass: 'password'
   }
 });
 
 // setup e-mail data with unicode symbols
-var mailOptions = {
+let mailOptions = {
     from: '"Ambias Group" <nk@ambias.com>', // sender address
-    to: email, // list of receivers
-    subject: 'Thank you for subscribing to us ✔', // Subject line
-    text: 'Hello world ?', // plaintext body
-    html: '<b>Hello world ?</b>' // html body
+    to: clientemail, // list of receivers
+    subject: 'Welcome', // Subject line
+    text: 'Thank you for subscribing to us', // plaintext body
 };
 
 // send mail with defined transport object

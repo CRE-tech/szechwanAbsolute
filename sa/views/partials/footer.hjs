@@ -34,7 +34,7 @@
             </div>
             <div class="form-group">
               <label for="contact-email2" class="form-label">Email</label>
-              <input id="contact-email2" type="email" name="email" data-constraints="@Email @Required" class="form-control">
+              <input id="contact-email2" type="email" name="clientemail" data-constraints="@Email @Required" class="form-control">
             </div>
             <div class="form-group">
               <label for="contact-message2" class="form-label">Message</label>
