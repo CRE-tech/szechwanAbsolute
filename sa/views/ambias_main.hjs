@@ -33,7 +33,6 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
       <main class="page-content">
         <div class="pg">
           <h1 class="ambiasheading">Ambias</h1>
-
         </div>
         <!-- Swiper-->
         <!--<div data-height="100vh" data-slide-effect="fade" data-min-height="360px" class="swiper-container swiper-slider offset-top--55 offset-sm-top--150">

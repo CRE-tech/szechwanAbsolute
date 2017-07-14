@@ -17,6 +17,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CMerriweather+Sans:400,300,300italic,700,400italic,700italic,800,800italic">
     <link rel="stylesheet" href="/stylesheets/ambiusMainCss.css">
+    <link href='https://fonts.googleapis.com/css?family=Bilbo Swash Caps' rel='stylesheet'>
     <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -26,26 +27,35 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
     <!-- Page-->
     <div class="page text-center">
       <!-- Page Header-->
-      <header class="page-head section-top-40 section-sm-bottom-140" style="background-image: url('http://i.imgur.com/giLqoIV.jpg')">
-        <!-- RD Navbar-->
+      {{>header}}
+      
+      <!-- Page Content-->
+      <main class="page-content">
+      <div class="pg">
+          <h1 class="ambiasheading">Ambias</h1>
+      </div>
+
+      <!--<header class="page-head section-top-40 section-sm-bottom-140" style="background-image: url('https://livedemo00.template-help.com/wt_61215/images/about-01.jpg')">
+        <!- RD Navbar->
         <div class="rd-navbar-wrap">
           <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="70px" data-lg-stick-up-offset="70px" class="rd-navbar">
 
             <div class="rd-navbar-inner">
-              <!-- RD Navbar Panel-->
+              <!- RD Navbar Panel->
               <div class="rd-navbar-panel rd-navbar-cell">
-                <!-- RD Navbar Toggle-->
+                <!- RD Navbar Toggle->
                 <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-                <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="index.html" class="brand-name"><span class="brand-n">iT<span>Studio</span></span><img src="http://i.imgur.com/HGLs6BY.png" height="100px" width="auto" alt=""></a></div>
+                <!- RD Navbar Brand->
+                <div class="rd-navbar-brand"></div>
+                <!-<a href="index.html" class="brand-name"><span class="brand-n">iT<span>Studio</span></span><img src="http://i.imgur.com/HGLs6BY.png" height="100px" width="auto" alt=""></a>->
               </div>
               <div class="rd-navbar-nav-wrap rd-navbar-cell">
-                <!-- RD Navbar Nav-->
+                <!- RD Navbar Nav->
                 <ul class="rd-navbar-nav offset-sm-top-17">
                   <li><a href="/">Home</a></li>
                   <li><a href="/about">About us</a>
                   <li><a href="/">Restaurants</a>
-                    <!-- RD Navbar Dropdown-->
+                    <!- RD Navbar Dropdown->
                     <ul class="rd-navbar-dropdown">
                       <li><a href="/sa">Szechwan Absolute</a></li>
                       <li><a href="/sa">More to come</a></li>
@@ -53,15 +63,15 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                       
                     </ul>
                   </li>
-                  <!-- <li><a href="gallery.html">Gallery</a></li> -->
+                  <!- <li><a href="gallery.html">Gallery</a></li> ->
                   <li><a href="/contact">Contacts</a></li>
                 </ul>
               </div>
               <div class="rd-navbar-cell">
-                <!-- <button data-rd-navbar-toggle=".login-form" class="text-md-right login-form-toggle"><span class="toggle-icon"></span></button>
-                <button data-rd-navbar-toggle=".rd-navbar-search" class="search-toggle"><span class="toggle-icon"></span></button> -->
-                <!--RD Navbar Search-->
-                <!-- <div class="rd-navbar-search">
+                <!- <button data-rd-navbar-toggle=".login-form" class="text-md-right login-form-toggle"><span class="toggle-icon"></span></button>
+                <button data-rd-navbar-toggle=".rd-navbar-search" class="search-toggle"><span class="toggle-icon"></span></button> ->
+                <!-RD Navbar Search->
+                <!- <div class="rd-navbar-search">
                   <form action="search-results.html" data-search-live="rd-search-results-live" method="GET" class="rd-search">
                     <div class="form-group">
                       <label for="rd-navbar-search-form-input" class="form-label"></label>
@@ -70,7 +80,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                       <div id="rd-search-results-live" class="rd-search-results-live"></div>
                     </div>
                   </form>
-                </div> -->
+                </div> ->
                 <form class="login-form text-left">
                   <h3>Login form:</h3>
                   <fieldset>
@@ -91,7 +101,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
             </div>
           </nav>
         </div>
-      </header>
+      </header>-->
       <!-- Page Content-->
       <main class="page-content">
         <section class="section-80 section-lg-top-110 section-lg-bottom-110">
@@ -110,7 +120,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                     </dl>-->
                     <dl>
                       <dt>Telephone:</dt>
-                      <dd><a href="callto:#">1 917 983 6666</a></dd>
+                      <dd><a href="callto:#">917.983.6666</a></dd>
                     </dl>
                    <!-- <dl>
                       <dt>FAX:</dt>
@@ -143,14 +153,14 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
           </div>
         </section>
         <section>
-          <div class="rd-google-map rd-google-map-1">
+         <!--<div class="rd-google-map rd-google-map-1">
             <div id="rd-google-map" data-zoom="15" data-x="-73.9874068" data-y="40.643180" data-styles="[{&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#ff4400&quot;},{&quot;saturation&quot;:-68},{&quot;lightness&quot;:-4},{&quot;gamma&quot;:0.72}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;},{&quot;featureType&quot;:&quot;landscape.man_made&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0077ff&quot;},{&quot;gamma&quot;:3.1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00ccff&quot;},{&quot;gamma&quot;:0.44},{&quot;saturation&quot;:-33}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#44ff00&quot;},{&quot;saturation&quot;:-23}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#007fff&quot;},{&quot;gamma&quot;:0.77},{&quot;saturation&quot;:65},{&quot;lightness&quot;:99}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;gamma&quot;:0.11},{&quot;weight&quot;:5.6},{&quot;saturation&quot;:99},{&quot;hue&quot;:&quot;#0091ff&quot;},{&quot;lightness&quot;:-86}]},{&quot;featureType&quot;:&quot;transit.line&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:-48},{&quot;hue&quot;:&quot;#ff5e00&quot;},{&quot;gamma&quot;:1.2},{&quot;saturation&quot;:-23}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-64},{&quot;hue&quot;:&quot;#ff9100&quot;},{&quot;lightness&quot;:16},{&quot;gamma&quot;:0.47},{&quot;weight&quot;:2.7}]}]" class="rd-google-map"></div>
             <ul class="map_locations">
               <li data-x="-73.9874068" data-y="40.643180">
                 <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</p>
               </li>
             </ul>
-          </div>
+          </div>-->
         </section>
       </main>
       <!-- Page Footer-->
