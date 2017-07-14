@@ -52,13 +52,14 @@
       <main class="page-content">
         <section class="text-center section-50 section-sm-70 section-sm-bottom-83">
           <div class="shell">
-            <h3 class="text-center">Grid gallery</h3>
+            <h3 class="text-center">Gallery</h3>
           
             <div data-isotope-layout="masonry" data-isotope-group="gallery" data-photo-swipe-gallery="gallery" class="isotope masonry-gallery range">
               <div data-filter="type-1" class="isotope-item cell-xs-6 cell-sm-6 cell-md-4">
                 <div class="thumbnail-gallery">
                   <a href="/images/minified_SA/1.jpg" data-photo-swipe-item="" data-size="1200x800">
-                    <img src="/images/minified_SA/1.jpg" alt="">
+                    <img src="/images/minified_SA/1.jpg" title="oh yea">
+                    <!-- <figure>I love horse</figure> -->
                     <span class="overlay"></span>
                   </a>
                 </div>
@@ -239,7 +240,10 @@
           <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button>
           <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
           <div class="pswp__caption">
-            <div class="pswp__caption__cent"></div>
+
+            <div class="pswp__caption__cent">
+              
+            </div>
           </div>
         </div>
       </div>

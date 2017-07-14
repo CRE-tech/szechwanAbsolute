@@ -35227,7 +35227,7 @@ a.pswp__share--download:hover {
 }
 
 .pswp__caption--empty {
-  display: none;
+  display: block;
 }
 
 /* Fake caption element, used to calculate height of next/prev image */
@@ -35463,9 +35463,9 @@ a.pswp__share--download:hover {
   display: none;
 }
 
-.pswp__element--disabled {
+/*.pswp__element--disabled {
   display: none !important;
-}
+}*/
 
 .pswp--minimal--dark .pswp__top-bar {
   background: none;
