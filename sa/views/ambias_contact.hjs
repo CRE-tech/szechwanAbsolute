@@ -106,7 +106,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
       <main class="page-content">
         <section class="section-80 section-lg-top-110 section-lg-bottom-110">
           <div class="shell text-left">
-            <h1>Contact information</h1>
+            <h1>Contact Information</h1>
             <div class="range offset-top-35">
               <div class="cell-md-4">
                 <p class="font-montserat">Email us with any questions or inquiries or use our contact data. We would be happy to answer your questions.</p>
