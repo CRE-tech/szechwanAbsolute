@@ -13235,7 +13235,7 @@ fieldset[disabled] .btn-google-plus {
 
 .thumbnail-gallery span.overlay {
   position: absolute;
-  top: 0;
+  top: 85%;
   bottom: 0;
   left: 0;
   right: 0;
