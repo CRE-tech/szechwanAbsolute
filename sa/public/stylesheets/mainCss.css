@@ -4202,7 +4202,7 @@ fieldset[disabled] .btn-google-plus {
 .btn-link-variant-1:before, .btn-link-variant-1:after {
   position: relative;
   z-index: 2;
-  content: "";
+  /*content: "";*/
   display: inline-block;
   margin: 0 11px;
   width: 6px;

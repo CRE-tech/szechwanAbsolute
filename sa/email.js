@@ -16,7 +16,7 @@ let transporter = nodemailer.createTransport({
 // setup e-mail data with unicode symbols
 let mailOptions = {
     from: '"Ambias Group" <nk@ambias.com>', // sender address
-   // to: clientemail, // list of receivers
+    to: req.query.email, // list of receivers
     subject: 'Welcome', // Subject line
     text: 'Thank you for subscribing to us', // plaintext body
 };

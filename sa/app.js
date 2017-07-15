@@ -51,17 +51,17 @@ var transporter = nodemailer.createTransport({
   service: 'gmail',
   port: 465,
   auth: {
-    user: 'testemail@gmail.com', //email is not real; use your own email to test
-    pass: 'yourpassword'  //use your own password for email to test
+    user: 'sixsampro@gmail.com', //email is not real; use your own email to test
+    pass: 'abc12345!'  //use your own password for email to test
   }
 });
-app.get('/sa/', function(req,res){
-	res.sendfile("index.hjs");
+app.get('/', function(req,res){
+	res.sendfile("footer.hjs");
 })
 
-app.get('/sa/', function(req,res){
+app.get('/send', function(req,res){
 	var mailOptions = {
-	from: '"Ambias Group" <testemail@gmail.com>', // sender address- email is not real; use your own email to test
+	from: '"Ambias Group" <sixsampro@gmail.com>', // sender address- email is not real; use your own email to test
     to: req.query.email, // list of receivers
     subject: 'Welcome', // Subject line
     text: 'Thank you for subscribing to us', // plaintext body
@@ -71,11 +71,11 @@ app.get('/sa/', function(req,res){
 	transporter.sendMail(mailOptions,function(error,response){
 		if(error){
 			console.log(error);
-			res.end("error");
+			res.send("Error in sending email. Please make sure email is valid");
 		}
 		else{
 			console.log("Message Sent:" + response.message);
-			res.end("sent");
+			res.send("Email Sent. Check your email!");
 		}
 	})
 })
