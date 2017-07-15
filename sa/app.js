@@ -56,7 +56,7 @@ var transporter = nodemailer.createTransport({
   }
 });
 app.get('/', function(req,res){
-	res.sendfile("footer.hjs");
+	res.sendfile("./views/partials/footer.hjs");
 })
 
 app.get('/send', function(req,res){

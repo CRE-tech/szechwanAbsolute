@@ -46,13 +46,16 @@
         <div class="cell-xs-12 cell-sm-6 cell-md-4 cell-md-preffix-1">
           <h6 class="text-white">Newsletter</h6>
           <p class="offset-top-22">Keep up with the latest restaurant news and events. Enter your e-mail and subscribe to our newsletter.</p>
-          <form data-form-output="form-output-global" action="http://localhost:3000/send" class=" text-right offset-top-22 subscribe">
+          <form data-form-output="form-output-global" action="http://localhost:3000/send" class="text-right offset-top-22 subscribe">
             <div class="form-group">
               <label for="clientemail" class="form-label text-primary icon-sm mdi mdi-email"></label>
               <!--<input type = "email" name = "email" id="clientemail">-->
              <input type="email" name="email" data-constraints="@Email @Required" class="form-control" id="clientemail">
             </div>
-            <button type="submit" class="btn-link btn-link-primary btn-link-variant-1" id="send_email" >Subscribe</button>
+            <button type="submit" class="btn-link btn-link-primary btn-link-variant-1" onclick="click()" id="send_email" >Subscribe</button>
+              <span id="message" class="message-style"></span>
+              <span id="success" class="success"></p>
+              <span id="error" class="error"></p>
           </form>
         </div>
         <div class="cell-xs-12 offset-top-40">
@@ -76,26 +79,18 @@
           $(document).ready(function(){
             var email;
             $("#send_email").click(function(){
-              email = $(#clientemail).val();
-               $.get("http://localhost:3000/send",{email:email},function(data){
-
-                                if(data=="sent")
-
-                                {
-
-                                               console.log("Email has been sent successfully. Please check inbox !");
-
-                                }
-
-                                else
-
-                                {
-
- 
-
-                                                console.log("Sending Email is Failed !");
-
-                                }
+               $("#error").text('');       
+               $("#message").text('');
+               $("#success").text('');
+                  email = $(#clientemail).val();
+                      $("#message").text("Sending E-mail...Please wait");
+                          $.get("http://localhost:3000/send",{email:email},function(data){
+                if(data=="sent"){
+                  $("#success").text("Email has been sent successfully. Please check inbox !");
+                }
+                else{
+                  $.("#error").text("Sending Email is Failed !");
+                }
             })
           })
         })
