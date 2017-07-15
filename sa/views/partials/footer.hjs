@@ -88,7 +88,7 @@
                   $("#success").text("Email has been sent successfully. Please check inbox !");
                 }
                 else{
-                  $.("#error").text("Sending Email is Failed !");
+                  $("#error").text("Sending Email is Failed !");
                 }
             })
           })

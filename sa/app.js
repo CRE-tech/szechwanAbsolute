@@ -73,14 +73,14 @@ app.get('/send', function(req,res){
 	transporter.sendMail(mailOptions,function(error,response){
 		if(error){
 			console.log(error);
-			res.send("Error in sending email. Please make sure email is valid");
 		}
 		else{
 			console.log("Message Sent:" + response.message);
-			res.send("Email Sent. Check your email!")
+			res.send("Email Sent. Check your email!");
 		}
 	})
 	res.redirect("/sa");
+
 })
 //end of nodemailer
 

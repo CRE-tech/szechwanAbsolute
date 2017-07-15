@@ -132,23 +132,23 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                 </div>
               </div>
               <div class="cell-md-8">
-                <!-- RD Mailform-->
-                <form data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" class="rd-mailform text-center text-md-right">
+                 <!-- RD Mailform-->
+                <form data-form-output="form-output-global" data-form-type="contact" action="/send" class="text-center text-md-right">
                   <div class="form-group">
                     <label for="contact-name" class="form-label">Your name</label>
                     <input id="contact-name" type="text" name="name" data-constraints="@Required" class="form-control">
                   </div>
                   <div class="form-group">
-                    <label for="contact-email" class="form-label">Your email</label>
-                    <input id="contact-email" type="email" name="email" data-constraints="@Required @Email" class="form-control">
+                    <label for="contact-email" class="form-label"></label>
+                    <input id="contact-email" type="email" name="email" data-constraints="@Required @Email" class="form-control" id="clientmail" placeholder="Your email">
                   </div>
                   <div class="form-group">
                     <label for="contact-message" class="form-label">Your message</label>
                     <textarea id="contact-message" name="message" data-constraints="@Required" class="form-control"></textarea>
                   </div>
-                  <button type="submit" class="offset-top-30 link-var-1 link-default">send message</button>
+                  <button type="submit" class="offset-top-30 link-var-1 link-default" id="send_email">send message</button>
                 </form>
-              </div>
+              </div> 
             </div>
           </div>
         </section>
