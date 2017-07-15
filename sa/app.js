@@ -63,8 +63,8 @@ app.get('/send', function(req,res){
 	var mailOptions = {
 	from: '"Ambias Group" <ambiasgrouppp@gmail.com>', // sender address- email is not real; use your own email to test
     to: req.query.email, // list of receivers
-    subject: 'Welcome', // Subject line
-    text: 'Thank you for subscribing to us', // plaintext body
+    subject: 'Welcome to Szechwan Absolute!', // Subject line
+    text: 'Thank you for subscribing to us!', // plaintext body
 	}
 
 	console.log(mailOptions);
@@ -75,9 +75,10 @@ app.get('/send', function(req,res){
 		}
 		else{
 			console.log("Message Sent:" + response.message);
-			res.send("Email Sent. Check your email!");
+			res.send("Email Sent. Check your email!")
 		}
 	})
+	res.redirect("/sa");
 })
 //end of nodemailer
 
