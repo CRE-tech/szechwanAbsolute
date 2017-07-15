@@ -32,7 +32,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
       <!-- Page Content-->
       <main class="page-content">
          <div class="pg">
-            <h1 class="ambiasheading">暴走外卖 Coming Soon</h1>
+            <h1 class="ambiasheading">暴走外卖 coming soon</h1>
          </div>
       </main>
       <!-- Page Footer-->
