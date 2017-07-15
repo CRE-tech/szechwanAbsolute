@@ -475,7 +475,3 @@ button:hover{
 
 }
 
-
-label.focusDisappear:focus {
-  color: transparent;
-}

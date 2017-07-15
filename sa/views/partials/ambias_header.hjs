@@ -30,8 +30,13 @@
                   </li>
                   <!-- <li><a href="gallery.html">Gallery</a></li> -->
                   <li><a href="/contact">Contacts</a></li>
-                  <li><a href="/partners">Partners</a></li>
-                </ul>
+                  <li><a>Partners</a>
+                    <ul class="rd-navbar-dropdown">
+                      <li>
+                          <a id="partnerAlert">暴走外卖</a>
+                      </li>
+                    </ul>
+                  </li>
               </div>
               <div class="rd-navbar-cell">
                 <!-- <button data-rd-navbar-toggle=".login-form" class="text-md-right login-form-toggle"><span class="toggle-icon"></span></button>

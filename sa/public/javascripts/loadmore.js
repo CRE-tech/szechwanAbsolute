@@ -47,3 +47,7 @@ $('.maps').click(function () {
 $( ".maps" ).mouseleave(function() {
   $('.maps iframe').css("pointer-events", "none"); 
 });
+
+$("#partnerAlert").click(function() {
+	alert('coming soon!');
+})
