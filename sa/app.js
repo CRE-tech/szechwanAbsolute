@@ -51,7 +51,7 @@ var transporter = nodemailer.createTransport({
   service: 'gmail',
   port: 465,
   auth: {
-    user: 'sixsampro@gmail.com', //email is not real; use your own email to test
+    user: 'ambiasgrouppp@gmail.com', //email is not real; use your own email to test
     pass: 'abc12345!'  //use your own password for email to test
   }
 });
@@ -61,7 +61,7 @@ app.get('/', function(req,res){
 
 app.get('/send', function(req,res){
 	var mailOptions = {
-	from: '"Ambias Group" <sixsampro@gmail.com>', // sender address- email is not real; use your own email to test
+	from: '"Ambias Group" <ambiasgrouppp@gmail.com>', // sender address- email is not real; use your own email to test
     to: req.query.email, // list of receivers
     subject: 'Welcome', // Subject line
     text: 'Thank you for subscribing to us', // plaintext body
