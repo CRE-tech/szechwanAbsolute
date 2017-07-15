@@ -10,6 +10,7 @@ var nodemailer = require("nodemailer");
 var ambias = require('./routes/ambias');
 var ambias_about = require('./routes/ambias_about');
 var ambias_contact = require('./routes/ambias_contact');
+var ambias_partners = require('./routes/ambias_partners')
 
 var index = require('./routes/index');
 var users = require('./routes/users');
@@ -38,6 +39,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/',ambias)
 app.use('/about', ambias_about)
 app.use('/contact', ambias_contact)
+app.use('/partners', ambias_partners)
 
 app.use('/sa', index);
 app.use('/sa/menu', menu);
