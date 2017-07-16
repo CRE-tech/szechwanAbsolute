@@ -25010,7 +25010,7 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-static .rd-navbar-nav > li > a:hover,
 .rd-navbar-fullwidth .rd-navbar-nav > li.focus > a,
 .rd-navbar-fullwidth .rd-navbar-nav > li > a:hover {
-  color: #FFF;
+  color: #DADADA;
   border-bottom: 5px solid #fff;
 }
 
@@ -31806,10 +31806,10 @@ body a.goUpCenter {
 .ambiasheading{
 	font-family: 'Bilbo Swash Caps';
 	color:white;
-	font-size: 200px;
+	font-size: 500px;
 	vertical-align:middle;
     display:table-cell;
-    text-shadow: 15px 20px #000000;
+    text-shadow: 0 0 5px #333;
 
 }
 
@@ -31819,7 +31819,8 @@ body a.goUpCenter {
 }
 
 .headerpadding{
-	background-image: url("http://i.imgur.com/giLqoIV.jpg"); 
+	/*background-image: url("http://i.imgur.com/giLqoIV.jpg"); */
+	background-color: white;
 	padding-top:0px;
 }
 /*# sourceMappingURL=style.css.map */
