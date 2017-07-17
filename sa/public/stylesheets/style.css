@@ -5,6 +5,13 @@
 .imgCenter {
 	display: block;
 	margin: 0 auto;
+  /*width: 128px;
+  height: 128px;*/
+}
+
+.imgCenter2 {
+  display: block;
+  margin: 0 auto;
   width: 128px;
   height: 128px;
 }
