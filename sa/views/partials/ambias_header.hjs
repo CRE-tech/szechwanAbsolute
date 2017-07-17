@@ -10,13 +10,13 @@
                 <!-- RD Navbar Toggle-->
                 <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand" style="height:150px"></div>
-                <!--<a href="#" class="brand-name"><span class="brand-n">iT<span>Studio</span></span><img src="http://i.imgur.com/lGzbALn.png" height="150px" width="auto" alt=""></a>-->
+                <div class="rd-navbar-brand"></div>
+                <a href="#" class="brand-name"><span class="brand-n">Ambias</span></a>
 
               </div>
               <div class="rd-navbar-nav-wrap rd-navbar-cell">
                 <!-- RD Navbar Nav-->
-                <ul class="rd-navbar-nav offset-sm-top-17">
+                <ul class="rd-navbar-nav offset-sm-top-8">
                   <li><a href="/">Home</a></li>
                   <li><a href="/about">About us</a>
                   <li><a>Restaurants</a>

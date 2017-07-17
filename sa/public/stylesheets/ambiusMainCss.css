@@ -25087,7 +25087,7 @@ html:not(.lt-ie10) .not-animated {
   display: block;
   position: absolute;
   text-align: left;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   left: -50%;
   padding: 20px 0 20px  15px;
   width: 210px;
@@ -31795,8 +31795,6 @@ body a.goUpCenter {
 	justify-content: center;
 
 }
-
-
 
 .ambiasheading{
 	font-family: "Ubuntu";
