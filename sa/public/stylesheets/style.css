@@ -5,6 +5,8 @@
 .imgCenter {
 	display: block;
 	margin: 0 auto;
+  width: 128px;
+  height: 128px;
 }
 
 .infoBox {
@@ -451,11 +453,12 @@ button:hover{
 }
 
 .pg{
-  background-color: gray;
+
   height: 800px;
-  background-image: url("http://websites.simplesphere.net/piupiu/img/notebook-bg.jpg");
+  width: 100%;
+  background-image: url("/images/graybg.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 800px;
+  display:table;
 }
 
 .whiteTxt {

@@ -31796,17 +31796,12 @@ body a.goUpCenter {
 
 }
 
-.pg{
-	background-color: #5F5F5F;
-	width: 100%;
-	height:350px;
-	display:table;
-}
+
 
 .ambiasheading{
-	font-family: 'Bilbo Swash Caps';
+	font-family: "Ubuntu";
 	color:white;
-	font-size: 500px;
+	font-size: 350px;
 	vertical-align:middle;
     display:table-cell;
     text-shadow: 0 0 5px #333;

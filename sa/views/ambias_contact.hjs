@@ -36,6 +36,50 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
           <h1 class="ambiasheading">Ambias</h1>
       </div>
 
+      <section class="section-top-50 section-bottom-83 section-sm-top-70 section-sm-bottom-83 text-center text-sm-left">
+          <div class="shell">
+            <div class="range range-xs-center offset-top-32">
+              <div class="cell-sm-12 cell-md-10 cell-lg-8">
+                <div class="range" style="padding-top: 20px">
+                  <div class="cell-sm-4 text-center text-sm-left">
+                    <div>
+                      <img class="imgCenter" src="../images/phonelogo.jpg" style="width:128px;height:128px">
+                    </div>
+                    <div class="infoBox">
+                      <p class="infoBoxP marginBot17" style="font-size: 20px;">Phone:</p>
+                      <a href="callto:#" class="text-base">
+                        <p class="infoBoxP">.917.983.6666</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="cell-sm-4 text-center text-sm-left">
+                    <div>
+                      <img class="imgCenter" src="../images/locationlogo.png">
+                    </div>
+                    <div class="infoBox">
+                      <p class="infoBoxP" style="font-size: 20px;">Address:</p>
+                      <p class="infoBoxP">39-16 Prince St(2 FL)<br>Flushing NY 11354</p>
+                    </div>
+                  </div>
+                  <div class="cell-sm-4 text-center text-sm-left">
+                    <div>
+                      <img class="imgCenter" src="../images/emaillogo.png">
+                    </div>
+                    <div class="infoBox">
+                      <p class="infoBoxP" style="font-size: 20px;">Email:</p>
+                      <p class="infoBoxP">nk@ambias.com</p>
+                    </div>
+                  </div>
+                  <div class="cell-xs-12 offset-top-42">
+                    <hr class="hr-gray hr-fullwidth">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+
       <!--<header class="page-head section-top-40 section-sm-bottom-140" style="background-image: url('https://livedemo00.template-help.com/wt_61215/images/about-01.jpg')">
         <!- RD Navbar->
         <div class="rd-navbar-wrap">
@@ -104,7 +148,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
         </div>
       </header>-->
       <!-- Page Content-->
-      <main class="page-content">
+      <!-- <main class="page-content">
         <section class="section-80 section-lg-top-110 section-lg-bottom-110">
           <div class="shell text-left">
             <h1>Contact Information</h1>
@@ -115,25 +159,25 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                   <address>39-16 Prince St(2 FL),<br class="hidden visible-lg-block visible-md-block">  Flushing, NY 11354.
                   </address>
                   <div class="contact-phone">
-                    <!--<dl>
+                    <!-<dl>
                       <dt>Freephone:</dt>
                       <dd><a href="callto:#">+1 800 559 6580</a></dd>
-                    </dl>-->
+                    </dl>->
                     <dl>
                       <dt>Telephone:</dt>
                       <dd><a href="callto:#">917.983.6666</a></dd>
                     </dl>
-                   <!-- <dl>
+                   <!- <dl>
                       <dt>FAX:</dt>
                       <dd><a href="callto:#">+1 800 889 9898</a></dd>
-                    </dl>-->
+                    </dl>->
                   </div>
                   <div class="mail">E-mail: <a href="/cdn-cgi/l/email-protection#daf9"><span class="__cf_email__" data-cfemail="513c30383d1135343c3e3d383f3a7f3e2336">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
                   </div>
                 </div>
               </div>
               <div class="cell-md-8">
-                 <!-- RD Mailform-->
+                 <!- RD Mailform->
                 <form data-form-output="form-output-global" data-form-type="contact" action="/send" class="text-center text-md-right">
                   <div class="form-group">
                     <label for="contact-name" class="form-label">Your name</label>
@@ -153,7 +197,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
             </div>
           </div>
         </section>
-        <section>
+        <section>-->
          <!--<div class="rd-google-map rd-google-map-1">
             <div id="rd-google-map" data-zoom="15" data-x="-73.9874068" data-y="40.643180" data-styles="[{&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#ff4400&quot;},{&quot;saturation&quot;:-68},{&quot;lightness&quot;:-4},{&quot;gamma&quot;:0.72}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;},{&quot;featureType&quot;:&quot;landscape.man_made&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0077ff&quot;},{&quot;gamma&quot;:3.1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00ccff&quot;},{&quot;gamma&quot;:0.44},{&quot;saturation&quot;:-33}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#44ff00&quot;},{&quot;saturation&quot;:-23}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#007fff&quot;},{&quot;gamma&quot;:0.77},{&quot;saturation&quot;:65},{&quot;lightness&quot;:99}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;gamma&quot;:0.11},{&quot;weight&quot;:5.6},{&quot;saturation&quot;:99},{&quot;hue&quot;:&quot;#0091ff&quot;},{&quot;lightness&quot;:-86}]},{&quot;featureType&quot;:&quot;transit.line&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:-48},{&quot;hue&quot;:&quot;#ff5e00&quot;},{&quot;gamma&quot;:1.2},{&quot;saturation&quot;:-23}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-64},{&quot;hue&quot;:&quot;#ff9100&quot;},{&quot;lightness&quot;:16},{&quot;gamma&quot;:0.47},{&quot;weight&quot;:2.7}]}]" class="rd-google-map"></div>
             <ul class="map_locations">
@@ -164,8 +208,8 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
           </div>-->
         </section>
       </main>
-      <!-- Page Footer-->
-      {{> footer}}
+      <!-- Page Footer
+      {{> footer}}-->
     </div>
     <!-- Global Mailform Output-->
     <div id="form-output-global" class="snackbars"></div>

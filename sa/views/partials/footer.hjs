@@ -83,7 +83,7 @@
                $("#success").text('');
                   email = $(#clientemail).val();
                       $("#message").text("Sending E-mail...Please wait");
-                          $.get("http://localhost:3000/send",{email:email},function(data){
+                          $.get("/send",{email:email},function(data){
                 if(data=="sent"){
                   $("#success").text("Email has been sent successfully. Please check inbox !");
                 }
