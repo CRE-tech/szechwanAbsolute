@@ -2,13 +2,13 @@
 <header class="page-head section-top-40 headerpadding">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
-          <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="70px" data-lg-stick-up-offset="70px" class="rd-navbar" id="tran">
+          <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="70px" data-lg-stick-up-offset="70px" class="rd-navbar" >
 
             <div class="rd-navbar-inner">
               <!-- RD Navbar Panel-->
               <div class="rd-navbar-panel rd-navbar-cell">
                 <!-- RD Navbar Toggle-->
-                <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+                <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"></button>
                 <!-- RD Navbar Brand-->
                 <div class="rd-navbar-brand"></div>
                 <a href="#" class="brand-name"><span class="brand-n">Ambias Group</span></a>
@@ -18,7 +18,7 @@
                 <!-- RD Navbar Nav-->
                 <ul class="rd-navbar-nav offset-sm-top-8">
                   <li><a href="/">Home</a></li>
-                  <li><a href="/about">About us</a>
+                  <li><a href="/about">About us</a></li>
                   <li><a>Restaurants</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">

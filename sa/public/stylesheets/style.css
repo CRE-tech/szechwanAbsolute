@@ -461,10 +461,10 @@ button:hover{
 
 .pg{
 
-  height: 800px;
+  height: 1000px;
   width: 100%;
   background-image: url("/images/nycbg.jpg");
-  background-size:100% 800px;
+  background-size:100% 1000px;
   background-repeat: no-repeat;
   display:table;
 }
@@ -486,10 +486,8 @@ button:hover{
   line-height: 18px;
 }
 
-#pagebg{
-    background-image: url("/images/nycbg.jpg");
+.nav-center-align{
+  padding-right: 100px;
 }
 
-body{
-    background-image: url("/images/nycbg.jpg");
-}
+

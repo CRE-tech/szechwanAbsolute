@@ -25000,7 +25000,7 @@ html:not(.lt-ie10) .not-animated {
   position: relative;
   display: block;
   padding: 0 3px 1px;
-  color: gray;
+  color: white;
   background: transparent;
   line-height: 32px;
   font-size: 14px;
@@ -25341,7 +25341,8 @@ html:not(.lt-ie10) .not-animated {
   top: 0;
   right: 0;
   z-index: 999;
-  background: #2e2e2e;
+  color:white;
+  background: transparent;
   transition: .5s;
   padding: 5px 0;
 }
@@ -31804,9 +31805,8 @@ body a.goUpCenter {
 	font-family: "Orbitron";
 	color:white;
 	font-size: 210px;
-	vertical-align:middle;
-    display:table-cell;
     text-shadow: 0 0 5px #333;
+    padding-top: 20%;
 
 }
 
