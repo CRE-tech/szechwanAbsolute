@@ -3,7 +3,7 @@
     <div class="shell">
       <div class="range">
         <div class="cell-xs-6 cell-sm-6 cell-md-3">
-          <div class="rd-navbar-brand"><a class="brand-name">Szechwan Absolute</a></div>
+          <h6 class="text-white">Szechwan Absolute</h6>
           <address class="offset-top-20">
             <p></p>
             <p class="h6 text-regular font-default">Address:</p>

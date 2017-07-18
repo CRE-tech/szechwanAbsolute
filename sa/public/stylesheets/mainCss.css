@@ -3088,28 +3088,8 @@ address {
   }
 }
 
-.page .page-foot .rd-navbar-brand:after {
-  left: 50%;
-  width: 130%;
-  height: 1px;
-  content: '';
-  position: absolute;
-  top: 0;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  max-width: 353px;
-  background-image: -webkit-linear-gradient(left, #1d1d1d, #e0ca8f 50%, #1d1d1d);
-  background-image: -o-linear-gradient(left, #1d1d1d, #e0ca8f 50%, #1d1d1d);
-  background-image: linear-gradient(to right, #1d1d1d, #e0ca8f 50%, #1d1d1d);
-  background-repeat: no-repeat;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF1D1D1D', endColorstr='#FF1D1D1D', GradientType=1);
-}
 
-@media (min-width: 480px) {
-  .page .page-foot .rd-navbar-brand:after {
-    left: 30%;
-  }
-}
+
 
 .page .page-foot .rd-navbar-brand .brand-name {
   font-family: "Merriweather", serif;
@@ -28326,22 +28306,6 @@ html:not(.lt-ie10) .not-animated {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 150px;
-  }
-  .desktop .rd-navbar-brand:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    height: 1px;
-    max-width: 353px;
-    width: 100%;
-    background-image: -webkit-linear-gradient(left, #1d1d1d, #e0ca8f 50%, #1d1d1d);
-    background-image: -o-linear-gradient(left, #1d1d1d, #e0ca8f 50%, #1d1d1d);
-    background-image: linear-gradient(to right, #1d1d1d, #e0ca8f 50%, #1d1d1d);
-    background-repeat: no-repeat;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF1D1D1D', endColorstr='#FF1D1D1D', GradientType=1);
   }
 }
 
