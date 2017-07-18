@@ -2,7 +2,7 @@
   <section class="footer-content">
     <div class="shell">
       <div class="range">
-        <div class="cell-xs-6 cell-sm-6 cell-md-3">
+        <div class="cell-xs-6 cell-sm-6 cell-md-4">
           <h6 class="text-white">Szechwan Absolute</h6>
           <address class="offset-top-20">
             <p></p>
@@ -43,7 +43,7 @@
             <button type="submit" class="btn-link btn-link-primary btn-link-variant-1" id="send_email">Submit</button>
           </form>
         </div>
-        <div class="cell-xs-12 cell-sm-6 cell-md-4 cell-md-preffix-1">
+        <div class="cell-xs-12 cell-sm-6 cell-md-4">
           <h6 class="text-white">Newsletter</h6>
           <p class="offset-top-22">Keep up with the latest restaurant news and events. Enter your e-mail and subscribe to our newsletter.</p>
           <form data-form-output="form-output-global" action="/send" class="text-right offset-top-22 subscribe">
