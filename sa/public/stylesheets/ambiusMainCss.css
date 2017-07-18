@@ -24396,6 +24396,10 @@ html:not(.lt-ie10) .not-animated {
   box-shadow: none;
 }
 
+#tran{
+	background-color:transparent;
+}
+
 .rd-navbar-toggle {
   display: inline-block;
   position: relative;
@@ -25076,8 +25080,8 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-fullwidth .rd-navbar-inner {
   position: relative;
   max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0px;
+  padding-right: 90px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -31797,9 +31801,9 @@ body a.goUpCenter {
 }
 
 .ambiasheading{
-	font-family: "Ubuntu";
+	font-family: "Orbitron";
 	color:white;
-	font-size: 350px;
+	font-size: 210px;
 	vertical-align:middle;
     display:table-cell;
     text-shadow: 0 0 5px #333;

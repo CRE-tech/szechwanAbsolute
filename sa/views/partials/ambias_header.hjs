@@ -2,7 +2,7 @@
 <header class="page-head section-top-40 headerpadding">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
-          <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="70px" data-lg-stick-up-offset="70px" class="rd-navbar">
+          <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="70px" data-lg-stick-up-offset="70px" class="rd-navbar" id="tran">
 
             <div class="rd-navbar-inner">
               <!-- RD Navbar Panel-->
@@ -11,7 +11,7 @@
                 <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                 <!-- RD Navbar Brand-->
                 <div class="rd-navbar-brand"></div>
-                <a href="#" class="brand-name"><span class="brand-n">Ambias</span></a>
+                <a href="#" class="brand-name"><span class="brand-n">Ambias Group</span></a>
 
               </div>
               <div class="rd-navbar-nav-wrap rd-navbar-cell">
@@ -22,21 +22,19 @@
                   <li><a>Restaurants</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="/sa">Szechwan Absolute</a></li>
-                      <li><a href="/sa">More to come</a></li>
-                      <li><a href="/sa">More to come</a></li>
-                      
+                      <li><a href="/sa" id="lnheight">绝对四川 <br> Szechwan Absolute <br><br></a></li>
+                      <li><a href="/sa" id="lnheight">绝对重庆 <br> ChungKing Absolute <br> (Coming Soon) </a></li>
                     </ul>
                   </li>
                   <!-- <li><a href="gallery.html">Gallery</a></li> -->
-                  <li><a href="/contact">Contacts</a></li>
-                  <li><a>Partners</a>
+                  <li><a>Partnerships</a>
                     <ul class="rd-navbar-dropdown">
                       <li>
                           <a id="partnerAlert">暴走外卖</a>
                       </li>
                     </ul>
                   </li>
+                  <li><a href="/contact">Contacts</a></li>
               </div>
               <div class="rd-navbar-cell">
                 <!-- <button data-rd-navbar-toggle=".login-form" class="text-md-right login-form-toggle"><span class="toggle-icon"></span></button>

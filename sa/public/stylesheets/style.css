@@ -463,7 +463,8 @@ button:hover{
 
   height: 800px;
   width: 100%;
-  background-image: url("/images/graybg.jpg");
+  background-image: url("/images/nycbg.jpg");
+  background-size:100% 800px;
   background-repeat: no-repeat;
   display:table;
 }
@@ -473,19 +474,22 @@ button:hover{
   color: white;
 }
 
-.success
-
-{
-
-                color: green;     
-
+.success{
+  color: green;     
 }
 
-.error
-
-{
-
-                color: red;
-
+.error{   
+  color: red;
 }
 
+#lnheight{
+  line-height: 18px;
+}
+
+#pagebg{
+    background-image: url("/images/nycbg.jpg");
+}
+
+body{
+    background-image: url("/images/nycbg.jpg");
+}
