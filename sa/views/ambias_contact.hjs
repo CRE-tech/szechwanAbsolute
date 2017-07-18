@@ -28,13 +28,46 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
     <!-- Page-->
     <div class="page text-center">
       <!-- Page Header-->
-      {{>header}}
       
       <!-- Page Content-->
       <main class="page-content">
       <div class="pg">
-          <h1 class="ambiasheading">Ambias</h1>
-      </div>
+          <div class="rd-navbar-wrap">
+            <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="70px" data-lg-stick-up-offset="70px" class="rd-navbar" >
+              <div class="rd-navbar-inner">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel rd-navbar-cell">
+                  <!-- RD Navbar Toggle-->
+                  <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand"></div>
+                  <a href="#" class="brand-name"><span class="brand-n text-white">Ambias Group</span></a>
+                </div>
+                  <div class="rd-navbar-nav-wrap rd-navbar-cell">
+                  <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav offset-sm-top-8 nav-center-align">
+                      <li><a href="/">Home</a></li>
+                      <li><a href="/about">About us</a></li>
+                      <li><a>Restaurants</a>
+                        <!-- RD Navbar Dropdown-->
+                        <ul class="rd-navbar-dropdown">
+                          <li><a href="/sa" id="lnheight">绝对四川 <br> Szechwan Absolute <br><br></a></li>
+                          <li><a href="/sa" id="lnheight">绝对重庆 <br> ChungKing Absolute <br> (Coming Soon) </a></li>
+                        </ul>
+                      </li>
+                      <li><a>Partnerships</a>
+                        <ul class="rd-navbar-dropdown">
+                          <li><a id="partnerAlert">暴走外卖</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="/contact">Contacts</a></li>
+                    </ul>
+                  </div>
+              </div>
+            </nav>
+          </div>
+            <h1 class="ambiasheading">Ambias</h1>
+        </div>
 
       <section class="section-top-50 section-bottom-83 section-sm-top-70 section-sm-bottom-83 text-center text-sm-left">
           <div class="shell">
