@@ -50,4 +50,14 @@ $( ".maps" ).mouseleave(function() {
 
 $("#partnerAlert").click(function() {
 	alert('coming soon!');
+});
+
+$('#alertSubmit').click(function() {
+	alert('Email sent!')
+});
+
+$('#alertSubscribed').click(function() {
+	alert('Subscribed!')
 })
+
+
