@@ -490,4 +490,7 @@ button:hover{
   padding-right: 100px;
 }
 
+body.lh18px {
+  line-height: 18px;
+}
 
