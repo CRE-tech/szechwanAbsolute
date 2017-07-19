@@ -74,24 +74,13 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
             <div class="range range-xs-center offset-top-32">
               <div class="cell-sm-12 cell-md-10 cell-lg-8">
                 <div class="range" style="padding-top: 20px">
-                  <div class="cell-sm-7 text-center text-sm-left">
-                    <div>
-                      <img class="imgCenter2" src="../images/phonelogo.jpg" style="width:128px;height:128px">
-                    </div>
-                    <div class="infoBox">
-                      <p class="infoBoxP marginBot17" style="font-size: 20px;">Phone:</p>
-                      <a href="callto:#" class="text-base">
-                        <p class="infoBoxP">917.983.6666</p>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="cell-sm-4 text-center text-sm-left">
+                  <div class="cell-sm-12 text-center text-sm-left">
                     <div>
                       <img class="imgCenter2" src="../images/emaillogo.png">
                     </div>
                     <div class="infoBox">
-                      <p class="infoBoxP" style="font-size: 20px;">Email:</p>
-                      <p class="infoBoxP">info@ambias.com</p>
+                      <p class="infoBoxP" style="font-size: 20px;">Email: info@ambias.com</p>
+                      <p class="infoBoxP"></p>
                     </div>
                   </div>
                   <div class="cell-xs-12 offset-top-42">

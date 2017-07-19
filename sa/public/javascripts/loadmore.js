@@ -53,11 +53,11 @@ $("#partnerAlert").click(function() {
 });
 
 $('#alertSubmit').click(function() {
-	alert('Email sent!')
+	alert('Email sent!');
 });
 
 $('#alertSubscribed').click(function() {
-	alert('Subscribed!')
+	alert('Subscribed!');
 })
 
 
