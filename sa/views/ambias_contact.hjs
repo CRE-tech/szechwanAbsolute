@@ -60,7 +60,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                           <li><a id="partnerAlert">暴走外卖</a></li>
                         </ul>
                       </li>
-                      <li><a href="/contact">Contacts</a></li>
+                      <li><a href="/contact#contactsection">Contacts</a></li>
                     </ul>
                   </div>
               </div>
@@ -69,12 +69,12 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
             <h1 class="ambiasheading">Ambias</h1>
         </div>
 
-      <section class="section-top-50 section-bottom-83 section-sm-top-70 section-sm-bottom-83 text-center text-sm-left">
+      <section class="section-top-50 section-bottom-83 section-sm-top-70 section-sm-bottom-83 text-center text-sm-left" id="contactsection">
           <div class="shell">
             <div class="range range-xs-center offset-top-32">
               <div class="cell-sm-12 cell-md-10 cell-lg-8">
                 <div class="range" style="padding-top: 20px">
-                  <div class="cell-sm-4 text-center text-sm-left">
+                  <div class="cell-sm-7 text-center text-sm-left">
                     <div>
                       <img class="imgCenter2" src="../images/phonelogo.jpg" style="width:128px;height:128px">
                     </div>
@@ -87,20 +87,11 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                   </div>
                   <div class="cell-sm-4 text-center text-sm-left">
                     <div>
-                      <img class="imgCenter2" src="../images/locationlogo.png">
-                    </div>
-                    <div class="infoBox">
-                      <p class="infoBoxP" style="font-size: 20px;">Address:</p>
-                      <p class="infoBoxP">39-16 Prince St(2 FL)<br>Flushing NY 11354</p>
-                    </div>
-                  </div>
-                  <div class="cell-sm-4 text-center text-sm-left">
-                    <div>
                       <img class="imgCenter2" src="../images/emaillogo.png">
                     </div>
                     <div class="infoBox">
                       <p class="infoBoxP" style="font-size: 20px;">Email:</p>
-                      <p class="infoBoxP">nk@ambias.com</p>
+                      <p class="infoBoxP">info@ambias.com</p>
                     </div>
                   </div>
                   <div class="cell-xs-12 offset-top-42">
