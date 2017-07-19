@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<video>
+	<source src="/images/preloader.mp4" type="vidoe/mp4">
+</video>
+</body>
+</html>

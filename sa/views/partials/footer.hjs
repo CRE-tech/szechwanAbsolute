@@ -58,7 +58,7 @@
           </form>
         </div>
         <div class="cell-xs-12 offset-top-40">
-         <span><a href="/" class="ambiaslink">Ambias group</a> presents...</span>
+         <span><a href="/" class="ambiaslink">Ambias group</a> property</span>
           <hr class="hr-sealine-gray hr-fullwidth">
         </div>
       </div>
@@ -66,7 +66,7 @@
   </section>
   <section class="copyright offset-top-30 offset-md-top-42">
     <div class="shell">
-      <p class="pull-sm-left">Szechwan Absolute <span id="copyright-year"></span> <a href="privacy.html" class="text-base">Privacy Policy</a></p>
+      <p class="pull-sm-left">Szechwan Absolute <span id="copyright-year"></span> <a href="privacy.html" class="text-base"></a></p>
       <!-- {%FOOTER_LINK}-->
     </div>
   </section>

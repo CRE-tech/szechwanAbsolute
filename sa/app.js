@@ -18,7 +18,7 @@ var menu = require('./routes/menu');
 var about = require('./routes/about');
 var gallery = require('./routes/gallery');
 var contact = require('./routes/contact');
-
+var preload = require('./routes/preload');
 
 
 
@@ -47,6 +47,7 @@ app.use('/sa/about',about);
 app.use('/sa/gallery',gallery);
 app.use('/sa/contact',contact);
 app.use('/users', users);
+app.use('/preload',preload);
 
 //nodemailer
 var transporter = nodemailer.createTransport({
