@@ -516,18 +516,54 @@ button:hover{
   cursor: pointer;
 }
 
-/*.aboutAnimation {
-  -webkit-animation: movedown 1.5s; 
-  animation-name: movedown 1.5s;
-  animation-fill-mode: forwards;
+.aboutBox2 {
+  padding: 0 20%;
 }
 
-@-webkit-keyframes movedown {
-    from{ transform: translateY(0px); }
-    to{ transform: translateY(1005px); }
+.aboutContent2 {
+  text-align: center;
+  line-height: 35px;
 }
 
-@keyframes movedown {
-    from{ transform: translateY(0px); }
-    to{ transform: translateY(-1000px); }
-}*/
+.aboutUl {
+  font-family: "Merriweather", serif;
+  list-style: square;
+  line-height: 35px;
+  padding: 0 5%;
+}
+
+.aboutLi {
+  text-align: left;
+}
+
+#fs20 {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutBox2 {
+    padding: 0 5%;
+  }
+  .aboutContent2 {
+    font-size: 14px;
+  }
+  .aboutUl {
+    font-size: 14px;
+  }
+  .aboutH6 {
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (max-width: 1100px) {
+  .aboutBox2 {
+    padding: 0 10%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .aboutBox2 {
+    padding: 0 15%;
+  }
+}
