@@ -512,6 +512,10 @@ button:hover{
   font-family: 'Poppins', sans-serif;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 /*.aboutAnimation {
   -webkit-animation: movedown 1.5s; 
   animation-name: movedown 1.5s;
