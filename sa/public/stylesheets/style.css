@@ -464,8 +464,9 @@ button:hover{
   height: 100vh;
   width: 100%;
   background-image: url("/images/nycbg.jpg");
-  background-size:100% 100vh;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .whiteTxt {
@@ -566,3 +567,20 @@ button:hover{
     padding: 0 15%;
   }
 }
+
+#transparent {
+  background-color: transparent;
+  visibility: none;
+  border: none;
+}
+
+.fl {
+  float: left;
+}
+
+#floatBox {
+  display: block;
+}
+
+
+
