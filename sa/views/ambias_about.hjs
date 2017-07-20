@@ -50,16 +50,16 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                     <ul class="rd-navbar-nav offset-sm-top-8 nav-center-align">
                       <li><a href="/">Home</a></li>
                       <li><a id="abtButton" href="/about">About us</a></li>
-                      <li><a>Restaurants</a>
+                      <li><a class="cursor">Restaurants</a>
                         <!-- RD Navbar Dropdown-->
                         <ul class="rd-navbar-dropdown">
                           <li><a href="/sa" id="lnheight">绝对四川 <br> Szechwan Absolute <br><br></a></li>
                           <li><a href="/sa" id="lnheight">绝对重庆 <br> ChungKing Absolute <br> (Coming Soon) </a></li>
                         </ul>
                       </li>
-                      <li><a>Partnerships</a>
+                      <li><a class="cursor">Partnerships</a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a id="partnerAlert">暴走外卖</a></li>
+                          <li><a class="cursor" id="partnerAlert">暴走外卖</a></li>
                         </ul>
                       </li>
                       <li><a href="/contact">Contacts</a></li>
