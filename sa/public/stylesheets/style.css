@@ -501,6 +501,12 @@ button:hover{
   padding: 10%;
 }
 
+.contactContent {
+  font-family: 'Roboto Slab', serif;
+  background-color: #fff;
+  padding: 3% 10%;
+}
+
 .aboutTitle {
   font-size: 36px;
   font-family: 'Poppins', sans-serif;

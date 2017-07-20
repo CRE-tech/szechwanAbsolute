@@ -62,7 +62,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                           <li><a id="partnerAlert">暴走外卖</a></li>
                         </ul>
                       </li>
-                      <li><a href="/contact#contactsection">Contacts</a></li>
+                      <li><a href="/contact">Contacts</a></li>
                     </ul>
                   </div>
                 </div>
