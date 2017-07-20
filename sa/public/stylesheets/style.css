@@ -490,4 +490,34 @@ button:hover{
   padding-right: 100px;
 }
 
+.aboutBox1 {
+  background-color: #eaeae1;
+  padding: 0 10%;
+}
 
+.aboutContent {
+  font-family: 'Roboto Slab', serif;
+  background-color: #fff;
+  padding: 10%;
+}
+
+.aboutTitle {
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*.aboutAnimation {
+  -webkit-animation: movedown 1.5s; 
+  animation-name: movedown 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes movedown {
+    from{ transform: translateY(0px); }
+    to{ transform: translateY(1005px); }
+}
+
+@keyframes movedown {
+    from{ transform: translateY(0px); }
+    to{ transform: translateY(-1000px); }
+}*/

@@ -10,7 +10,7 @@ var nodemailer = require("nodemailer");
 var ambias = require('./routes/ambias');
 var ambias_about = require('./routes/ambias_about');
 var ambias_contact = require('./routes/ambias_contact');
-var ambias_partners = require('./routes/ambias_partners')
+var ambias_partners = require('./routes/ambias_partners');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
