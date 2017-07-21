@@ -35,7 +35,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
         <div class="pg">
           <div class="rd-navbar-wrap">
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="70px" data-lg-stick-up-offset="70px" class="rd-navbar" >
-              <div class="rd-navbar-inner" class="topnav" id="myTopnav">
+              <div class="rd-navbar-inner">
                 <!-- RD Navbar Panel-->
                 <div class="rd-navbar-panel rd-navbar-cell">
                   <!-- RD Navbar Toggle-->

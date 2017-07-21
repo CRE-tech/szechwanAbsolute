@@ -22,6 +22,7 @@ var preload = require('./routes/preload');
 
 
 
+
 var app = express();
 
 // view engine setup
@@ -74,6 +75,7 @@ app.get('/send', function(req,res){
 	transporter.sendMail(mailOptions,function(error,response){
 		if(error){
 			console.log(error);
+      res.send("Email could not be sent. Check if email is accurate");
 		}
 		else{
 			console.log("Message Sent:" + response.message);

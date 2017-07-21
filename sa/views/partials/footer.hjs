@@ -26,7 +26,7 @@
         <div class="cell-xs-6 cell-sm-6 cell-md-4">
           <h6 class="text-white">Contact us</h6>
           <!-- RD Mailform-->
-          <form data-form-output="form-output-global" data-form-type="contact" action="/send" class="text-right offset-top-22">
+          <form data-form-output="form-output-global" data-form-type="contact" method = "get" action="/send" class="text-right offset-top-22">
             <div class="form-group">
               <label for="contact-name2" class="form-label">Your name</label>
               <input id="contact-name2" type="text" name="name" data-constraints="@Required" class="form-control">
@@ -46,7 +46,7 @@
         <div class="cell-xs-12 cell-sm-6 cell-md-4">
           <h6 class="text-white">Newsletter</h6>
           <p class="offset-top-22">Keep up with the latest restaurant news and events. Enter your e-mail and subscribe to our newsletter.</p>
-          <form data-form-output="form-output-global" action="/send" class="text-right offset-top-22 subscribe">
+          <form data-form-output="form-output-global" action="/send" method = "get" class="text-right offset-top-22 subscribe">
             <div class="form-group">
               <label for="clientemail" class="form-label text-primary icon-sm mdi mdi-email"></label>
              <input type="email" name="email" data-constraints="@Email @Required" class="form-control" id="clientemail">
@@ -73,7 +73,7 @@
   </section>
 
 
-  <!--testing nodemailer-->
+  <!--testing nodemailer-
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script>
           $(document).ready(function(){
@@ -95,7 +95,7 @@
           })
         })
    </script>
-    <!--end of testing nodemailer-->
+    end of testing nodemailer-->
 </footer>
 
 
