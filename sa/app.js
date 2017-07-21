@@ -53,7 +53,7 @@ app.use('/preload',preload);
 //nodemailer
 var transporter = nodemailer.createTransport({
   service: 'gmail',
-  port: 465,
+  //port: 465,
   auth: {
     user: 'ambiasgrouppp@gmail.com', //email is not real; use your own email to test
     pass: 'abc12345!'  //use your own password for email to test
@@ -74,11 +74,9 @@ app.get('/send', function(req,res){
 	console.log(mailOptions);
 	transporter.sendMail(mailOptions,function(error,response){
 		if(error){
-			console.log(error);
       res.send("Email could not be sent. Check if email is accurate");
 		}
 		else{
-			console.log("Message Sent:" + response.message);
 			res.send("Email Sent. Check your email!");
 		}
 	})
