@@ -52,24 +52,33 @@
       </header>
       <main class="page-content">
         <section class="section-66 section-sm-top-83 section-sm-bottom-75 text-center text-sm-left">
-          <div class="shell">
-            <h3 class="text-center">Count on wonderful food and excellent service. <br class="visible-lg-inline">Every guest of Szechwan Absolute is sure to find <br class="visible-lg-inline">something to satisfy their palate.</h3>
-            <p class="text-center">From the moment you enter this exquisite restaurant Door, <br class="visible-lg-inline">you know you have found something very, very special.<br class="visible-lg-inline"> The staff greet you warmly and the menu offer  <br class="visible-lg-inline"> you delicious meals that pamper you while <br class="visible-lg-inline">the tasty smell of  food dances and whisper around you.</p>
-            <!-- <div class="range offset-top-10 offset-sm-top-36">
-              <div class="cell-sm-6 cell-md-4">
-                <p>word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word</p>
+          <div class="aboutBox2">
+            <h6 class="aboutContent2">Szechwan cuisine is one of the four regional cuisine, and its name is renowned throughout the world. Retaining the essence of Szechwan Cuisine and incorporating modern style theme, Szechwan Absolute presents the most beloved dishes to every customer.
+            <br>
+            <br> 
+            With experience of Szechwan Cuisine more than 30 years, our top culinary chefs provide the most authentic Szechwan dishes in the New York district. 
+            <br>
+            <br>
+            Along with delightful dishes, our decoration adds another layer to your dining experience. It is elegant with classic Chinese décor. As for music, we have carefully selected a set of trip-hop (Light Jazz, Soul, electric, etc.) to complement the dishes. Together, the smell, the taste and the music will give you the best experience.</h6>
+            <br>
+            <br>
+            <div class="range range-xs-center range-stretch offset-top-30 text-center mg20">
+              <div class="cell-xs-12 cell-sm-12 cell-md-6 cell-lg-6">
+                <h6 style="line-height: 35px" class="aboutH6">
+                  Szechwan Absolute is a stylish restaurant that attracts millennials and young generations. Although risking to be copied by competitors, we strive to provide original dishes to pamper your pallet. Our favorite original dishes are : 
+                </h6>
+                <br>
+                <br>
               </div>
-              <div class="cell-sm-6 cell-md-4">
-                <div class="img-wrap-1"><img src="images/insideSE.png" alt="" width="370" height="auto">
-                </div>
+              <div class="cell-xs-12 cell-sm-12 cell-md-6 cell-lg-6">
+                <ul class="aboutUl">
+                  <li><h6 id="fs20" class="aboutLi">Braised Pig's Feet with Green Pepper</h6></li> 
+                  <li><h6 id="fs20" class="aboutLi">Fried Fish with Szechwan Chili Pepper and Minced Pork</h6></li>
+                  <li><h6 id="fs20" class="aboutLi">Private Kitchens Pig's Intestine, Deep-Fried Fish with (Minced Pork, Salt Black Bean, Dry Red Pepper and Cumin Powder)</h6></li>
+                  <li><h6 id="fs20" class="aboutLi">Deep-Fried Beef with Crispy Rice and Dry Pepper, and Braised Pork with Chestnuts</h6></li>
+                </h6>
               </div>
-              <div class="cell-sm-12 cell-md-4 offset-sm-top-30 offset-md-top-0">
-                <p>word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word</p>
-              </div>
-              <div class="cell-xs-12 offset-top-40">
-                <hr class="hr-fullwidth hr-gray">
-              </div>
-            </div> -->
+            </div>
           </div>
         </section>
             <!-- why choose us -->
