@@ -87,7 +87,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                         </div>
                       </div>
                       <div class="cell-sm-12 text-center text-sm-left">
-                        <form data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" class="rd-mailform text-center text-md-right" novalidate="novalidate">
+                        <form data-form-output="form-output-global" data-form-type="contact" method="post" action="/post" class="text-center text-md-right" novalidate="novalidate">
                           <div class="form-group">
                             <label for="contact-name" class="form-label rd-input-label">Your name</label>
                             <input id="contact-name" type="text" name="name" data-constraints="@Required" class="form-control form-control-has-validation form-control-last-child"><span class="form-validation"></span>

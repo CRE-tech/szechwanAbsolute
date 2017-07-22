@@ -118,7 +118,7 @@ app.post('/post', function(req,res){
       res.end("Message Sent. Thanks!");
     }
   })
-  res.redirect("/sa");
+  res.redirect("/");
 })
 //end of nodemailer
 
