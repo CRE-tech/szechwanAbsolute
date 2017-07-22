@@ -139,6 +139,7 @@
       </div>
     </div>
     <!-- Java script-->
+    <script type="text/javascript" src="/javascripts/jquery.js"></script>
     <script type="text/javascript" src="/javascripts/loadmore.js"></script>
     <script src="/javascripts/core.min.js"></script>
     <script src="/javascripts/script.js"></script>
