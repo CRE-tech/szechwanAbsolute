@@ -55,7 +55,7 @@ var transporter = nodemailer.createTransport({
   service: 'gmail',
   port: 465,
   auth: {
-    user: 'ambiasgrouppp@gmail.com', //email is not real; use your own email to test
+    user: 'ambiasnotification@gmail.com', //email is not real; use your own email to test
     pass: 'abc12345!'  //use your own password for email to test
   }
 });
@@ -66,9 +66,9 @@ app.get('/', function(req,res){
 app.post('/send', function(req,res){
 	var mailOptions = {
 	from: '"Ambias Group" <ambiasgrouppp@gmail.com>', // sender address- email is not real; use your own email to test
-    to: req.body.email, // list of receivers
-    subject: 'Welcome to Szechwan Absolute!', // Subject line
-    text: 'Thank you for subscribing to us!', // plaintext body
+  to: req.body.email, // list of receivers
+  subject: 'Welcome to Szechwan Absolute!', // Subject line
+  text: 'Thank you for subscribing to us!', // plaintext body
 	}
 
 	console.log(mailOptions);
@@ -82,6 +82,26 @@ app.post('/send', function(req,res){
 	})
 	res.redirect("/sa");
 
+})
+
+app.post('/post', function(req,res){
+  var mailOptions = {
+  from: req.body.email, // sender address- email is not real; use your own email to test
+  to: 'info@ambias.com', // list of receivers
+  subject: 'You have received feedback', // Subject line
+  text: "My name is: " + req.body.name + "\n\n\n" + req.body.message + "\n\n\n" + "From: " + req.body.email, // plaintext body
+  }
+
+  console.log(mailOptions);
+  transporter.sendMail(mailOptions,function(error,response){
+    if(error){
+      res.end("Message could not be sent.");
+    }
+    else{
+      res.end("Message Sent. Thanks!");
+    }
+  })
+  res.redirect("/sa");
 })
 //end of nodemailer
 
