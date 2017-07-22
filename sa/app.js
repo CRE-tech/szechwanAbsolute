@@ -65,11 +65,17 @@ app.get('/', function(req,res){
 
 app.post('/send', function(req,res){
 	var mailOptions = {
-	from: '"Ambias Group" <ambiasgrouppp@gmail.com>', // sender address- email is not real; use your own email to test
+	from: '"Ambias Group" <ambiasnotification@gmail.com>', // sender address- email is not real; use your own email to test
   to: req.body.email, // list of receivers
   subject: 'Welcome to Szechwan Absolute!', // Subject line
   text: 'Thank you for subscribing to us!', // plaintext body
 	}
+  var mailNotification = {
+  from: '"Ambias Group" <ambiasnotification@gmail.com>', // sender address- email is not real; use your own email to test
+  to: 'info@ambias.com', // list of receivers
+  subject: req.body.email + ' has subscribed!', // Subject line
+  text: req.body.email + ' has subscribed to your newsletter!', // plaintext body
+  }
 
 	console.log(mailOptions);
 	transporter.sendMail(mailOptions,function(error,response){
@@ -78,10 +84,17 @@ app.post('/send', function(req,res){
 		}
 		else{
 			res.end("Email Sent. Check your email!");
+        transporter.sendMail(mailNotification,function(error,response){
+          if(error){
+            res.end("You did not get a notification");
+          }
+          else{
+            res.end("You got a notification!");
+          }
+        })
 		}
 	})
 	res.redirect("/sa");
-
 })
 
 app.post('/post', function(req,res){
