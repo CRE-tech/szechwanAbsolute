@@ -746,13 +746,13 @@ body a.goUpCenter {
 }
 
 /* pre loading animation*/
-#hola{
+/*#hola{
     width: 100vw;
     height: 100vh;
     background-color: #252328;
     position: fixed;
     z-index: 999;
-}
+}*/
 
 #preloader {
   position:relative;
