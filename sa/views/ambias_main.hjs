@@ -78,6 +78,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
     <!-- Global Mailform Output-->
   
     <!-- Java script-->
+    <script type="text/javascript" src="/javascripts/jquery.js"></script>
     <script type="text/javascript" src="/javascripts/loadmore.js"></script>
     <script src="/javascripts/ambiusCoreJs.js"></script>
     <script src="/javascripts/ambiusScript.js"></script>
