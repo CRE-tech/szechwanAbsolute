@@ -745,51 +745,35 @@ body a.goUpCenter {
   }
 }
 
-/* pre loading animation*/
-/*#hola{
-    width: 100vw;
-    height: 100vh;
-    background-color: #252328;
-    position: fixed;
-    z-index: 999;
-}*/
+/*preloading*/
+body {
+  overflow: hidden;
+}
 
 #preloader {
-  position:relative;
-    width: 80px;
-    height: 80px;
-    top: 45%;
-    margin: 0 auto;
-}
-#preloader span {
-  position:absolute;
-  border: 8px solid #ffe066;
-  border-top: 8px solid transparent;
-  border-radius:999px;
-}
-
-#preloader span:nth-child(1){
-  width:80px;
-  height:80px;
-  animation: spin-1 2s infinite linear;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 999;
+  /* makes sure it stays on top */
 }
 
-#preloader span:nth-child(2){
-  top: 20px;
-  left: 20px;
-  width:40px;
-  height:40px;
-  animation: spin-2 1s infinite linear;
+#status {
+  width: 100vw;
+  max-height: 100vh;
 }
 
-@keyframes spin-1 {
-  0% {transform: rotate(360deg); opacity: 1;}
-  50% {transform: rotate(180deg); opacity: 0.5;}
-  100% {transform: rotate(0deg); opacity: 1;}
+.preloaderVideo {
+  width: 100vw;
+  height: 100vh;
 }
 
-@keyframes spin-2 {
-  0% {transform: rotate(0deg); opacity: 0.5;}
-  50% {transform: rotate(180deg); opacity: 1;}
-  100% {transform: rotate(360deg); opacity: 0.5;}
+.videoCenter {
+  width: 100vw;
+  height:100vh;
 }

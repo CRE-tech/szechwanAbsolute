@@ -30,10 +30,11 @@
 
   </head>
   <body>
-    <div id="hola">
-      <div id="preloader">
-        <span></span>
-        <span></span>
+    <div id="preloader">
+      <div id="status">
+      <video controls autoplay class="videoCenter">
+        <source class="preloaderVideo" src="/images/preloader.mp4" type="video/mp4">
+      </video>
       </div>
     </div>
     
@@ -420,8 +421,6 @@
     </div>
     <!-- Java script-->
     <script type="text/javascript" src="/javascripts/jquery.js"></script>
-    <script type="text/javascript" src="/javascripts/velocity.js"></script>
-    <script type="text/javascript" src="/javascripts/animation.js"></script>
     <script type="text/javascript" src="/javascripts/loadmore.js"></script>
     <script src="/javascripts/core.min.js"></script>
     <script src="/javascripts/script.js"></script>

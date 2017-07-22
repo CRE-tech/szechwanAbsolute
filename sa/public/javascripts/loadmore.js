@@ -60,3 +60,11 @@ $('#alertSubmitAmb').click(function() {
 	alert('Email sent!');
 });
 
+// preloading
+
+$(window).on('load', function() { // makes sure the whole site is loaded 
+  $('#status').fadeIn(); // will first fade out the loading animation 
+  $('#preloader').delay(7500).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+  $('body').delay(7500).css({'overflow':'visible'});
+})
+
