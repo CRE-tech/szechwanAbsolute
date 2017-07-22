@@ -7,7 +7,8 @@ router.get('/', function(req, res, next) {
   	title: 'Ambias corporation page',
   	partials: {
   		header: '../views/partials/ambias_header',
-  		footer: '../views/partials/ambias_footer'
+  		footer: '../views/partials/ambias_footer',
+  		logo: '../views/partials/ambias-logo'
   	}
   });
 });

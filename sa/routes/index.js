@@ -7,7 +7,8 @@ router.get('/', function(req, res, next) {
   	title: 'sa main page',
   	partials: {
   		header: '../views/partials/header',
-  		footer: '../views/partials/footer'
+  		footer: '../views/partials/footer',
+  		
   	}
   });
 });
