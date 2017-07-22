@@ -97,9 +97,13 @@ app.post('/send', function(req,res){
 	res.redirect("/sa");
 })
 
+app.get('/', function(req,res){
+  res.sendfile("./views/partials/footer.hjs");
+})
+
 app.post('/post', function(req,res){
   var mailOptions = {
-  from: req.body.email, // sender address- email is not real; use your own email to test
+  from: '<ambiasnotification@gmail.com>', // sender address- email is not real; use your own email to test
   to: 'info@ambias.com', // list of receivers
   subject: 'You have received feedback', // Subject line
   text: "My name is: " + req.body.name + "\n\n\n" + req.body.message + "\n\n\n" + "From: " + req.body.email, // plaintext body
