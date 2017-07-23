@@ -433,12 +433,18 @@ button:hover{
 .bglogo {
   background-image: url(/images/logofinal3.png);
   background-position: -100% top;
-
   background-size: 65% auto;
-
-
   background-repeat: no-repeat;
   background-color: (0,0,0,0.1)
+}
+
+.ambiasBgLogo{
+  background-image: url(/images/baldeagle.png);
+  background-position: -65% top;
+  background-size: 65% auto;
+  background-repeat: no-repeat;
+  background-color: (0,0,0,0.1);
+  z-index: -1;
 }
 
 
@@ -634,6 +640,15 @@ body a.goUpCenter {
     margin-left: 40%;
     position: relative;
     bottom: 20px;
+  }
+
+  div .adjustForm{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  div .adjust{
+    width:300;
   }
 }
 

@@ -71,12 +71,12 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
           {{>logo}}
         </div>
         <div class="aboutBox1">
-          <div class="contactContent">
+          <div class="contactContent adjustForm">
             <section class="section-top-50 section-bottom-83 section-sm-top-70 section-sm-bottom-83 text-center text-sm-left" id="contactsection">
               <div class="shell">
                 <div class="range range-xs-center offset-top-32">
                   <div class="cell-sm-12 cell-md-10 cell-lg-8">
-                    <div class="range" style="padding-top: 20px">
+                    <div class="range adjust" style="padding-top: 20px">
                       <div class="cell-sm-12 text-center text-sm-left">
                         <div>
                           <img class="imgCenter2" src="../images/emaillogo.png">

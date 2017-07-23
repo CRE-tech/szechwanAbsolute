@@ -74,7 +74,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
             {{>logo}}
           </div>
           <div id="aboutAmb" class="aboutBox1">
-            <div class="aboutContent">
+            <div class="aboutContent ambiasBgLogo">
               <p class="aboutTitle">About Us</p>
               <br>
               <br>
