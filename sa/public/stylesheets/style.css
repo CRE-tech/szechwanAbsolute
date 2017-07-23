@@ -761,9 +761,6 @@ body a.goUpCenter {
 }
 
 /*preloading*/
-body {
-  overflow: hidden;
-}
 
 #preloader {
   position: fixed;
