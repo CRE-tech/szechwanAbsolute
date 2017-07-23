@@ -597,7 +597,7 @@ body a.goUpCenter {
 
 .ambiasTitle {
   font-family: "Orbitron";
-  color: white;
+  color: #F18711;
   height: auto;
   font-size: 210px;
   text-shadow: 0 0 5px #333;
@@ -612,7 +612,7 @@ body a.goUpCenter {
   font-family: 'zeroTwo';
   font-size: 50px;
   margin-left: 45%;
-  color: white;
+  color: #F18711;
   position: relative;
   bottom: 70px;
 }
