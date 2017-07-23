@@ -53,7 +53,7 @@ app.use('/preload',preload);
 //nodemailer
 var transporter = nodemailer.createTransport({
   service: 'gmail',
-  //port: 465,
+  port: 465,
   auth: {
     user: 'ambiasnotification@gmail.com', //email is not real; use your own email to test
     pass: 'abc12345!'  //use your own password for email to test
