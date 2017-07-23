@@ -72,7 +72,7 @@ app.post('/send', function(req,res){
 	}
   var mailNotification = {
   from: '"Ambias Group" <ambiasnotification@gmail.com>', // sender address- email is not real; use your own email to test
-  to: 'peter.zheng88228@gmail.com', // list of receivers
+  to: 'info@ambias.com', // list of receivers
   subject: req.body.email + ' has subscribed!', // Subject line
   text: req.body.email + ' has subscribed to your newsletter!', // plaintext body
   }
@@ -104,7 +104,7 @@ app.get('/', function(req,res){
 app.post('/post', function(req,res){
   var mailOptions = {
   from: '<ambiasnotification@gmail.com>', // sender address- email is not real; use your own email to test
-  to: 'peter.zheng88228@gmail.com', // list of receivers
+  to: 'info@ambias.com', // list of receivers
   subject: 'You have received feedback', // Subject line
   text: "My name is: " + req.body.name + "\n\n\n" + req.body.message + "\n\n\n" + "From: " + req.body.email, // plaintext body
   }
