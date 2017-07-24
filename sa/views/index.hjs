@@ -32,9 +32,9 @@
   <body>
     <div id="preloader">
       <div id="status">
-      <video controls autoplay class="videoCenter">
-        <source class="preloaderVideo" src="/images/preloader.mp4" type="video/mp4">
-      </video>
+        <div class="videoCenter">
+          <img src="/images/preloader.gif" class="preloaderVideo">
+        </div>
       </div>
     </div>
     

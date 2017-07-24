@@ -764,16 +764,21 @@ body {
 }
 
 #status {
+  background: rgb(253,253,253);
   width: 100vw;
   max-height: 100vh;
 }
 
 .preloaderVideo {
-  width: 100vw;
-  height: 100vh;
+  background-color: white;
+  height: auto;
+  width: 90%; 
 }
 
 .videoCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100vw;
   height:100vh;
 }
