@@ -44,7 +44,7 @@
       <header class="page-head page-head-default">
         <!-- RD Navbar-->
         {{> header}}
-        <!-- Swiper-->
+        <!-- Sw iper-->
         <div data-height="" data-min-height="500px" data-simulate-touch="false" class="swiper-container swiper-slider">
           <div class="swiper-wrapper">
             <div data-slide-bg="/images/insidemain.png" class="swiper-slide">

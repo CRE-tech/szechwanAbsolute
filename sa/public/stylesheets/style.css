@@ -771,7 +771,7 @@ body a.goUpCenter {
   background-color: #fff;
   /* change if the mask should have another color then white */
   z-index: 999;
-  /* makes sure it stays on top */
+  /* makes sure it stays on t op */
 }
 
 #status {
