@@ -601,7 +601,6 @@ body a.goUpCenter {
   height: auto;
   font-size: 210px;
   text-shadow: 0 0 5px #333;
-  padding-top: 5%;
   margin-bottom: 5px;
 }
 @font-face {
@@ -789,3 +788,7 @@ body a.goUpCenter {
   width: 100vw;
   height:100vh;
 }
+
+.ambiasLogo{
+  width: 50%;
+ }
