@@ -433,12 +433,18 @@ button:hover{
 .bglogo {
   background-image: url(/images/logofinal3.png);
   background-position: -100% top;
-
   background-size: 65% auto;
-
-
   background-repeat: no-repeat;
   background-color: (0,0,0,0.1)
+}
+
+.ambiasBgLogo{
+  background-image: url(/images/baldeagle.png);
+  background-position: -65% top;
+  background-size: 65% auto;
+  background-repeat: no-repeat;
+  background-color: (0,0,0,0.1);
+  z-index: -1;
 }
 
 
@@ -591,11 +597,10 @@ body a.goUpCenter {
 
 .ambiasTitle {
   font-family: "Orbitron";
-  color: white;
+  color: #F18711;
   height: auto;
   font-size: 210px;
   text-shadow: 0 0 5px #333;
-  padding-top: 20%;
   margin-bottom: 5px;
 }
 @font-face {
@@ -606,7 +611,7 @@ body a.goUpCenter {
   font-family: 'zeroTwo';
   font-size: 50px;
   margin-left: 45%;
-  color: white;
+  color: #F18711;
   position: relative;
   bottom: 70px;
 }
@@ -634,6 +639,15 @@ body a.goUpCenter {
     margin-left: 40%;
     position: relative;
     bottom: 20px;
+  }
+
+  div .adjustForm{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  div .adjust{
+    width:300;
   }
 }
 
@@ -746,9 +760,6 @@ body a.goUpCenter {
 }
 
 /*preloading*/
-body {
-  overflow: hidden;
-}
 
 #preloader {
   position: fixed;
@@ -782,3 +793,7 @@ body {
   width: 100vw;
   height:100vh;
 }
+
+.ambiasLogo{
+  width: 50%;
+ }

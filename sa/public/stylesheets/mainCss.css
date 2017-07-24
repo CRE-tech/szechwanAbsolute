@@ -29302,7 +29302,7 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-static.rd-navbar--is-stuck, .rd-navbar-static.rd-navbar--is-clone,
 .rd-navbar-fullwidth.rd-navbar--is-stuck,
 .rd-navbar-fullwidth.rd-navbar--is-clone {
-  position: fixed;
+  /*position: fixed;*/
   left: 0;
   top: 0;
   right: 0;
