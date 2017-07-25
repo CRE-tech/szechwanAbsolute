@@ -64,7 +64,9 @@ $('#alertSubmitAmb').click(function() {
 
 $(window).on('load', function() { // makes sure the whole site is loaded 
   $('#status').fadeIn(); // will first fade out the loading animation 
-  $('#preloader').delay(6200).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-  $('body').delay(6200).css({'overflow':'visible'});
+  $('#preloader').delay(5500).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+  $('body').delay(5500).css({'overflow':'visible'});
 })
+
+
 
