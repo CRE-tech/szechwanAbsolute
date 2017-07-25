@@ -26,7 +26,7 @@
         <div class="cell-xs-6 cell-sm-6 cell-md-4">
           <h6 class="text-white">Contact us</h6>
           <!-- RD Mailform-->
-          <form data-form-output="form-output-global" data-form-type="contact" action="/post" method = "post" class="text-right offset-top-22">
+          <form data-form-output="form-output-global" data-form-type="contact" action="/postSA" method = "post" class="text-right offset-top-22">
             <div class="form-group">
               <label for="contact-name2" class="form-label">Your name</label>
               <input id="contact-name2" type="text" name="name" data-constraints="@Required" class="form-control">

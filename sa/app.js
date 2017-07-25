@@ -101,11 +101,35 @@ app.get('/', function(req,res){
   res.sendfile("./views/partials/footer.hjs");
 })
 
-app.post('/post', function(req,res){
+app.post('/postSA', function(req,res){
   var mailOptions = {
   from: '<ambiasnotification@gmail.com>', // sender address- email is not real; use your own email to test
   to: 'info@ambias.com', // list of receivers
-  subject: 'You have received feedback', // Subject line
+  subject: 'You have received feedback from Szechwan Absolute!', // Subject line
+  text: "My name is: " + req.body.name + "\n\n\n" + req.body.message + "\n\n\n" + "From: " + req.body.email, // plaintext body
+  }
+
+  console.log(mailOptions);
+  transporter.sendMail(mailOptions,function(error,response){
+    if(error){
+      res.end("Message could not be sent.");
+    }
+    else{
+      res.end("Message Sent. Thanks!");
+    }
+  })
+  res.redirect("/");
+})
+
+app.get('/', function(req,res){
+  res.sendfile("./views/partials/footer.hjs");
+})
+
+app.post('/postAG', function(req,res){
+  var mailOptions = {
+  from: '<ambiasnotification@gmail.com>', // sender address- email is not real; use your own email to test
+  to: 'info@ambias.com', // list of receivers
+  subject: 'You have received feedback from Ambias Group!', // Subject line
   text: "My name is: " + req.body.name + "\n\n\n" + req.body.message + "\n\n\n" + "From: " + req.body.email, // plaintext body
   }
 

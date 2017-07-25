@@ -45,7 +45,7 @@ $( ".maps" ).mouseleave(function() {
 });
 
 $("#partnerAlert").click(function() {
-	alert('coming soon!');
+	alert('Will be available in August 2017!');
 });
 
 $('#alertSubmit').click(function() {
