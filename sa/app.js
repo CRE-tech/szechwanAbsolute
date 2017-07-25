@@ -118,7 +118,7 @@ app.post('/postSA', function(req,res){
       res.end("Message Sent. Thanks!");
     }
   })
-  res.redirect("/");
+  res.redirect("/sa");
 })
 
 app.get('/', function(req,res){
