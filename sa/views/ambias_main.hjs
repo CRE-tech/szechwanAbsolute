@@ -50,13 +50,13 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                       <a class="cursor">Restaurants</a>
                         <ul class="rd-navbar-dropdown">
                           <li><a href="/sa" id="lnheight">绝对四川 <br> Szechwan Absolute <br><br></a></li>
-                          <li><a href="/sa" id="lnheight">绝对重庆 <br> ChungKing Absolute <br> (Coming in 2018) </a></li>
+                          <li><a href="/" id="lnheight">绝对重庆 <br> ChungKing Absolute <br> (Coming in 2018) </a></li>
                         </ul>
                     </li>
                     <li>
                       <a class="cursor">Partnerships</a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a class="cursor" id="partnerAlert">暴走外卖 <br> BaoZao Delivery</a></li>
+                          <li><a class="cursor" id="partnerAlert" id="lnheight">暴走外卖 <br> BaoZao Delivery <br> (Available in App Store August 2017) </a></li>
                         </ul>
                     </li>
                     <li><a href="/contact">Contacts</a></li>
