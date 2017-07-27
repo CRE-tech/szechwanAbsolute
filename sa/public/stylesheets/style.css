@@ -296,7 +296,8 @@ button:hover{
   font-family: 'Roboto Slab', serif;
   background-color: #999;
   padding: 10%;
-  color: #fff
+  color: #fff;
+  text-align: left;
 }
 
 .contactContent {
