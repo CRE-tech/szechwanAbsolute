@@ -221,215 +221,6 @@ button:hover{
   background-image: url('/images/insidemain.png')
 }
 
-/*.absolute_bg {
-  height: 180%;
-  width: auto;
-  position: absolute;
-  left: 50px;
-  top: 750px;
-  opacity: 0.3;
-  z-index: 0;
-}*/
-
-/*.absolute_bg {
-   height: 180%;
-    width: auto;
-    position: absolute;
-    top: 750px;
-    left: 200px;
-    opacity: 0.3;
-}*/
-
-/*@media only screen and (max-width: 2000px) {
-  .absolute_bg {
-    height: 160%;
-    width: auto;
-    position: absolute;
-    top: 750px;
-    left: 280px;
-    opacity: 0.3;
-    z-index: 0;
-  }
-}
-
-@media only screen and (max-width: 1900px) {
-  .absolute_bg {
-    height: 160%;
-    width: auto;
-    position: absolute;
-    top: 750px;
-    left: 200px;
-    opacity: 0.3
-  }
-}
-
-@media only screen and (max-width: 1800px) {
-  .absolute_bg {
-    height: 160%;
-    width: auto;
-    position: absolute;
-    top: 750px;
-    left: 220px;
-    opacity: 0.3
-  }
-}
-
-@media only screen and (max-width: 1700px) {
-  .absolute_bg {
-    height: 160%;
-    width: auto;
-    position: absolute;
-    top: 750px;
-    left: 200px;
-    opacity: 0.3
-  }
-}
-
-
-
-@media only screen and (max-width: 1600px) {
-  .absolute_bg {
-    height: 160%;
-    width: auto;
-    position: absolute;
-    top: 750px;
-    left: 180px;
-    opacity: 0.3
-  }
-}
-
-
-@media only screen and (max-width: 1500px) {
-  .absolute_bg {
-    height: 160%;
-    width: auto;
-    position: absolute;
-    top: 750px;
-    left: 130px;
-    opacity: 0.3
-  }
-}
-
-@media only screen and (max-width: 1400px) {
-  .absolute_bg {
-    height: 150%;
-    width: auto;
-    position: absolute;
-    top: 750px;
-    left: 135px;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  .absolute_bg {
-    height: 130%;
-    width: auto;
-    position: absolute;
-    top: 780px;
-    left: 190px;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .absolute_bg {
-    height: 120%;
-    width: auto;
-    position: absolute;
-    top: 900px;
-    left: 180px;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  .absolute_bg {
-    height: 120%;
-    width: auto;
-    position: absolute;
-    top: 900px;
-    left: 100px;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .absolute_bg {
-    height: 110%;
-    width: auto;
-    position: absolute;
-    top: 680px;
-    left: 90px;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .absolute_bg {
-    height: 110%;
-    width: auto;
-    position: absolute;
-    top: 680px;
-    left: 40px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .absolute_bg {
-    height: 110%;
-    width: auto;
-    position: absolute;
-    top: 680px;
-    left: 0px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .absolute_bg {
-    height: 105%;
-    width: auto;
-    position: absolute;
-    top: 450px;
-    left: 0px;
-  }
-}
-
-@media only screen and (max-width: 670px) {
-  .absolute_bg {
-    height: 95%;
-    width: auto;
-    position: absolute;
-    top: 500px;
-    left: 0px;
-  }
-}
-
-@media only screen and (max-width: 570px) {
-  .absolute_bg {
-    height: 85%;
-    width: auto;
-    position: absolute;
-    top: 500px;
-    left: 0px;
-  }
-}
-
-@media only screen and (max-width: 470px) {
-  .absolute_bg {
-    height: 85%;
-    width: auto;
-    position: absolute;
-    top: 500px;
-    left: 0px;
-  }
-}
-
-@media only screen and (max-width: 370px) {
-  .absolute_bg {
-    height: 85%;
-    width: auto;
-    position: absolute;
-    top: 500px;
-    left: 0px;
-  }
-}*/
-
 .bglogo {
   background-image: url(/images/logofinal3.png);
   background-position: -100% top;
@@ -505,7 +296,8 @@ button:hover{
   font-family: 'Roboto Slab', serif;
   background-color: #999;
   padding: 10%;
-  color: #fff
+  color: #fff;
+  text-align: left;
 }
 
 .contactContent {
@@ -595,14 +387,7 @@ body a.goUpCenter {
 
 }
 
-.ambiasTitle {
-  font-family: "Orbitron";
-  color: #F18711;
-  height: auto;
-  font-size: 210px;
-  text-shadow: 0 0 5px #333;
-  margin-bottom: 5px;
-}
+
 @font-face {
   font-family: zeroTwo;
   src: url(./ZEROTWOS.TTF);
@@ -794,6 +579,14 @@ body a.goUpCenter {
   height:100vh;
 }
 
+.logoDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100vw;
+  height: 100vh;
+}
+
 .ambiasLogo{
-  width: 50%;
- }
+  display: block;
+}
