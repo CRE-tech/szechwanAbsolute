@@ -48,6 +48,10 @@ $("#partnerAlert").click(function() {
 	alert('Will be available in App Store in August 2017!');
 });
 
+$('#chungKingAlert').click(function() {
+    alert('Coming in 2018!');
+});
+
 $('#alertSubmit').click(function() {
 	alert('Email sent!');
 });
