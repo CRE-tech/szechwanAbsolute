@@ -440,7 +440,7 @@ button:hover{
 
 .ambiasBgLogo{
   background-image: url(/images/baldeagle.png);
-  background-position: -65% top;
+  background-position: -65% bottom;
   background-size: 65% auto;
   background-repeat: no-repeat;
   background-color: (0,0,0,0.1);
