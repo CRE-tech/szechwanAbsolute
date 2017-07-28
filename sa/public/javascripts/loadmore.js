@@ -60,6 +60,10 @@ $('#alertSubmitAmb').click(function() {
 	alert('Email sent!');
 });
 
+$("#chungAlert").click(function() {
+    alert('Coming in 2018!');
+});
+
 // preloading
 
 $(window).on('load', function() { // makes sure the whole site is loaded 
