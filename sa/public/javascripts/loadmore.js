@@ -78,7 +78,13 @@ $("#chungAlert").click(function() {
     alert('Coming in 2018!');
 });
 
+$('a.restDrop1').click(function(){
+    $('li.restLi1').toggleClass('opened');
+})
 
+$('a.restDrop2').click(function(){
+    $('li.restLi2').toggleClass('opened');
+})
 
 
 
