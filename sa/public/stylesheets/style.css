@@ -587,7 +587,15 @@ body a.goUpCenter {
   height: 100vh;
 }
 
-.ambiasLogo{
+.logoDiv .ambiasLogo{
   display: block;
+  margin-top: -50px;
 }
-
+.presents {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+  color: orange;
+  font-weight: 100;
+  font-size: 1.5em;
+}
