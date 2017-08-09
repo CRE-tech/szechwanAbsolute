@@ -1,3 +1,17 @@
+$(document).ready(function(){
+    if (window.matchMedia('(max-width: 767px)').matches) {// makes sure the whole site is loaded 
+            $('#status').fadeIn(); // will first fade out the loading animation 
+            $('#preloader').delay(12000).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(12000).css({'overflow':'visible'});
+        } else { // makes sure the whole site is loaded 
+            $('#status').fadeIn(); // will first fade out the loading animation 
+            $('#preloader').delay(5500).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(5500).css({'overflow':'visible'});
+        }
+})
+
+
+
 
 function Load() {
     var a = document.getElementById('loadmore');
@@ -64,12 +78,12 @@ $("#chungAlert").click(function() {
     alert('Coming in 2018!');
 });
 
-// preloading
+$('a.restDrop1').click(function(){
+    $('li.restLi1').toggleClass('opened');
+})
 
-$(window).on('load', function() { // makes sure the whole site is loaded 
-  $('#status').fadeIn(); // will first fade out the loading animation 
-  $('#preloader').delay(5500).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-  $('body').delay(5500).css({'overflow':'visible'});
+$('a.restDrop2').click(function(){
+    $('li.restLi2').toggleClass('opened');
 })
 
 
