@@ -434,6 +434,10 @@ body a.goUpCenter {
   div .adjust{
     width:300;
   }
+  .ambiasLogo{
+  height: 50vh;
+  width: 80vw;
+  }
 }
 
 @media (min-width: 451px) and (max-width: 540px){
@@ -447,6 +451,10 @@ body a.goUpCenter {
     margin-left: 45%;
     position: relative;
     bottom: 20px;
+  }
+  .ambiasLogo{
+  height: 50vh;
+  width: 80vw;
   }
 }
 
@@ -462,7 +470,11 @@ body a.goUpCenter {
     position: relative;
     bottom: 45px;
   }
+ .ambiasLogo{
+  padding:10px;
+  }
 }
+
 
 @media (min-width: 769px) and (max-width: 1024px){
   div .ambiasTitle{
@@ -490,6 +502,11 @@ body a.goUpCenter {
   }
 }
 
+@media (min-width: 1201px){
+  .ambiasLogo{
+    height: 100vh;
+  }
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -588,8 +605,9 @@ body a.goUpCenter {
 }
 
 .ambiasLogo{
-  width: 600px;
-  height: 100vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  /*height: 100vh;*/
 }
 
 .logoDiv .ambiasLogo{
