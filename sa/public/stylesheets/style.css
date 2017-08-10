@@ -454,7 +454,7 @@ body a.goUpCenter {
   }
   .ambiasLogo{
   height: 50vh;
-  width: 80vw;
+  width: 82vw;
   }
 }
 
@@ -471,7 +471,8 @@ body a.goUpCenter {
     bottom: 45px;
   }
  .ambiasLogo{
-  padding:10px;
+  height: 50vh;
+  width: 85vw;
   }
 }
 
@@ -487,6 +488,10 @@ body a.goUpCenter {
     position: relative;
     bottom: 50px;
   }
+  .ambiasLogo{
+  height: 50vh;
+  width: 86vw;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1200px){
@@ -499,6 +504,10 @@ body a.goUpCenter {
     margin-left: 45%;
     position: relative;
     bottom: 50px;
+  }
+  .ambiasLogo{
+  height: 50vh;
+  width: 87vw;
   }
 }
 
