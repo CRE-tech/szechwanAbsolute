@@ -392,13 +392,22 @@ body a.goUpCenter {
   font-family: zeroTwo;
   src: url(./ZEROTWOS.TTF);
 }
-.ambiasSubtitle {
-  font-family: 'zeroTwo';
-  font-size: 50px;
-  margin-left: 45%;
+.ambiasLogoStructure{
+  padding-top: 15%;
+}
+.ambiasTitle{
+  font-family: 'orbitron';
+  font-size: 150px;
   color: #F18711;
   position: relative;
-  bottom: 70px;
+}
+.ambiasSubtitle {
+  font-family: 'orbitron';
+  font-size: 50px;
+  margin-left: 28%;
+  color: #F18711;
+  position: relative;
+  bottom: 50px;
 }
 .footerpadding{
   padding-bottom: 30px;
@@ -412,16 +421,28 @@ body a.goUpCenter {
 }
 /*# sourceMappingURL=style.css.map */
 
-
-@media (max-width: 450px){
-  div .ambiasTitle {
-    font-size: 70px;
-    padding-top: 50%;
+@media (max-width: 400px){
+  div .ambiasTitle{
+    font-size: 68px;
+    padding-top: 40%;
   }
   .ambiasSubtitle {
-    font-family: 'zeroTwo';
-    font-size: 35px;
+    font-family: 'orbitron';
+    font-size: 30px;
     margin-left: 40%;
+    position: relative;
+    bottom: 20px;
+  }
+}
+@media (min-width: 401px) and (max-width: 450px){
+  div .ambiasTitle{
+    font-size: 70px;
+    padding-top: 40%;
+  }
+  .ambiasSubtitle {
+    font-family: 'orbitron';
+    font-size: 30px;
+    margin-left: 35%;
     position: relative;
     bottom: 20px;
   }
@@ -434,88 +455,90 @@ body a.goUpCenter {
   div .adjust{
     width:300;
   }
-  .ambiasLogo{
+/*  .ambiasLogo{
     height: 55vh;
     width: 80vw;
-  }
+  }*/
 }
 
 @media (min-width: 451px) and (max-width: 540px){
-  div .ambiasTitle {
-    font-size: 90px;
-    padding-top: 50%;
+  div .ambiasTitle{
+    font-size: 80px;
+    padding-top: 30%;
   }
   .ambiasSubtitle {
-    font-family: 'zeroTwo';
-    font-size: 35px;
-    margin-left: 45%;
+    font-family: 'orbitron';
+    font-size: 38px;
+    margin-left: 42%;
     position: relative;
-    bottom: 20px;
+    bottom: 28px;
   }
-  .ambiasLogo{
+/*  .ambiasLogo{
     height: 65vh;
     width: 82vw;
-  }
+  }*/
 }
 
 @media (min-width: 541px) and (max-width: 768px){
   div .ambiasTitle{
-    font-size: 120px;
-    padding-top: 40%;
+    font-size: 100px;
+    padding-top: 25%;
   }
   .ambiasSubtitle {
-    font-family: 'zeroTwo';
-    font-size: 35px;
+    font-family: 'orbitron';
+    font-size: 45px;
     margin-left: 45%;
     position: relative;
-    bottom: 45px;
+    bottom: 34px;
   }
- .ambiasLogo{
+/* .ambiasLogo{
     height: 75vh;
     width: 85vw;
-  }
+  }*/
 }
 
 
 @media (min-width: 769px) and (max-width: 1024px){
   div .ambiasTitle{
-    font-size: 150px;
+    font-size: 140px;
+    padding-top: 15%;
   }
   .ambiasSubtitle {
-    font-family: 'zeroTwo';
-    font-size: 35px;
-    margin-left: 45%;
+    font-family: 'orbitron';
+    font-size: 50px;
+    margin-left: 35%;
     position: relative;
     bottom: 50px;
   }
-  .ambiasLogo{
+/*  .ambiasLogo{
     height: 85vh;
     width: 86vw;
-  }
-}
+  }*/
 
+ 
 @media (min-width: 1025px) and (max-width: 1200px){
   div .ambiasTitle{
-    font-size: 180px;
+    font-size: 140px;
+    padding-top: 20%;
   }
   .ambiasSubtitle {
-    font-family: 'zeroTwo';
-    font-size: 35px;
-    margin-left: 45%;
+    font-family: 'orbitron';
+    font-size: 50px;
+    margin-left: 70%;
     position: relative;
     bottom: 50px;
   }
-  .ambiasLogo{
+/*  .ambiasLogo{
     height: 95vh;
     width: 87vw;
-  }
+  }*/
 }
 
-@media (min-width: 1201px){
+/*@media (min-width: 1201px){
   .ambiasLogo{
     height: 100vh;
   }
-}
+}*/
 
 /* Add a black background color to the top navigation */
 .topnav {
