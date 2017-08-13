@@ -30,7 +30,7 @@
 
   </head>
   <body>
-    <div id="preloader">
+    <div id="preloader" style="max-height: 100vh;">
       <div id="status">
         <div class="videoCenter">
           <img src="/images/preloader.gif" class="preloaderVideo">
