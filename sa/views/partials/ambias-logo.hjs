@@ -3,6 +3,6 @@
 <!-- <div class="logoDiv"><img src="/images/ambiasFinalLogo.png" class = "ambiasLogo"></div> -->
 <!-- <h1 class="presents">Ambias Group Presents</h1> -->
 <div class="ambiasLogoStructure">
-	<h1 class="ambiasTitle">Ambias</h1>
-	<h3 class="ambiasSubtitle">group</h3>
+	<div class="ambiasTitle">Ambias</div>
+	<div class="ambiasSubtitle">group</div>
 </div>

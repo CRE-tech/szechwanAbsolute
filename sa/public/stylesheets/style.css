@@ -393,21 +393,24 @@ body a.goUpCenter {
   src: url(./ZEROTWOS.TTF);
 }
 .ambiasLogoStructure{
-  padding-top: 15%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 25vh;
 }
 .ambiasTitle{
-  font-family: 'orbitron';
-  font-size: 150px;
+
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15vw;
   color: #F18711;
   position: relative;
 }
 .ambiasSubtitle {
-  font-family: 'orbitron';
-  font-size: 50px;
-  margin-left: 28%;
+  font-family: 'Orbitron', sans-serif;
+  margin-top: -8vw;
+  font-size: 5vw;
+  margin-left: 44vw;
   color: #F18711;
-  position: relative;
-  bottom: 50px;
 }
 .footerpadding{
   padding-bottom: 30px;
@@ -421,7 +424,7 @@ body a.goUpCenter {
 }
 /*# sourceMappingURL=style.css.map */
 
-@media (max-width: 400px){
+/*@media (max-width: 400px){
   div .ambiasTitle{
     font-size: 68px;
     padding-top: 40%;
@@ -433,9 +436,9 @@ body a.goUpCenter {
     position: relative;
     bottom: 20px;
   }
-}
+}*/
 @media (min-width: 401px) and (max-width: 450px){
-  div .ambiasTitle{
+  /*div .ambiasTitle{
     font-size: 70px;
     padding-top: 40%;
   }
@@ -446,7 +449,7 @@ body a.goUpCenter {
     position: relative;
     bottom: 20px;
   }
-
+*/
   div .adjustForm{
     padding-left: 0px;
     padding-right: 0px;
@@ -461,7 +464,7 @@ body a.goUpCenter {
   }*/
 }
 
-@media (min-width: 451px) and (max-width: 540px){
+/*@media (min-width: 451px) and (max-width: 540px){
   div .ambiasTitle{
     font-size: 80px;
     padding-top: 30%;
@@ -473,13 +476,10 @@ body a.goUpCenter {
     position: relative;
     bottom: 28px;
   }
-/*  .ambiasLogo{
-    height: 65vh;
-    width: 82vw;
-  }*/
-}
 
-@media (min-width: 541px) and (max-width: 768px){
+}*/
+
+/*@media (min-width: 541px) and (max-width: 768px){
   div .ambiasTitle{
     font-size: 100px;
     padding-top: 25%;
@@ -491,10 +491,6 @@ body a.goUpCenter {
     position: relative;
     bottom: 34px;
   }
-/* .ambiasLogo{
-    height: 75vh;
-    width: 85vw;
-  }*/
 }
 
 
@@ -510,10 +506,6 @@ body a.goUpCenter {
     position: relative;
     bottom: 50px;
   }
-/*  .ambiasLogo{
-    height: 85vh;
-    width: 86vw;
-  }*/
 }
  
 @media (min-width: 1025px) and (max-width: 1200px){
@@ -528,11 +520,7 @@ body a.goUpCenter {
     position: relative;
     bottom: 50px;
   }
-/*  .ambiasLogo{
-    height: 95vh;
-    width: 87vw;
-  }*/
-}
+}*/
 
 /*@media (min-width: 1201px){
   .ambiasLogo{
