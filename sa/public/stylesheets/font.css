@@ -1,4 +1,4 @@
 @font-face {
     font-family: 'Zeroes 2';
-    src: url("/public/font/zerotwo.ttf"); /* TTF file for CSS3 browsers */
+    src: url("/public/font/zerotwo.ttf") format('truetype'); /* TTF file for CSS3 browsers */
 }
