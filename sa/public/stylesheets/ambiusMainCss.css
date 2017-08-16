@@ -31794,3 +31794,7 @@ a.pswp__share--download:hover {
   width: 100%;
 }
 
+@font-face {
+    font-family:"AgencyFBRegular";
+    src: url("/public/font/zerotwo.ttf") /* TTF file for CSS3 browsers */
+}
