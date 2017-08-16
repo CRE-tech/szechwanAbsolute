@@ -392,10 +392,10 @@ body a.goUpCenter {
 
 .ambiasLogoStructure{
   display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 20vh;
+    width: 100%;
+    height: 73%;
+    position: absolute;
+    top: 27%;
 }
 .ambiasTitle{
 
@@ -421,7 +421,7 @@ body a.goUpCenter {
     top: 30%;
     background-color: white;
     padding-top: 0px;
-    left: 58.45vw;
+    left: 58.4vw;
     color: #ff9470;
 }
 
