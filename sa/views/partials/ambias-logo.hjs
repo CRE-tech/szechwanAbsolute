@@ -7,7 +7,11 @@
 	<div class="ambiasSubtitle">group</div>
 </div> -->
 
+
+
 <div class="ambiasLogoStructure">
-	<div class="ambiasTitle">Ambias</div>
-	<div class="ambiasSubtitle">group</div>
+	<img src="/images/amblogo.png">
+	<!-- <div class="ambiasTitle">Ambias</div>
+	<div class="ambiasSubtitle">group</div> -->
 </div>
+
