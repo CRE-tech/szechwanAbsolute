@@ -12,5 +12,8 @@ router.get('/', function(req, res, next) {
   	}
   });
 });
+router.get('/baozoudelivery', (req, res, next) => {
+	res.render('baozou')
+})
 
 module.exports = router;

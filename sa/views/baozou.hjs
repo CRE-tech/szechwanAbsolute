@@ -1,0 +1,74 @@
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CMerriweather+Sans:400,300,300italic,700,400italic,700italic,800,800italic">
+<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+<style>
+    .baozou {
+        background-color: #000;
+        height: 100vh;
+        width: 100%;
+        padding: 10% 15%;
+    }
+    * {
+        color: white;
+    }
+    h1 {
+        color: #fff;
+        text-align: center;
+
+    }
+    h3 {
+        text-align: center;
+        margin: 10px 0 30px 0;
+    }
+    img {
+        width: 15vw;
+        display: block;
+        margin: 20px auto;
+    }
+    .btn {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 23px;
+        color: #fafafa;
+    }
+    @media screen and (max-width: 768px){
+        h1 {
+            padding: 0 20px;
+            line-height: 45px;
+        }
+        h3 {
+            padding: 0 20px;
+        }
+        .baozou {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .baozou img { 
+            width: 300px;
+            margin-top: 20px;
+        }
+        .btn {
+            bottom: 5px;
+            left: 50%;
+            top: 80%;
+            transform: translateX(-50%);
+        }
+    }
+</style>
+<div class="baozou">
+    <a class="btn btn-link" href="/">返回首页</a>
+    <div class="row">
+        <h1>前往App Store 和 Google Play Store下载暴走外卖APP!</h1>
+        <h3>Baozou Delivery can now be downloaded on App Store and Google Play Store!</h3>
+        <div class="col-md-6 col-sm-12">
+            <a href="https://itunes.apple.com/us/app/%E6%9A%B4%E8%B5%B0%E5%A4%96%E5%8D%96/id1276085408?ls=1&mt=8">
+                <img src="/images/ios.png" alt="">
+            </a>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <a href="https://play.google.com/store/apps/details?id=com.mhysa.waimai">
+                <img src="/images/android.png" alt="">
+            </a>
+        </div>
+    </div>
+</div>
